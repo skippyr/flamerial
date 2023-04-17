@@ -2,12 +2,14 @@
 	<h2>Introduction</h2>
 		<p>Flamerial is low contrast dark color palette with an old feeling.</p>
 		<p>It is the result of many tries I have made to create a color palette that satifies my taste.</p>
+		<img src="./images/image_0.png"/>
+		<p>In the image, Flamerial was used on <a href="https://github.com/kovidgoyal/kitty">Kitty</a> with <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://fonts.google.com/specimen/Inconsolata">Inconsolata</a> font.</p>
 		<p>It is heavily inspired by these other amazing color palettes:</p>
 			<ul>
-				<li><a href="https://github.com/morhetz/gruvbox">Gruvbox Dark</li>
+				<li><a href="https://github.com/morhetz/gruvbox">Gruvbox Dark</a></li>
 				<li>Twilight</li>
 				<li>Solarized Dark</li>
-				<li>Rosé Pine Dark</li>
+				<li><a href="https://github.com/rose-pine">Rosé Pine Dark</a></li>
 				<li><a href="https://github.com/metalelf0/base16-black-metal-scheme">Black Metal</a></li>
 			</ul>
 		<p>If was not for them to exist, probably Flamerial would not be here.</p>
