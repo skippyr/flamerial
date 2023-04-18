@@ -10,9 +10,9 @@ local function print_usage_instructions()
 	print("\t\x1b[1;36mSyntax\x1b[0m")
 	print("\t\tUse this script in the following format:")
 	print(
-		"\t\t\t\x1b[32m" ..
+		"\t\t\t" ..
 		arg[0] ..
-		"\x1b[0m <subcommand>"
+		" \x1b[31m<\x1b[0msubcommand\x1b[31m>\x1b[0m"
 	)
 	print("\t\tThe subcommands it can accept are:")
 	print("\t\t\t\x1b[33m*\x1b[0m \x1b[31mcreate-palette-table\x1b[0m: creates the palette table for the README.md.")
