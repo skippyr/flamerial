@@ -11,9 +11,10 @@ local function print_usage_instructions()
 	print("\t\tThe subcommands it can accept are:")
 	print("\t\t\t\x1b[33m*\x1b[0m \x1b[31mcreate-palette-table\x1b[0m: creates the palette table for the README.md.")
 	print("\t\t\t\x1b[33m*\x1b[0m \x1b[31mcreate-palette-images\x1b[0m: creates the preview images used in the palette table.")
+	return
 end
 
-local function create_palette_table(palette)
+local function create_palette_table(palette_colors)
 	print("<table>")
 	print("\t<thead>")
 	print("\t\t<tr>")
@@ -26,7 +27,7 @@ local function create_palette_table(palette)
 	for 
 		color_name,
 		color_hex
-	in pairs(palette.colors) do
+	in pairs(palette_colors) do
 		print("\t\t<tr>")
 		print(
 			"\t\t\t<td>" ..
@@ -47,9 +48,10 @@ local function create_palette_table(palette)
 	end
 	print("\t</tbody>")
 	print("</table>")
+	return
 end
 
-local function create_palette_images(palette)
+local function create_palette_images(palette_colors)
 	local image_size_in_pixels = 32
 	os.execute("mkdir -p ./images/colors")
 	print("\x1b[1;33mCreating Palette Images\x1b[0m")
@@ -74,32 +76,29 @@ local function create_palette_images(palette)
 			"\x1b[0m."
 		)
 	end
+	return
 end
 
 local function main()
-	local palette = {
-		name = "Flamerial",
-		author = "Sherman Rofeman {skippyr}",
-		license = "MIT License",
-		colors = {
-			black = "#0d0501",
-			red = "#b01002",
-			green = "#e6b800",
-			yellow = "#bd6f00",
-			blue = "#6ca69c",
-			magenta = "#8f5187",
-			cyan = "#91a761",
-			white = "#faedac",
-			light_black = "#8f8763"
-		}
+	local palette_colors = {
+		black = "#0d0501",
+		red = "#b01002",
+		green = "#e6b800",
+		yellow = "#bd6f00",
+		blue = "#6ca69c",
+		magenta = "#8f5187",
+		cyan = "#91a761",
+		white = "#faedac",
+		light_black = "#8f8763"
 	}
 	if (arg[1] == "create-palette-table") then
-		create_palette_table(palette)
+		create_palette_table(palette_colors)
 	elseif (arg[1] == "create-palette-images") then
-		create_palette_images(palette)
+		create_palette_images(palette_colors)
 	else
 		print_usage_instructions()
 	end
+	return
 end
 
 main()
