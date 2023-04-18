@@ -98,6 +98,6 @@
 		<p>Contributions are welcome to fix issues and to answer questions reported in the Issues tab.</p>
 		<p>If you want to implement your own version of Flamerial, I would highly appreciate if you do it in a fork. Just remember to include credits to the original work and its original license.</p>
 	<h2>License</h2>
-		<p>Flamerial is released under the MIT License. You can refer to the license as the file <a href="https://github.com/skippyr/amora/blob/main/LICENSE">LICENSE</a> in the root directory of this repository.</p>
+		<p>Flamerial is released under the MIT License. You can refer to the license as the file <code><a href="https://github.com/skippyr/flamerial/blob/main/LICENSE">LICENSE</a></code> in the root directory of this repository.</p>
 		<p>Copyright (c) 2023, Sherman Rofeman. MIT License.</p>
 
