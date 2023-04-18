@@ -5,12 +5,19 @@ local function print_usage_instructions()
 	print("\t\x1b[1;36mIntroduction\x1b[0m")
 	print("\t\tThis is a script to manage the development of Flamerial.")
 	print("\t\tIt must be run from the root directory of the repository.")
+	print("\t\tFor it to work, you must install these dependencies:")
+	print("\t\t\t\x1b[33m*\x1b[31m imagemagick\x1b[0m.")
 	print("\t\x1b[1;36mSyntax\x1b[0m")
 	print("\t\tUse this script in the following format:")
-	print("\t\t\t./\x1b[32mwizard.lua\x1b[0m <subcommand>")
+	print(
+		"\t\t\t\x1b[32m" ..
+		arg[0] ..
+		"\x1b[0m <subcommand>"
+	)
 	print("\t\tThe subcommands it can accept are:")
 	print("\t\t\t\x1b[33m*\x1b[0m \x1b[31mcreate-palette-table\x1b[0m: creates the palette table for the README.md.")
 	print("\t\t\t\x1b[33m*\x1b[0m \x1b[31mcreate-palette-images\x1b[0m: creates the preview images used in the palette table.")
+	print("\t\t\t\x1b[33m*\x1b[0m \x1b[31mcreate-palette-preview\x1b[0m: creates the preview used in screenshots.")
 	return
 end
 
@@ -79,6 +86,32 @@ local function create_palette_images(palette_colors)
 	return
 end
 
+local function create_palette_preview()
+	local limit_color = 16
+	for color =
+		0,
+		limit_color
+	do
+		io.write(
+			"\x1b[48;5;" ..
+			color ..
+			"m   \x1b[0m"
+		)
+	end
+	print()
+	for color =
+		0,
+		limit_color
+	do
+		io.write(
+			"\x1b[38;5;" ..
+			color ..
+			"mFla\x1b[0m"
+		)
+	end
+	print()
+end
+
 local function main()
 	local palette_colors = {
 		black = "#0d0501",
@@ -95,6 +128,8 @@ local function main()
 		create_palette_table(palette_colors)
 	elseif (arg[1] == "create-palette-images") then
 		create_palette_images(palette_colors)
+	elseif (arg[1] == "create-palette-preview") then
+		create_palette_preview()
 	else
 		print_usage_instructions()
 	end
