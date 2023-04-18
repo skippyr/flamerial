@@ -110,6 +110,7 @@ local function create_palette_preview()
 		)
 	end
 	print()
+	return
 end
 
 local function main()
