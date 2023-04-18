@@ -12,6 +12,63 @@
 				<li><a href="https://github.com/metalelf0/base16-black-metal-scheme">Black Metal</a></li>
 			</ul>
 		<p>If was not for them to exist, probably Flamerial would not be here.</p>
+	<h2>Palette</h2>
+		<table>
+			<thead>
+				<tr>
+					<td>Name</td>
+					<td>Hex</td>
+					<td>Preview</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>black</td>
+					<td>#0d0501</td>
+					<td><img href="./images/colors/black.png"/></td>
+				</tr>
+				<tr>
+					<td>green</td>
+					<td>#e6b800</td>
+					<td><img href="./images/colors/green.png"/></td>
+				</tr>
+				<tr>
+					<td>magenta</td>
+					<td>#8f5187</td>
+					<td><img href="./images/colors/magenta.png"/></td>
+				</tr>
+				<tr>
+					<td>light_black</td>
+					<td>#8f8763</td>
+					<td><img href="./images/colors/light_black.png"/></td>
+				</tr>
+				<tr>
+					<td>white</td>
+					<td>#faedac</td>
+					<td><img href="./images/colors/white.png"/></td>
+				</tr>
+				<tr>
+					<td>red</td>
+					<td>#b01002</td>
+					<td><img href="./images/colors/red.png"/></td>
+				</tr>
+				<tr>
+					<td>cyan</td>
+					<td>#91a761</td>
+					<td><img href="./images/colors/cyan.png"/></td>
+				</tr>
+				<tr>
+					<td>blue</td>
+					<td>#6ca69c</td>
+					<td><img href="./images/colors/blue.png"/></td>
+				</tr>
+				<tr>
+					<td>yellow</td>
+					<td>#bd6f00</td>
+					<td><img href="./images/colors/yellow.png"/></td>
+				</tr>
+			</tbody>
+		</table>
 	<h2>Issues, Questions And Ideas</h2>
 		<p>If you had an issue, has a question or has an idea to improve Flamerial, feel free to use the Issues tab on its page on GitHub, so I can help you and see what you come with.</p>
 	<h2>Contributing</h2>
