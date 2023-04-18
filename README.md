@@ -69,6 +69,29 @@
 				</tr>
 			</tbody>
 		</table>
+	<h2>Installation And Usage</h2>
+		<p>For any installation, you must first download this repository to your machine.</p>
+		<p>If you have <code>git</code> installed, you can use it in the following command:</p>
+		<pre><code>git clone --depth 1 https://github.com/skippyr/flamerial</code></pre>
+		<p>This command will clone this repository to a directory called <code>flamerial</code> in your current directory, but feel free to use any other directory you wish. The flag <code>--depth</code> with value <code>1</code> specifies to <code>git</code> that you just want to download the latest commit instead of the whole commit tree.</p>
+		<p>If you do not have <code>git</code> installed, you can refer to the page of the project on GitHub, click in the <code>Code</code> button on the top of the page, then on <code>Download ZIP</code>. This will download a ZIP file, you will just have to unzip it.</p>
+		<p>Now, follow the instructions to install it for your desired software.</p>
+		<h3>Kitty</h3>
+			<p>Copy the file <code>kitty/flamerial.conf</code> to the directory <code>~/.config/kitty/themes</code>. You may have to create that directory first.</p>
+			<pre><code>mkdir -p ~/.config/kitty/themes</code></pre>
+			<pre><code>mv ./kitty/flamerial.conf ~/.config/kitty/themes</code></pre>
+			<p>If your version of Kitty has the <code>themes</code> kitten, you can apply the port using it. Just navigate to the <code>User</code> tab and apply it.</p>
+			<pre><code>kitty +kitten themes</code></pre>
+			<p>If your version of Kitty does not have it or you could not run it, you can apply the port manually by adding an include rule in the file <code>~/.config/kitty/kitty.conf</code>.</p>
+			<pre><code>include ./themes/flamerial.conf</code></pre>
+			<p>If you have used other color palettes in Kitty, you may have to comment or remove include rules inside that file that may be including other color palettes.</p>
+			<p>Remember to refresh your current of Kitty if you are already running it, and the palette should be set.</p>
+		<h3>Xresources</h3>
+			<p>Use the X11 command <code>xrdb</code> to update X11's database with the colors that are in the file <code>xresources/flamerial.xrdb</code>.</p>
+			<pre><code>xrdb -merge ./xresources/flamerial.xrdb</code></pre>
+			<p>The flag <code>-merge</code> specifies to X11 that you only want to merge those changes instead of replacing all of your current X11's settings.</p>
+			<p>Restart your X11 applications and the palette should be set.</p>
+			<p>Be aware that those changes are not persistent and will get reversed when you log back into the graphical environment. To make them persistent, you must use the same command as stated before in a script that is execute everytime you enter the graphical environment, like <code>~/.xinitrc</code>, for example. If that is your case, remember to use the full path to the file instead.</p>
 	<h2>Issues, Questions And Ideas</h2>
 		<p>If you had an issue, has a question or has an idea to improve Flamerial, feel free to use the Issues tab on its page on GitHub, so I can help you and see what you come with.</p>
 	<h2>Contributing</h2>
