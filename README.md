@@ -25,47 +25,47 @@
 				<tr>
 					<td>black</td>
 					<td>#0d0501</td>
-					<td><img href="./images/colors/black.png"/></td>
+					<td><img src="./images/colors/black.png"/></td>
 				</tr>
 				<tr>
 					<td>green</td>
 					<td>#e6b800</td>
-					<td><img href="./images/colors/green.png"/></td>
+					<td><img src="./images/colors/green.png"/></td>
 				</tr>
 				<tr>
 					<td>magenta</td>
 					<td>#8f5187</td>
-					<td><img href="./images/colors/magenta.png"/></td>
+					<td><img src="./images/colors/magenta.png"/></td>
 				</tr>
 				<tr>
 					<td>light_black</td>
 					<td>#8f8763</td>
-					<td><img href="./images/colors/light_black.png"/></td>
+					<td><img src="./images/colors/light_black.png"/></td>
 				</tr>
 				<tr>
 					<td>white</td>
 					<td>#faedac</td>
-					<td><img href="./images/colors/white.png"/></td>
+					<td><img src="./images/colors/white.png"/></td>
 				</tr>
 				<tr>
 					<td>red</td>
 					<td>#b01002</td>
-					<td><img href="./images/colors/red.png"/></td>
+					<td><img src="./images/colors/red.png"/></td>
 				</tr>
 				<tr>
 					<td>cyan</td>
 					<td>#91a761</td>
-					<td><img href="./images/colors/cyan.png"/></td>
+					<td><img src="./images/colors/cyan.png"/></td>
 				</tr>
 				<tr>
 					<td>blue</td>
 					<td>#6ca69c</td>
-					<td><img href="./images/colors/blue.png"/></td>
+					<td><img src="./images/colors/blue.png"/></td>
 				</tr>
 				<tr>
 					<td>yellow</td>
 					<td>#bd6f00</td>
-					<td><img href="./images/colors/yellow.png"/></td>
+					<td><img src="./images/colors/yellow.png"/></td>
 				</tr>
 			</tbody>
 		</table>

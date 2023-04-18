@@ -4,6 +4,7 @@ local function print_usage_instructions()
 	print("\x1b[1;36mUsage Instructions\x1b[0m")
 	print("\t\x1b[1;36mIntroduction\x1b[0m")
 	print("\t\tThis is a script to manage the development of Flamerial.")
+	print("\t\tIt must be run from the root directory of the repository.")
 	print("\t\x1b[1;36mSyntax\x1b[0m")
 	print("\t\tUse this script in the following format:")
 	print("\t\t\t./\x1b[32mwizard.lua\x1b[0m <subcommand>")
@@ -38,7 +39,7 @@ local function create_palette_table(palette)
 			"</td>"
 		)
 		print(
-			"\t\t\t<td><img href=\"./images/colors/" ..
+			"\t\t\t<td><img src=\"./images/colors/" ..
 			color_name ..
 			".png\"/></td>"
 		)
@@ -46,6 +47,33 @@ local function create_palette_table(palette)
 	end
 	print("\t</tbody>")
 	print("</table>")
+end
+
+local function create_palette_images(palette)
+	local image_size_in_pixels = 32
+	os.execute("mkdir -p ./images/colors")
+	print("\x1b[1;33mCreating Palette Images\x1b[0m")
+	for
+		color_name,
+		color_hex
+	in pairs(palette.colors) do
+		os.execute(
+			"convert -size " ..
+			image_size_in_pixels ..
+			"x" ..
+			image_size_in_pixels ..
+			" canvas:\"" ..
+			color_hex ..
+			"\" ./images/colors/" ..
+			color_name ..
+			".png"
+		)
+		print(
+			"\t\x1b[33m*\x1b[0m Created palette image for color \x1b[31m" ..
+			color_name ..
+			"\x1b[0m."
+		)
+	end
 end
 
 local function main()
@@ -67,6 +95,8 @@ local function main()
 	}
 	if (arg[1] == "create-palette-table") then
 		create_palette_table(palette)
+	elseif (arg[1] == "create-palette-images") then
+		create_palette_images(palette)
 	else
 		print_usage_instructions()
 	end
