@@ -1,7 +1,6 @@
 <h1>Flamerial</h1>
 	<h2>Introduction</h2>
-		<p>Flamerial is low contrast dark color palette with an old feeling.</p>
-		<p>It is the result of many tries I have made to create a color palette that satifies my taste.</p>
+		<p>Flamerial is a low contrast dark color palette with an old feeling. It is available for a few softwares.</p>
 		<img src="./images/image_0.png"/>
 		<p>In the image, Flamerial was used on <a href="https://github.com/kovidgoyal/kitty">Kitty</a> with <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://fonts.google.com/specimen/Inconsolata">Inconsolata</a> font.</p>
 		<p>It is heavily inspired by these other amazing color palettes:</p>
