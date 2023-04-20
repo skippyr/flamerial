@@ -8,6 +8,9 @@ set termguicolors
 highlight FlamerialNormalForegroundAndBackground guifg=#faedac guibg=#0d0501
 highlight FlamerialRedBackground guifg=#faedac guibg=#b01002
 highlight FlamerialWhiteBackground guifg=#0d0501 guibg=#faedac
+highlight FlamerialBlueBackground guifg=#faedac guibg=#6ca69c
+highlight FlamerialMagentaBackground guifg=#faedac guibg=#8f5187
+highlight FlamerialCyanBackground guifg=#faedac guibg=#91a761
 highlight FlamerialLightBlackBackground guifg=#faedac guibg=#8f8763
 highlight FlamerialNormalForeground guifg=#faedac guibg=NONE
 highlight FlamerialBlueForeground guifg=#6ca69c guibg=NONE
@@ -18,6 +21,9 @@ highlight FlamerialCyanForeground guifg=#91a761 guibg=NONE
 highlight FlamerialLightBlackForeground guifg=#8f8763 guibg=NONE
 highlight Normal guifg=#faedac guibg=#0d0501
 highlight Underlined gui=underline guifg=#b01002
+highlight CursorLine gui=underline guisp=#e6b800 guibg=NONE
+highlight CursorLineNr gui=underline guisp=#e6b800 guifg=#e6b800
+highlight! link ColorColumn FlamerialLightBlackBackground
 highlight! link Comment FlamerialBlueForeground
 highlight! link Constant FlamerialGreenForeground
 highlight! link DiffAdd FlamerialRedForeground
@@ -26,29 +32,40 @@ highlight! link DiffDelete FlamerialRedForeground
 highlight! link DiffText FlamerialRedForeground
 highlight! link Directory FlamerialCyanForeground
 highlight! link Identifier FlamerialRedForeground
-highlight! link LineNr FlamerialRedForeground
+highlight! link LineNr FlamerialGreenForeground
+highlight! link LineNrAbove FlamerialRedForeground
+highlight! link LineNrBelow LineNrAbove
 highlight! link MatchParen Visual
 highlight! link NonText FlamerialLightBlackForeground
 highlight! link Pmenu FlamerialNormalForegroundAndBackground
 highlight! link PmenuSbar FlamerialLightBlackBackground
 highlight! link PmenuSel FlamerialRedBackground
 highlight! link PmenuThumb FlamerialWhiteBackground
+highlight! link PreCondit Statement
 highlight! link PreProc FlamerialMagentaForeground
+highlight! link Search Visual
+highlight! link SignColumn FlamerialNormalForeground
 highlight! link Special FlamerialMagentaForeground
 highlight! link SpecialKey FlamerialLightBlackForeground
+highlight! link SpellBad FlamerialRedBackground
+highlight! link SpellCap FlamerialBlueBackground
+highlight! link SpellLocal FlamerialCyanBackground
+highlight! link SpellRare FlamerialMagentaBackground
 highlight! link Statement FlamerialRedForeground
 highlight! link String Constant
 highlight! link Title FlamerialMagentaForeground
 highlight! link Type FlamerialCyanForeground
 highlight! link Visual FlamerialWhiteBackground
-highlight! link htmlEndTag htmltag
+highlight! link WarningMsg FlamerialRedForeground
+highlight! link errorMsg FlamerialRedBackground
+highlight! link htmlEndTag htmlTag
 highlight! link htmlTag FlamerialNormalForeground
 highlight! link javascriptValue Constant
 highlight! link jsonBraces FlamerialNormalForeground
-highlight! link zshSubst FlamerialNormalForeground
-highlight! link texCmdArgs FlamerialNormalForeground
-highlight! link PreCondit Statement
-highlight! link texMath FlamerialNormalForeground
-highlight! link texDelimiter FlamerialNormalForeground
 highlight! link texBeginEndName FlamerialNormalForeground
+highlight! link texCmdArgs FlamerialNormalForeground
+highlight! link texDelimiter FlamerialNormalForeground
+highlight! link texInputFile FlamerialNormalForeground
+highlight! link texMath FlamerialNormalForeground
+highlight! link zshSubst FlamerialNormalForeground
 
