@@ -3,7 +3,6 @@
 " Author: Sherman Rofeman <skippyr.developer@gmail.com>
 " Source: https://github.com/skippyr/flamerial
 " -----------------------------------------------------------------------------
-
 set termguicolors
 highlight FlamerialNormalForegroundAndBackground guifg=#faedac guibg=#0d0501
 highlight FlamerialRedBackground guifg=#faedac guibg=#b01002
@@ -57,7 +56,7 @@ highlight! link Title FlamerialMagentaForeground
 highlight! link Type FlamerialCyanForeground
 highlight! link Visual FlamerialWhiteBackground
 highlight! link WarningMsg FlamerialRedForeground
-highlight! link errorMsg FlamerialRedBackground
+highlight! link ErrorMsg FlamerialRedBackground
 highlight! link htmlEndTag htmlTag
 highlight! link htmlTag FlamerialNormalForeground
 highlight! link javascriptValue Constant
@@ -68,4 +67,6 @@ highlight! link texDelimiter FlamerialNormalForeground
 highlight! link texInputFile FlamerialNormalForeground
 highlight! link texMath FlamerialNormalForeground
 highlight! link zshSubst FlamerialNormalForeground
+highlight! link cssBraces FlamerialNormalForeground
+highlight! link TabLine FlamerialWhiteBackground
 
