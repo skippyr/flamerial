@@ -42,4 +42,7 @@ highlight! link jsonBraces FlamerialNormalForeground
 highlight! link jsonEscape FlamerialNormalForeground
 highlight! link Visual FlamerialWhiteBackground
 highlight! link MatchParen Visual
+highlight! link Identifier FlamerialRedForeground
+highlight! link Constant FlamerialGreenForeground
+highlight! link Special FlamerialMagentaForeground
 
