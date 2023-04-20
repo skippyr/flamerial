@@ -46,4 +46,9 @@ highlight! link htmlTag FlamerialNormalForeground
 highlight! link javascriptValue Constant
 highlight! link jsonBraces FlamerialNormalForeground
 highlight! link zshSubst FlamerialNormalForeground
+highlight! link texCmdArgs FlamerialNormalForeground
+highlight! link PreCondit Statement
+highlight! link texMath FlamerialNormalForeground
+highlight! link texDelimiter FlamerialNormalForeground
+highlight! link texBeginEndName FlamerialNormalForeground
 
