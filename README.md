@@ -100,6 +100,14 @@
 				<li>Restart your X11 applications.</li>
 				<p>Be aware that those changes are not persistent and will get reversed when you log back into the graphical environment. To make them persistent, you must use the same command as stated before in a script that is execute everytime you enter the graphical environment, like <code>~/.xinitrc</code>, for example. If that is your case, remember to use the full path to the file instead.</p>
 			</ul>
+		<h3>Vim</h3>
+			<ul>
+				<li>Copy the file <code>vim/flamerial.vim</code> to <code>~/.vim/colors</code>. You may have to create that directory first.</li>
+				<pre><code>mkdir -p ~/.vim/colors</pre></code>
+				<pre><code>mv ./vim/flamerial.vim ~/.vim/colors</pre></code>
+				<li>Apply the port by adding a <code>colorscheme</code> rule in your configuration file, <code>~/.vimrc</code>.</li>
+				<pre><code>colorscheme flamerial</code></pre>
+			</ul>
 	<h2>Issues And Contributions</h2>
 		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guideline.html">contributions guideline</a>.</p>
 	<h2>License</h2>
