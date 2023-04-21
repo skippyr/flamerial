@@ -74,7 +74,7 @@
 			<li>Download this repository to your machine:</li>
 			<p>If you have <code>git</code> installed, you can use it in the following command:</p>
 			<pre><code>git clone --depth 1 https://github.com/skippyr/flamerial</code></pre>
-			<p>This will clone this repository to a directory called <code>flamerial</code> in your current directory. Feel free to change to whatever directory you want by adding the desired path in the end of that command.</p>
+			<p>This will clone this repository to a directory called <code>flamerial</code> in your current directory. Feel free to change to whatever directory you want by adding the desired path in the end of that command. The flag <code>--depth</code> with value <code>1</code> specifies to <code>git</code> that you want to download only the lastest commit instead of the whole commit tree.</p>
 			<p>If you do not have <code>git</code> installed, you can download a ZIP file containing the repository through its page on GitHub. Access it, click on the <code>Code</code> button on the top of the page, then on <code>Download ZIP</code>. After downloading, you just have to unzip it and move it to whatever directory you desire.</p>
 			<li>Access the repository's directory.</li>
 			<p>Now, follow the instructions to install it for your desired software.</p>
