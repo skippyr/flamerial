@@ -1,9 +1,7 @@
 <h1>Flamerial</h1>
 	<h2>Starting Point</h2>
 		<p>Flamerial is a low contrast dark color palette with an old feeling. It is available for a few softwares.</p>
-		<img src="./images/screenshots/kitty.png"/>
-		<img src="./images/screenshots/vim.png"/>
-		<p>In the image, Flamerial was used on <a href="https://github.com/kovidgoyal/kitty">Kitty</a> with <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/source-foundry/Hack">Hack</a> font.</p>
+		<img src="./images/screenshots/palette-preview.png"/>
 		<p>It is heavily inspired by these other amazing color palettes:</p>
 			<ul>
 				<li><a href="https://github.com/morhetz/gruvbox">Gruvbox Dark</a></li>
@@ -82,6 +80,7 @@
 			<p>Now, follow the instructions to install it for your desired software.</p>
 		</ul>
 		<h3>Kitty</h3>
+			<img src="./images/screenshots/kitty.png"/>
 			<ul>
 				<li>Copy the file <code>kitty/flamerial.conf</code> to the directory <code>~/.config/kitty/themes</code>. You may have to create that directory first.</li>
 				<pre><code>mkdir -p ~/.config/kitty/themes</code></pre>
@@ -94,6 +93,7 @@
 				<li>Reset your Kitty's session.</li>
 			</ul>
 		<h3>Xresources</h3>
+			<img src="./images/screenshots/xresources.png"/>
 			<ul>
 				<li>Use the X11 command <code>xrdb</code> to update X11's database with the colors that are in the file <code>xresources/flamerial.xrdb</code>.</li>
 				<pre><code>xrdb -merge ./xresources/flamerial.xrdb</code></pre>
@@ -101,13 +101,23 @@
 				<li>Restart your X11 applications.</li>
 				<p>Be aware that those changes are not persistent and will get reversed when you log back into the graphical environment. To make them persistent, you must use the same command as stated before in a script that is execute everytime you enter the graphical environment, like <code>~/.xinitrc</code>, for example. If that is your case, remember to use the full path to the file instead.</p>
 			</ul>
-		<h3>Vim</h3>
+		<h3>Vim<h3>
+			<img src="./images/screenshots/vim.png"/>
 			<ul>
 				<li>Copy the file <code>vim/flamerial.vim</code> to <code>~/.vim/colors</code>. You may have to create that directory first.</li>
 				<pre><code>mkdir -p ~/.vim/colors</pre></code>
 				<pre><code>mv ./vim/flamerial.vim ~/.vim/colors</pre></code>
 				<li>Apply the port by adding a <code>colorscheme</code> rule in your configuration file, <code>~/.vimrc</code>.</li>
 				<pre><code>colorscheme flamerial</code></pre>
+			</ul>
+		<h3>Dwm And St</h3>
+			<img src="./images/screenshots/dwm_and_st.png"/>
+			<ul>
+				<li>Replace the variable definitions of your <code>config.def.h</code> by the ones that you find in the files <code>dwm/dwm.c</code> for dwm and <code>st/st.c</code> for st.</li>
+				<li>Remove the file <code>config.h</code> of your source files as it may contain previous configurations.</li>
+				<pre><code>rm -f config.h</code></pre>
+				<li>Recompile and install the source files:</li>
+				<pre><code>sudo make clean install</code></pre>
 			</ul>
 	<h2>Issues And Contributions</h2>
 		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guideline.html">contributions guideline</a>.</p>
