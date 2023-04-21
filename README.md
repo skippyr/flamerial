@@ -101,7 +101,7 @@
 				<li>Restart your X11 applications.</li>
 				<p>Be aware that those changes are not persistent and will get reversed when you log back into the graphical environment. To make them persistent, you must use the same command as stated before in a script that is execute everytime you enter the graphical environment, like <code>~/.xinitrc</code>, for example. If that is your case, remember to use the full path to the file instead.</p>
 			</ul>
-		<h3>Vim<h3>
+		<h3>Vim</h3>
 			<img src="./images/screenshots/vim.png"/>
 			<ul>
 				<li>Copy the file <code>vim/flamerial.vim</code> to <code>~/.vim/colors</code>. You may have to create that directory first.</li>
