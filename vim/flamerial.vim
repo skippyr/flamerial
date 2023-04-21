@@ -58,11 +58,14 @@ highlight! link Title FlamerialMagentaForeground
 highlight! link Type FlamerialCyanForeground
 highlight! link Visual FlamerialWhiteBackground
 highlight! link WarningMsg FlamerialRedForeground
+highlight! link cssAtKeyword FlamerialRedForeground
+highlight! link cssAtRule FlamerialRedForeground
 highlight! link cssAttrComma FlamerialNormalForeground
 highlight! link cssBraces FlamerialNormalForeground
 highlight! link cssFunctionName FlamerialNormalForeground
 highlight! link htmlEndTag htmlTag
 highlight! link htmlTag FlamerialNormalForeground
+highlight! link javascriptBraces FlamerialNormalForeground
 highlight! link javascriptValue Constant
 highlight! link jsonBraces FlamerialNormalForeground
 highlight! link texBeginEndName FlamerialNormalForeground
