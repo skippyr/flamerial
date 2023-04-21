@@ -105,8 +105,8 @@
 			<img src="./images/screenshots/vim.png"/>
 			<ul>
 				<li>Copy the file <code>vim/flamerial.vim</code> to <code>~/.vim/colors</code>. You may have to create that directory first.</li>
-				<pre><code>mkdir -p ~/.vim/colors</pre></code>
-				<pre><code>mv ./vim/flamerial.vim ~/.vim/colors</pre></code>
+				<pre><code>mkdir -p ~/.vim/colors</code></pre>
+				<pre><code>mv ./vim/flamerial.vim ~/.vim/colors</code></pre>
 				<li>Apply the port by adding a <code>colorscheme</code> rule in your configuration file, <code>~/.vimrc</code>.</li>
 				<pre><code>colorscheme flamerial</code></pre>
 			</ul>
