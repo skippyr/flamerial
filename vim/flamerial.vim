@@ -30,6 +30,7 @@ highlight! link DiffChange FlamerialRedForeground
 highlight! link DiffDelete FlamerialRedForeground
 highlight! link DiffText FlamerialRedForeground
 highlight! link Directory FlamerialCyanForeground
+highlight! link ErrorMsg FlamerialRedBackground
 highlight! link Identifier FlamerialRedForeground
 highlight! link LineNr FlamerialGreenForeground
 highlight! link LineNrAbove FlamerialRedForeground
@@ -52,11 +53,14 @@ highlight! link SpellLocal FlamerialCyanBackground
 highlight! link SpellRare FlamerialMagentaBackground
 highlight! link Statement FlamerialRedForeground
 highlight! link String Constant
+highlight! link TabLine FlamerialWhiteBackground
 highlight! link Title FlamerialMagentaForeground
 highlight! link Type FlamerialCyanForeground
 highlight! link Visual FlamerialWhiteBackground
 highlight! link WarningMsg FlamerialRedForeground
-highlight! link ErrorMsg FlamerialRedBackground
+highlight! link cssAttrComma FlamerialNormalForeground
+highlight! link cssBraces FlamerialNormalForeground
+highlight! link cssFunctionName FlamerialNormalForeground
 highlight! link htmlEndTag htmlTag
 highlight! link htmlTag FlamerialNormalForeground
 highlight! link javascriptValue Constant
@@ -67,6 +71,4 @@ highlight! link texDelimiter FlamerialNormalForeground
 highlight! link texInputFile FlamerialNormalForeground
 highlight! link texMath FlamerialNormalForeground
 highlight! link zshSubst FlamerialNormalForeground
-highlight! link cssBraces FlamerialNormalForeground
-highlight! link TabLine FlamerialWhiteBackground
 
