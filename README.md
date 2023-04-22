@@ -1,6 +1,6 @@
 <h1>Flamerial</h1>
 	<h2>Starting Point</h2>
-		<p>Flamerial is a low contrast dark color palette with an old feeling. It is available for a few softwares.</p>
+		<p>Flamerial is a low contrast dark color palette with an old and imperial feeling. It is available for a few softwares.</p>
 		<img src="./images/screenshots/palette-preview.png"/>
 		<p>It is heavily inspired by these other amazing color palettes:</p>
 			<ul>
@@ -74,7 +74,7 @@
 			<li>Download this repository to your machine:</li>
 			<p>If you have <code>git</code> installed, you can use it in the following command:</p>
 			<pre><code>git clone --depth 1 https://github.com/skippyr/flamerial</code></pre>
-			<p>This will clone this repository to a directory called <code>flamerial</code> in your current directory. Feel free to change to whatever directory you want by adding the desired path in the end of that command. The flag <code>--depth</code> with value <code>1</code> specifies to <code>git</code> that you want to download only the lastest commit instead of the whole commit tree.</p>
+			<p>This will clone this repository to a directory called <code>flamerial</code> in your current directory. Feel free to change to whatever directory you want by adding the desired path in the end of that command. The flag <code>--depth</code> with value <code>1</code> specifies to <code>git</code> that you want to download only the latest commit instead of the whole commit tree.</p>
 			<p>If you do not have <code>git</code> installed, you can download a ZIP file containing the repository through its page on GitHub. Access it, click on the <code>Code</code> button on the top of the page, then on <code>Download ZIP</code>. After downloading, you just have to unzip it and move it to whatever directory you desire.</p>
 			<li>Access the repository's directory.</li>
 			<p>Now, follow the instructions to install it for your desired software.</p>
@@ -119,6 +119,8 @@
 				<li>Recompile and install the source files:</li>
 				<pre><code>sudo make clean install</code></pre>
 			</ul>
+		<h3>Wallpapers</h3>
+			<p>I have separated some urls where you can download some wallpapers that goes well with Flamerial at <code>wallpapers/wallpapers.md</code>. Simply acess the source and download them. Like that, you can also support their respective authors.</p>
 	<h2>Issues And Contributions</h2>
 		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guideline.html">contributions guideline</a>.</p>
 	<h2>License</h2>
