@@ -74,4 +74,5 @@ highlight! link texDelimiter FlamerialNormalForeground
 highlight! link texInputFile FlamerialNormalForeground
 highlight! link texMath FlamerialNormalForeground
 highlight! link zshSubst FlamerialNormalForeground
+highlight! link luaFunc FlamerialNormalForeground
 
