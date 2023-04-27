@@ -2,6 +2,7 @@
 	<h2>Starting Point</h2>
 		<p>Flamerial is a low contrast dark color palette with an old and imperial feeling. It is available for a few softwares.</p>
 		<img src="./images/screenshots/palette-preview.png"/>
+		<img src="./images/screenshots/vim.png"/>
 		<p>It is heavily inspired by these other amazing color palettes:</p>
 			<ul>
 				<li><a href="https://github.com/morhetz/gruvbox">Gruvbox Dark</a></li>
@@ -80,7 +81,6 @@
 			<p>Now, follow the instructions to install it for your desired software.</p>
 		</ul>
 		<h3>Kitty</h3>
-			<img src="./images/screenshots/kitty.png"/>
 			<ul>
 				<li>Copy the file <code>kitty/flamerial.conf</code> to the directory <code>~/.config/kitty/themes</code>. You may have to create that directory first.</li>
 				<pre><code>mkdir -p ~/.config/kitty/themes</code></pre>
@@ -93,7 +93,6 @@
 				<li>Reset your Kitty's session.</li>
 			</ul>
 		<h3>Xresources</h3>
-			<img src="./images/screenshots/xresources.png"/>
 			<ul>
 				<li>Use the X11 command <code>xrdb</code> to update X11's database with the colors that are in the file <code>xresources/flamerial.xrdb</code>.</li>
 				<pre><code>xrdb -merge ./xresources/flamerial.xrdb</code></pre>
@@ -102,7 +101,6 @@
 				<p>Be aware that those changes are not persistent and will get reversed when you log back into the graphical environment. To make them persistent, you must use the same command as stated before in a script that is execute everytime you enter the graphical environment, like <code>~/.xinitrc</code>, for example. If that is your case, remember to use the full path to the file instead.</p>
 			</ul>
 		<h3>Vim</h3>
-			<img src="./images/screenshots/vim.png"/>
 			<ul>
 				<li>Copy the file <code>vim/flamerial.vim</code> to <code>~/.vim/colors</code>. You may have to create that directory first.</li>
 				<pre><code>mkdir -p ~/.vim/colors</code></pre>
@@ -111,13 +109,33 @@
 				<pre><code>colorscheme flamerial</code></pre>
 			</ul>
 		<h3>Dwm And St</h3>
-			<img src="./images/screenshots/dwm_and_st.png"/>
 			<ul>
 				<li>Replace the variable definitions of your <code>config.def.h</code> by the ones that you find in the files <code>dwm/dwm.c</code> for dwm and <code>st/st.c</code> for st.</li>
 				<li>Remove the file <code>config.h</code> of your source files as it may contain previous configurations.</li>
 				<pre><code>rm -f config.h</code></pre>
 				<li>Recompile and install the source files:</li>
 				<pre><code>sudo make clean install</code></pre>
+			</ul>
+		<h3>Bspwm</h3>
+			<ul>
+				<li>Copy the file <code>bspwm/flamerial.sh</code> to <code>~/.config/bspwm</code>.</li>
+				<p>You may have to create that directory first.</p>
+				<pre><code>mkdir -p ~/.config/bspwm</code></pre>
+				<pre><code>cp bspwm/flamerial.sh ~/.config/bspwm</code></pre>
+				<li>Execute that script every time you enter bspwm by adding the following command to the file <code>~/.config/bspwm/bspwmrc</code>.</li>
+				<pre><code>source ~/.config/bspwm/flamerial.sh</code></pre>
+			</ul>
+		<h3>Alacritty</h3>
+			<ul>
+				<li>Copy the file <code>alacritty/flamerial.yml</code> to <code>~/.config/alacritty</code>.</li>
+				<p>You may have to create that directory first.</p>
+				<pre><code>mkdir -p ~/.config/alacritty</code></pre>
+				<pre><code>cp alacritty/flamerial.yml ~/.config/alacritty</code></pre>
+				<li>Use an import rule in the file <code>~/.config/alacritty/alacritty.yml</code> to include the file you copied:</li>
+				<pre><code>
+import:
+  - ~/.config/alacritty/flamerial.yml
+  				</code></pre>
 			</ul>
 		<h3>Wallpapers</h3>
 			<p>I have separated some urls where you can download some wallpapers that goes well with Flamerial at <code>wallpapers/wallpapers.md</code>. Simply acess the source and download them. Like that, you can also support their respective authors.</p>
