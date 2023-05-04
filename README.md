@@ -1,6 +1,7 @@
 <h1>Flamerial</h1>
 	<h2>Starting Point</h2>
 		<p>An extremely low contrast theme that gives retro and cozy feelings.</p>
+		<img src="./images/preview.png"/>
 	<h2>Installation And Usage</h2>
 		<h3>Kitty</h3>
 			<ul>
