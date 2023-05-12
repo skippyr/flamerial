@@ -1,8 +1,7 @@
 <h1>Flamerial</h1>
 	<h2>Starting Point</h2>
 		<p>An extremely low contrast theme that gives retro and cozy feelings.</p>
-		<img src="./images/preview_light.png"/>
-		<img src="./images/preview_dark.png"/>
+		<img src="./images/preview.png"/>
 		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (stylistic set <code>ss08</code>).</p>
 	<h2>Installation And Usage</h2>
 		Learn how to use the Flamerial themes in your favorite applications:
