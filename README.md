@@ -22,19 +22,6 @@
 				<p>If you have used other color palettes in Kitty, you may have to comment or remove include rules inside that file that may be including other color palettes.</p>
 				<li>Reset your Kitty's session.</li>
 			</ul>
-		<h3>Xresources</h3>
-			<ul>
-				<li>Use the X11 util <code>xrdb</code> to update X11's database with the Flamerial colors.</li>
-				<ul>
-					<li>For light theme:</li>
-					<pre><code>xrdb -merge ./xresources/flamerial_light.xrdb</code></pre>
-					<li>For dark theme:</li>
-					<pre><code>xrdb -merge ./xresources/flamerial_light.xrdb</code></pre>
-				</ul>
-				<li>Restart your X11 applications.</li>
-				<p>The <code>-merge</code> flag identifies to <code>xrdb</code> that you want to merge the colors into the database, instead of replacing all your current settings.</p>
-				<p>These changes are not persistents and will be reverted if you restart X11. To make them persistent, include that same command in a script that is executed every time you enter the graphical server. X11, for example, allows you to do that by using the <code>~/.xinitrc</code> file but there are other ways too. If you are going to do it, just remember to replace the relative path by the absolute path of the theme file, in the command, otherwise it will not be found.</p>
-			</ul>
 	<h2>Issues And Contributions</h2>
 		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guideline.html">contributions guideline</a>.</p>
 	<h2>License</h2>
