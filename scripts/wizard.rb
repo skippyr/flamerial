@@ -22,5 +22,7 @@ if Arguments.is_to_create_table?()
 	puts(PaletteHTMLTable.new(flamerial).as_string())
 elsif Arguments.is_to_create_images?()
 	PaletteImagesCreator.new(flamerial).create_images()
+else
+	Error.new("no command given.", "read the help instructions using the flag --help.").throw()
 end
 
