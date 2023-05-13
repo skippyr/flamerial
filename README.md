@@ -14,55 +14,55 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>black</td>
+					<td>Black</td>
 					<td>0</td>
 					<td>#080000</td>
 					<td><img src="./images/colors/0.png"/></td>
 				</tr>
 				<tr>
-					<td>red</td>
+					<td>Red</td>
 					<td>1</td>
 					<td>#911317</td>
 					<td><img src="./images/colors/1.png"/></td>
 				</tr>
 				<tr>
-					<td>green</td>
+					<td>Green</td>
 					<td>2</td>
 					<td>#755717</td>
 					<td><img src="./images/colors/2.png"/></td>
 				</tr>
 				<tr>
-					<td>yellow</td>
+					<td>Yellow</td>
 					<td>3</td>
 					<td>#c24119</td>
 					<td><img src="./images/colors/3.png"/></td>
 				</tr>
 				<tr>
-					<td>blue</td>
+					<td>Blue</td>
 					<td>4</td>
 					<td>#665f39</td>
 					<td><img src="./images/colors/4.png"/></td>
 				</tr>
 				<tr>
-					<td>magenta</td>
+					<td>Magenta</td>
 					<td>5</td>
 					<td>#59303d</td>
 					<td><img src="./images/colors/5.png"/></td>
 				</tr>
 				<tr>
-					<td>cyan</td>
+					<td>Cyan</td>
 					<td>6</td>
 					<td>#75280e</td>
 					<td><img src="./images/colors/6.png"/></td>
 				</tr>
 				<tr>
-					<td>white</td>
+					<td>White</td>
 					<td>7</td>
 					<td>#f5a245</td>
 					<td><img src="./images/colors/7.png"/></td>
 				</tr>
 				<tr>
-					<td>light_black</td>
+					<td>Light Black</td>
 					<td>8</td>
 					<td>#916634</td>
 					<td><img src="./images/colors/8.png"/></td>

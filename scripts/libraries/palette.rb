@@ -46,7 +46,7 @@ class PaletteHTMLTable
 		string << "\t<tbody>\n"
 		for color in @palette.get_colors()
 			string << "\t\t<tr>\n"
-			string << "\t\t\t<td>#{color.get_name()}</td>\n"
+			string << "\t\t\t<td>#{CaseTreater.to_title_case(color.get_name())}</td>\n"
 			string << "\t\t\t<td>#{color.get_ansi()}</td>\n"
 			string << "\t\t\t<td>#{color.get_hex()}</td>\n"
 			string << "\t\t\t<td><img src=\"./images/colors/#{color.get_ansi()}.png\"/></td>\n"
