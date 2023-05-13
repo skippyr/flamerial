@@ -16,7 +16,7 @@ flamerial = Palette.new([
 	Color.new("magenta", 5, "#59303d"),
 	Color.new("cyan", 6, "#75280e"),
 	Color.new("white", 7, "#f5a245"),
-	Color.new("light_white", 8, "#916634")
+	Color.new("light_black", 8, "#916634")
 ])
 if Arguments.is_to_create_table?()
 	puts(PaletteHTMLTable.new(flamerial).as_string())

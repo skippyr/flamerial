@@ -62,7 +62,7 @@
 					<td><img src="./images/colors/7.png"/></td>
 				</tr>
 				<tr>
-					<td>light_white</td>
+					<td>light_black</td>
 					<td>8</td>
 					<td>#916634</td>
 					<td><img src="./images/colors/8.png"/></td>
