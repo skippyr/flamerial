@@ -3,6 +3,72 @@
 		<p>An extremely low contrast theme that gives retro and cozy feelings.</p>
 		<img src="./images/preview.png"/>
 		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/intel/intel-one-mono">IntelOne Mono</a> font.</p>
+		<table>
+			<thead>
+				<tr>
+					<td>Name</td>
+					<td>Ansi</td>
+					<td>Hex</td>
+					<td>Preview</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>black</td>
+					<td>0</td>
+					<td>#080000</td>
+					<td><img src="./images/colors/0.png"/></td>
+				</tr>
+				<tr>
+					<td>red</td>
+					<td>1</td>
+					<td>#911317</td>
+					<td><img src="./images/colors/1.png"/></td>
+				</tr>
+				<tr>
+					<td>green</td>
+					<td>2</td>
+					<td>#755717</td>
+					<td><img src="./images/colors/2.png"/></td>
+				</tr>
+				<tr>
+					<td>yellow</td>
+					<td>3</td>
+					<td>#c24119</td>
+					<td><img src="./images/colors/3.png"/></td>
+				</tr>
+				<tr>
+					<td>blue</td>
+					<td>4</td>
+					<td>#665f39</td>
+					<td><img src="./images/colors/4.png"/></td>
+				</tr>
+				<tr>
+					<td>magenta</td>
+					<td>5</td>
+					<td>#59303d</td>
+					<td><img src="./images/colors/5.png"/></td>
+				</tr>
+				<tr>
+					<td>cyan</td>
+					<td>6</td>
+					<td>#75280e</td>
+					<td><img src="./images/colors/6.png"/></td>
+				</tr>
+				<tr>
+					<td>white</td>
+					<td>7</td>
+					<td>#f5a245</td>
+					<td><img src="./images/colors/7.png"/></td>
+				</tr>
+				<tr>
+					<td>light_white</td>
+					<td>8</td>
+					<td>#916634</td>
+					<td><img src="./images/colors/8.png"/></td>
+				</tr>
+			</tbody>
+		</table>
 	<h2>Installation And Usage</h2>
 		<p>For any installation, you must first download this repository.</p>
 		<p>If you have <code>git</code> installed, you can use the following command:</p>
