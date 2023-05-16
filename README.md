@@ -100,7 +100,7 @@
 				<p>If you are going to do it, just remember to replace the relative path by the absolute path of the theme file, in the command, otherwise it will not be found.</p>
 			</ul>
 		<h3>Wallpapers</h3>
-			<p>I have separated some URLS from where you can get wallpapers that match really well with Flamerial. All credits will go to their respective authors, which you can then support by downloading the wallpapers directly from their sources.</p>
+			<p>I have separated some URLS from where you can get free to use wallpapers that match really well with Flamerial at <code>wallpapers/wallpapers.md</code>. All credits will go to their respective authors, which you can then support by downloading the wallpapers directly from their sources.</p>
 	<h2>Issues And Contributions</h2>
 		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guideline.html">contributions guideline</a>.</p>
 	<h2>License</h2>
