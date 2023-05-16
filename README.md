@@ -99,6 +99,8 @@
 				<p>These changes are not persistents and will be reverted if you restart X11. To make them persistent, include that same command in a script that is executed every time you enter the graphical server. X11, for example, allows you to do that by using the <code>~/.xinitrc</code> file but there are other ways too.</p>
 				<p>If you are going to do it, just remember to replace the relative path by the absolute path of the theme file, in the command, otherwise it will not be found.</p>
 			</ul>
+		<h3>Wallpapers</h3>
+			<p>I have separated some URLS from where you can get wallpapers that match really well with Flamerial. All credits will go to their respective authors, which you can then support by downloading the wallpapers directly from their sources.</p>
 	<h2>Issues And Contributions</h2>
 		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guideline.html">contributions guideline</a>.</p>
 	<h2>License</h2>
