@@ -13,6 +13,7 @@ set termguicolors
 hi FlamerialRedForeground guifg=#911317
 hi FlamerialYellowForeground guifg=#c24119
 hi FlamerialBlueForeground guifg=#665f39
+hi FlamerialGreenForeground guifg=#755717
 hi FlamerialMagentaForeground guifg=#59303d
 hi FlamerialCyanForeground guifg=#75280e
 hi FlamerialWhiteForeground guifg=#f5a245
@@ -33,6 +34,7 @@ hi! link Identifier FlamerialCyanForeground
 hi! link Type FlamerialCyanForeground
 hi! link Number FlamerialRedForeground
 hi! link Constant FlamerialMagentaForeground
+hi! link String FlamerialGreenForeground
 
 " Language Specific Links
 
