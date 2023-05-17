@@ -77,27 +77,38 @@
 		<h3>Kitty</h3>
 			<ul>
 				<li>Access the repository's directory.</li>
-				<pre><code>cd flamerial</code></pre>
+					<pre><code>cd flamerial</code></pre>
 				<li>Copy the theme file <code>kitty/flamerial.conf</code> to the directory <code>~/.config/kitty/themes</code>. You may have to create that directory first.</li>
-				<pre><code>mkdir -p ~/.config/kitty/themes</code></pre>
-				<pre><code>mv ./kitty/flamerial.conf ~/.config/kitty/themes</code></pre>
+					<pre><code>mkdir -p ~/.config/kitty/themes</code></pre>
+					<pre><code>mv ./kitty/flamerial.conf ~/.config/kitty/themes</code></pre>
 				<li>If your version of Kitty has the <code>themes</code> kitten, you can apply the theme using it. Just navigate to the <code>User</code> tab and apply it.</li>
-				<pre><code>kitty +kitten themes</code></pre>
+					<pre><code>kitty +kitten themes</code></pre>
 				<li>If your version of Kitty does not have it or you could not run it, you can apply the port manually by adding an include rule in the file <code>~/.config/kitty/kitty.conf</code>.</li>
-				<pre><code>include ./themes/flamerial.conf</code></pre>
-				<p>If you have used other color palettes in Kitty, you may have to comment or remove include rules inside that file that may be including other color palettes.</p>
-				<li>Reset your Kitty's session.</li>
+					<pre><code>include ./themes/flamerial.conf</code></pre>
+					<p>If you have used other color palettes in Kitty, you may have to comment or remove include rules inside that file that may be including other color palettes.</p>
+					<li>Reset your Kitty's session.</li>
 			</ul>
 		<h3>Xresources</h3>
 			<ul>
 				<li>Access the repository's directory.</li>
-				<pre><code>cd flamerial</code></pre>
+					<pre><code>cd flamerial</code></pre>
 				<li>Use the X11 util <code>xrdb</code> to update X11's database with the Flamerial colors from the file <code>xresources/flamerial.xrdb</code>.</li>
-				<pre><code>xrdb -merge xresources/flamerial.xrdb</code></pre>
+					<pre><code>xrdb -merge xresources/flamerial.xrdb</code></pre>
 				<li>Restart your X11 applications.</li>
-				<p>The <code>-merge</code> flag identifies to <code>xrdb</code> that you want to merge the colors into the database, instead of replacing all your current settings.</p>
-				<p>These changes are not persistents and will be reverted if you restart X11. To make them persistent, include that same command in a script that is executed every time you enter the graphical server. X11, for example, allows you to do that by using the <code>~/.xinitrc</code> file but there are other ways too.</p>
-				<p>If you are going to do it, just remember to replace the relative path by the absolute path of the theme file, in the command, otherwise it will not be found.</p>
+					<p>The <code>-merge</code> flag identifies to <code>xrdb</code> that you want to merge the colors into the database, instead of replacing all your current settings.</p>
+					<p>These changes are not persistents and will be reverted if you restart X11. To make them persistent, include that same command in a script that is executed every time you enter the graphical server. X11, for example, allows you to do that by using the <code>~/.xinitrc</code> file but there are other ways too.</p>
+					<p>If you are going to do it, just remember to replace the relative path by the absolute path of the theme file, in the command, otherwise it will not be found.</p>
+			</ul>
+		<h3>Vim</h3>
+			<ul>
+				<li>Access the repository's directory.</li>
+					<pre><code>cd flamerial</code></pre>
+				<li>Copy the file <code>vim/flamerial.vim</code> to <code>~/.vim/colors</code>.</li>
+					<pre><code>mkdir -p ~/.vim/colors</code></pre>
+					<pre><code>cp vim/flamerial.vim ~/.vim/colors</code></pre>
+				<li>Apply the colorscheme in the file <code>~/.vimrc</code> using the <code>colorscheme</code> rule.</li>
+					<pre><code>colorscheme flamerial</code></pre>
+				<li>Restart vim.</li>
 			</ul>
 		<h3>Wallpapers</h3>
 			<p>I have separated some URLS from where you can get free to use wallpapers that match really well with Flamerial at <code>wallpapers/wallpapers.md</code>. All credits will go to their respective authors, which you can then support by downloading the wallpapers directly from their sources.</p>
