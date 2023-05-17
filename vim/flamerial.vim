@@ -15,6 +15,7 @@ hi FlamerialYellowForeground guifg=#c24119
 hi FlamerialBlueForeground guifg=#665f39
 hi FlamerialMagentaForeground guifg=#59303d
 hi FlamerialCyanForeground guifg=#75280e
+hi FlamerialWhiteForeground guifg=#f5a245
 hi FlamerialLightBlackForeground guifg=#916634
 
 " Basic Links
@@ -34,4 +35,7 @@ hi! link Number FlamerialRedForeground
 hi! link Constant FlamerialMagentaForeground
 
 " Language Specific Links
+
+hi! link htmlTag FlamerialWhiteForeground
+hi! link htmlEndTag FlamerialWhiteForeground
 
