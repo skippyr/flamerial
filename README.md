@@ -4,7 +4,7 @@
 		<p>It is available for a very few applications, including <code>vim</code>.</p>
 		<img src="./images/preview_desktop.png"/>
 		<img src="./images/preview_vim.png"/>
-		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font.</p>
+		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/source-foundry/Hack">Hack</a> font. Tiling window manager used is <a href="https://github.com/baskerville/bspwm">bspwm</a>. Wallpaper can be find in the Wallpapers subsection of the Installation And Usage section of this document.</p>
 		<table>
 			<thead>
 				<tr>
