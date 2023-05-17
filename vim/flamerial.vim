@@ -24,7 +24,10 @@ hi FlamerialYellowBackground guibg=#c24119 guifg=#f5a245
 hi FlamerialBlueBackground guibg=#665f39 guifg=#f5a245
 hi FlamerialMagentaBackground guibg=#59303d guifg=#f5a245
 hi FlamerialCyanBackground guibg=#75280e guifg=#f5a245
+hi FlamerialWhiteBackground guibg=#f5a245 guifg=#080000
 hi FlamerialLightBlackBackground guibg=#916634 guifg=#f5a245
+hi FlamerialNormalVariant0Background guibg=#260b0b guifg=#f5a245
+hi FlamerialNormalVariant1Background guibg=#661f1f guifg=#f5a245
 hi FlamerialNormalInverted guibg=#f5a245 guifg=#080000
 
 " Basic Links
@@ -56,6 +59,11 @@ hi! link DiffChange FlamerialWhiteForeground
 hi! link DiffDelete FlamerialWhiteForeground
 hi! link DiffText FlamerialWhiteForeground
 hi! link ColorColumn FlamerialLightBlackBackground
+hi! link Function FlamerialMagentaForeground
+hi! link Pmenu FlamerialNormalVariant0Background
+hi! link PmenuSel FlamerialNormalVariant1Background
+hi! link PmenuSbar FlamerialNormalVariant1Background
+hi! link PmenuThumb FlamerialWhiteBackground
 
 " Language Specific Links
 

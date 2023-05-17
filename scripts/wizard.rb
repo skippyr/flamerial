@@ -9,6 +9,8 @@ elsif Arguments.is_to_preview_colors?()
 end
 flamerial = Palette.new([
 	Color.new("black", 0, "#080000"),
+	Color.new("black variant 0", "0v0", "#260b0b"),
+	Color.new("black variant 1", "0v1", "#661f1f"),
 	Color.new("red", 1, "#911317"),
 	Color.new("green", 2, "#755717"),
 	Color.new("yellow", 3, "#c24119"),

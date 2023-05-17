@@ -21,6 +21,18 @@
 					<td><img src="./images/colors/0.png"/></td>
 				</tr>
 				<tr>
+					<td>Black (Variant 0)</td>
+					<td>None</td>
+					<td>#260b0b</td>
+					<td><img src="./images/colors/0v0.png"/></td>
+				</tr>
+				<tr>
+					<td>Black (Variant 1)</td>
+					<td>None</td>
+					<td>#260b0b</td>
+					<td><img src="./images/colors/0v1.png"/></td>
+				</tr>
+				<tr>
 					<td>Red</td>
 					<td>1</td>
 					<td>#911317</td>
