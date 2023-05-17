@@ -78,9 +78,11 @@
 			<ul>
 				<li>Access the repository's directory.</li>
 					<pre><code>cd flamerial</code></pre>
-				<li>Copy the theme file <code>kitty/flamerial.conf</code> to the directory <code>~/.config/kitty/themes</code>. You may have to create that directory first.</li>
-					<pre><code>mkdir -p ~/.config/kitty/themes</code></pre>
-					<pre><code>mv ./kitty/flamerial.conf ~/.config/kitty/themes</code></pre>
+				<li>Copy the theme file <code>kitty/flamerial.conf</code> to the directory <code>~/.config/kitty/themes</code>.</li>
+					<pre><code>
+mkdir -p ~/.config/kitty/themes
+mv ./kitty/flamerial.conf ~/.config/kitty/themes
+					</code></pre>
 				<li>If your version of Kitty has the <code>themes</code> kitten, you can apply the theme using it. Just navigate to the <code>User</code> tab and apply it.</li>
 					<pre><code>kitty +kitten themes</code></pre>
 				<li>If your version of Kitty does not have it or you could not run it, you can apply the port manually by adding an include rule in the file <code>~/.config/kitty/kitty.conf</code>.</li>
@@ -104,8 +106,10 @@
 				<li>Access the repository's directory.</li>
 					<pre><code>cd flamerial</code></pre>
 				<li>Copy the file <code>vim/flamerial.vim</code> to <code>~/.vim/colors</code>.</li>
-					<pre><code>mkdir -p ~/.vim/colors</code></pre>
-					<pre><code>cp vim/flamerial.vim ~/.vim/colors</code></pre>
+					<pre><code>
+mkdir -p ~/.vim/colors
+cp vim/flamerial.vim ~/.vim/colors
+					</code></pre>
 				<li>Apply the colorscheme in the file <code>~/.vimrc</code> using the <code>colorscheme</code> rule.</li>
 					<pre><code>colorscheme flamerial</code></pre>
 				<li>Restart vim.</li>
