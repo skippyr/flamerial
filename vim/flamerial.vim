@@ -18,6 +18,7 @@ hi FlamerialMagentaForeground guifg=#59303d
 hi FlamerialCyanForeground guifg=#75280e
 hi FlamerialWhiteForeground guifg=#f5a245
 hi FlamerialLightBlackForeground guifg=#916634
+hi FlamerialNormalForeground guifg=#f5a245
 
 " Basic Links
 
@@ -35,9 +36,11 @@ hi! link Type FlamerialCyanForeground
 hi! link Number FlamerialRedForeground
 hi! link Constant FlamerialMagentaForeground
 hi! link String FlamerialGreenForeground
+hi! link MatchParen FlamerialNormalForeground
 
 " Language Specific Links
 
 hi! link htmlTag FlamerialWhiteForeground
 hi! link htmlEndTag FlamerialWhiteForeground
+hi! link jsonBraces FlamerialNormalForeground
 
