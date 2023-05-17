@@ -8,7 +8,7 @@
 
 set termguicolors
 
-" Palette
+" Palette Highlights
 
 hi FlamerialRedForeground guifg=#911317
 hi FlamerialYellowForeground guifg=#c24119
@@ -30,7 +30,7 @@ hi FlamerialBlackVariant0Background guibg=#260b0b guifg=#f5a245
 hi FlamerialBlackVariant1Background guibg=#661f1f guifg=#f5a245
 hi FlamerialNormalInverted guibg=#f5a245 guifg=#080000
 
-" Basic Links
+" Basic Highlights
 
 hi Normal guibg=#080000 guifg=#f5a245
 hi Underlined gui=underline guifg=#911317
@@ -49,6 +49,7 @@ hi! link String FlamerialGreenForeground
 hi! link MatchParen FlamerialWhiteForeground
 hi! link Search FlamerialYellowBackground
 hi! link ErrorMsg FlamerialRedBackground
+hi! link Error ErrorMsg
 hi! link Visual FlamerialNormalInverted
 hi! link SpellBad FlamerialRedBackground
 hi! link SpellRare FlamerialMagentaBackground
@@ -59,7 +60,8 @@ hi! link DiffChange FlamerialWhiteForeground
 hi! link DiffDelete FlamerialWhiteForeground
 hi! link DiffText FlamerialWhiteForeground
 hi! link ColorColumn FlamerialLightBlackBackground
-hi! link Function FlamerialMagentaForeground
+hi! link Function FlamerialRedForeground
+hi! link Statement FlamerialRedForeground
 hi! link Pmenu FlamerialBlackVariant0Background
 hi! link PmenuSel FlamerialBlackVariant1Background
 hi! link PmenuSbar FlamerialBlackVariant1Background
@@ -69,11 +71,14 @@ hi! link MoreMsg FlamerialGreenForeground
 hi! link CursorLine FlamerialBlackVariant1Background
 hi! link CursorLineNr FlamerialBlackVariant1Background
 hi! link CursorColumn FlamerialBlackVariant1Background
+hi! link Todo Comment
 
-" Language Specific Links
+" Language Specific Highlights
 
 hi! link htmlTag FlamerialWhiteForeground
 hi! link htmlEndTag FlamerialWhiteForeground
 hi! link jsonBraces FlamerialNormalForeground
 hi! link javascriptBraces FlamerialNormalForeground
+hi! link rustFuncName FlamerialNormalForeground
+hi! link rustCommentLineDoc Comment
 
