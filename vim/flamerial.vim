@@ -43,7 +43,6 @@ hi! link Special FlamerialMagentaForeground
 hi! link PreProc FlamerialMagentaForeground
 hi! link Identifier FlamerialCyanForeground
 hi! link Type FlamerialCyanForeground
-" hi! link Number FlamerialRedForeground
 hi! link Number FlamerialGreenForeground
 hi! link Constant FlamerialMagentaForeground
 hi! link String FlamerialGreenForeground
@@ -51,6 +50,7 @@ hi! link MatchParen FlamerialWhiteForeground
 hi! link Search FlamerialYellowBackground
 hi! link ErrorMsg FlamerialRedBackground
 hi! link Error ErrorMsg
+hi! link WarningMsg ErrorMsg
 hi! link Visual FlamerialNormalInverted
 hi! link SpellBad FlamerialRedBackground
 hi! link SpellRare FlamerialMagentaBackground
