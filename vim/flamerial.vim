@@ -43,7 +43,8 @@ hi! link Special FlamerialMagentaForeground
 hi! link PreProc FlamerialMagentaForeground
 hi! link Identifier FlamerialCyanForeground
 hi! link Type FlamerialCyanForeground
-hi! link Number FlamerialRedForeground
+" hi! link Number FlamerialRedForeground
+hi! link Number FlamerialGreenForeground
 hi! link Constant FlamerialMagentaForeground
 hi! link String FlamerialGreenForeground
 hi! link MatchParen FlamerialWhiteForeground
@@ -71,14 +72,20 @@ hi! link MoreMsg FlamerialGreenForeground
 hi! link CursorLine FlamerialBlackVariant1Background
 hi! link CursorLineNr FlamerialBlackVariant1Background
 hi! link CursorColumn FlamerialBlackVariant1Background
+hi! link Delimiter FlamerialNormalForeground
+hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
+hi! link SpecialComment Comment
+hi! link StorageClass FlamerialRedForeground
 
 " Language Specific Highlights
 
 hi! link htmlTag FlamerialWhiteForeground
 hi! link htmlEndTag FlamerialWhiteForeground
-hi! link jsonBraces FlamerialNormalForeground
 hi! link javascriptBraces FlamerialNormalForeground
+hi! link typescriptBraces FlamerialNormalForeground
+hi! link cssBraces FlamerialNormalForeground
 hi! link rustFuncName FlamerialNormalForeground
-hi! link rustCommentLineDoc Comment
+hi! link rustDerive FlamerialNormalForeground
+hi! link rustAttribute Function
 
