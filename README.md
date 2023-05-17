@@ -29,7 +29,7 @@
 				<tr>
 					<td>Black (Variant 1)</td>
 					<td>None</td>
-					<td>#260b0b</td>
+					<td>#661f1f</td>
 					<td><img src="./images/colors/0v1.png"/></td>
 				</tr>
 				<tr>
