@@ -64,6 +64,11 @@ hi! link Pmenu FlamerialBlackVariant0Background
 hi! link PmenuSel FlamerialBlackVariant1Background
 hi! link PmenuSbar FlamerialBlackVariant1Background
 hi! link PmenuThumb FlamerialWhiteBackground
+hi! link Question FlamerialGreenForeground
+hi! link MoreMsg FlamerialGreenForeground
+hi! link CursorLine FlamerialBlackVariant1Background
+hi! link CursorLineNr FlamerialBlackVariant1Background
+hi! link CursorColumn FlamerialBlackVariant1Background
 
 " Language Specific Links
 
