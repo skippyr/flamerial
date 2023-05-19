@@ -13,11 +13,11 @@ flamerial = Palette.new([
 	Color.new("black variant 1", "0v1", "#661f1f"),
 	Color.new("red", 1, "#911317"),
 	Color.new("green", 2, "#755717"),
-	Color.new("yellow", 3, "#c24119"),
+	Color.new("yellow", 3, "#a83816"),
 	Color.new("blue", 4, "#665f39"),
 	Color.new("magenta", 5, "#59303d"),
 	Color.new("cyan", 6, "#75280e"),
-	Color.new("white", 7, "#f5a245"),
+	Color.new("white", 7, "#bf7f36"),
 	Color.new("light_black", 8, "#916634")
 ])
 if Arguments.is_to_create_table?()

@@ -50,7 +50,7 @@
 				<tr>
 					<td>Yellow</td>
 					<td>3</td>
-					<td>#c24119</td>
+					<td>#a83816</td>
 					<td><img src="./images/colors/3.png"/></td>
 				</tr>
 				<tr>
@@ -74,7 +74,7 @@
 				<tr>
 					<td>White</td>
 					<td>7</td>
-					<td>#f5a245</td>
+					<td>#bf7f36</td>
 					<td><img src="./images/colors/7.png"/></td>
 				</tr>
 				<tr>
