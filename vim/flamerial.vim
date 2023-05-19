@@ -11,28 +11,28 @@ set termguicolors
 " Palette Highlights
 
 hi FlamerialRedForeground guifg=#911317
-hi FlamerialYellowForeground guifg=#c24119
+hi FlamerialYellowForeground guifg=#a83816
 hi FlamerialBlueForeground guifg=#665f39
 hi FlamerialGreenForeground guifg=#755717
 hi FlamerialMagentaForeground guifg=#59303d
 hi FlamerialCyanForeground guifg=#75280e
-hi FlamerialWhiteForeground guifg=#f5a245
+hi FlamerialWhiteForeground guifg=#bf7f36
 hi FlamerialLightBlackForeground guifg=#916634
 
-hi FlamerialRedBackground guibg=#911317 guifg=#f5a245
-hi FlamerialYellowBackground guibg=#c24119 guifg=#f5a245
-hi FlamerialBlueBackground guibg=#665f39 guifg=#f5a245
-hi FlamerialMagentaBackground guibg=#59303d guifg=#f5a245
-hi FlamerialCyanBackground guibg=#75280e guifg=#f5a245
-hi FlamerialWhiteBackground guibg=#f5a245 guifg=#080000
-hi FlamerialLightBlackBackground guibg=#916634 guifg=#f5a245
-hi FlamerialBlackVariant0Background guibg=#260b0b guifg=#f5a245
-hi FlamerialBlackVariant1Background guibg=#661f1f guifg=#f5a245
-hi FlamerialNormalInverted guibg=#f5a245 guifg=#080000
+hi FlamerialRedBackground guibg=#911317 guifg=#bf7f36
+hi FlamerialYellowBackground guibg=#a83816 guifg=#bf7f36
+hi FlamerialBlueBackground guibg=#665f39 guifg=#bf7f36
+hi FlamerialMagentaBackground guibg=#59303d guifg=#bf7f36
+hi FlamerialCyanBackground guibg=#75280e guifg=#bf7f36
+hi FlamerialWhiteBackground guibg=#bf7f36 guifg=#080000
+hi FlamerialLightBlackBackground guibg=#916634 guifg=#bf7f36
+hi FlamerialBlackVariant0Background guibg=#260b0b guifg=#bf7f36
+hi FlamerialBlackVariant1Background guibg=#661f1f guifg=#bf7f36
+hi FlamerialNormalInverted guibg=#bf7f36 guifg=#080000
 
 " Basic Highlights
 
-hi Normal guibg=#080000 guifg=#f5a245
+hi Normal guibg=#080000 guifg=#bf7f36
 hi Underlined gui=underline guifg=#911317
 hi! link SpecialKey FlamerialLightBlackForeground
 hi! link LineNr FlamerialYellowForeground
