@@ -34,6 +34,7 @@ hi FlamerialNormalInverted guibg=#bf7f36 guifg=#080000
 
 hi Normal guibg=#080000 guifg=#bf7f36
 hi Underlined gui=underline guifg=#911317
+hi! link Folded FlamerialBlueForeground
 hi! link SpecialKey FlamerialLightBlackForeground
 hi! link LineNr FlamerialYellowForeground
 hi! link Comment FlamerialBlueForeground
@@ -77,6 +78,7 @@ hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
 hi! link SpecialComment Comment
 hi! link StorageClass FlamerialRedForeground
+hi! link TabLine FlamerialWhiteBackground
 
 " Language Specific Highlights
 
