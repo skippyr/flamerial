@@ -34,6 +34,11 @@ hi FlamerialNormalInverted guibg=#f6c463 guifg=#0d0000
 
 hi Normal guibg=#0d0000 guifg=#f6c463
 hi Underlined gui=underline guifg=#a62126
+hi DiagnosticUnderlineHint gui=underline guisp=#f6c463
+hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
+hi! link DiagnosticUnderlineInfo DiagnosticUnderlineHint
+hi! link DiagnosticUnderlineError DiagnosticUnderlineHint
+hi! link DiagnosticUnderlineOk DiagnosticUnderlineHint
 hi! link Folded FlamerialBlueForeground
 hi! link SpecialKey FlamerialLightBlackForeground
 hi! link LineNr FlamerialYellowForeground
@@ -79,6 +84,12 @@ hi! link Todo Comment
 hi! link SpecialComment Comment
 hi! link StorageClass FlamerialRedForeground
 hi! link TabLine FlamerialWhiteBackground
+hi! link SignColumn FlamerialWhiteForeground
+hi! link DiagnosticHint FlamerialBlackVariant0Background
+hi! link DiagnosticError FlamerialBlackVariant0Background
+hi! link DiagnosticWarn FlamerialBlackVariant0Background
+hi! link DiagnosticInfo FlamerialBlackVariant0Background
+hi! link DiagnosticOk FlamerialBlackVariant0Background
 
 " Language Specific Highlights
 
