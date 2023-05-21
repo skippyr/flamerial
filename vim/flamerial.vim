@@ -10,30 +10,30 @@ set termguicolors
 
 " Palette Highlights
 
-hi FlamerialRedForeground guifg=#911317
-hi FlamerialYellowForeground guifg=#a83816
-hi FlamerialBlueForeground guifg=#665f39
+hi FlamerialRedForeground guifg=#a62126
+hi FlamerialYellowForeground guifg=#a86419
+hi FlamerialBlueForeground guifg=#8c6f46
 hi FlamerialGreenForeground guifg=#755717
-hi FlamerialMagentaForeground guifg=#59303d
+hi FlamerialMagentaForeground guifg=#754636
 hi FlamerialCyanForeground guifg=#75280e
-hi FlamerialWhiteForeground guifg=#bf7f36
+hi FlamerialWhiteForeground guifg=#f6c463
 hi FlamerialLightBlackForeground guifg=#916634
 
-hi FlamerialRedBackground guibg=#911317 guifg=#bf7f36
-hi FlamerialYellowBackground guibg=#a83816 guifg=#bf7f36
-hi FlamerialBlueBackground guibg=#665f39 guifg=#bf7f36
-hi FlamerialMagentaBackground guibg=#59303d guifg=#bf7f36
-hi FlamerialCyanBackground guibg=#75280e guifg=#bf7f36
-hi FlamerialWhiteBackground guibg=#bf7f36 guifg=#080000
-hi FlamerialLightBlackBackground guibg=#916634 guifg=#bf7f36
-hi FlamerialBlackVariant0Background guibg=#260b0b guifg=#bf7f36
-hi FlamerialBlackVariant1Background guibg=#661f1f guifg=#bf7f36
-hi FlamerialNormalInverted guibg=#bf7f36 guifg=#080000
+hi FlamerialRedBackground guibg=#a62126 guifg=#f6c463
+hi FlamerialYellowBackground guibg=#a86419 guifg=#f6c463
+hi FlamerialBlueBackground guibg=#8c6f46 guifg=#f6c463
+hi FlamerialMagentaBackground guibg=#754636 guifg=#f6c463
+hi FlamerialCyanBackground guibg=#75280e guifg=#f6c463
+hi FlamerialWhiteBackground guibg=#f6c463 guifg=#0d0000
+hi FlamerialLightBlackBackground guibg=#916634 guifg=#f6c463
+hi FlamerialBlackVariant0Background guibg=#260b0b guifg=#f6c463
+hi FlamerialBlackVariant1Background guibg=#661f1f guifg=#f6c463
+hi FlamerialNormalInverted guibg=#f6c463 guifg=#0d0000
 
 " Basic Highlights
 
-hi Normal guibg=#080000 guifg=#bf7f36
-hi Underlined gui=underline guifg=#911317
+hi Normal guibg=#0d0000 guifg=#f6c463
+hi Underlined gui=underline guifg=#a62126
 hi! link Folded FlamerialBlueForeground
 hi! link SpecialKey FlamerialLightBlackForeground
 hi! link LineNr FlamerialYellowForeground
