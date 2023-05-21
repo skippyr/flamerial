@@ -1,10 +1,9 @@
 <h1>Flamerial</h1>
 	<h2>Starting Point</h2>
-		<p>An extremely low contrast dark theme with a warm palette for people that love to code at the late night.</p>
-		<p>It is available for a very few applications, including <code>vim</code>.</p>
-		<img src="./images/preview_desktop.png"/>
+		<p>A tribal inspired dark theme.</p>
+		<img src="./images/preview_terminal.png"/>
 		<img src="./images/preview_vim.png"/>
-		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/source-foundry/Hack">Hack</a> font. Code editor used is <a href="https://github.com/vim/vim">vim</a>. Tiling window manager used is <a href="https://github.com/baskerville/bspwm">bspwm</a>. Wallpaper can be find in the Wallpapers subsection of the Installation And Usage section of this document.</p>
+		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (variant <code>ss08</code>). Code editor used is <a href="https://github.com/vim/vim">vim</a>. Tiling window manager used is <a href="https://github.com/baskerville/bspwm">bspwm</a>. Wallpaper can be find in the Wallpapers subsection of the Installation And Usage section of this document.</p>
 	<h2>Palette</h2>
 		<p>Here is a table with all the colors used in the Flamerial palette.</p>
 		<table>
@@ -20,17 +19,17 @@
 				<tr>
 					<td>Black</td>
 					<td>0</td>
-					<td>#080000</td>
+					<td>#0d0000</td>
 					<td><img src="./images/colors/0.png"/></td>
 				</tr>
 				<tr>
-					<td>Black (Variant 0)</td>
+					<td>Black variant 0</td>
 					<td>None</td>
 					<td>#260b0b</td>
 					<td><img src="./images/colors/0v0.png"/></td>
 				</tr>
 				<tr>
-					<td>Black (Variant 1)</td>
+					<td>Black variant 1</td>
 					<td>None</td>
 					<td>#661f1f</td>
 					<td><img src="./images/colors/0v1.png"/></td>
@@ -38,7 +37,7 @@
 				<tr>
 					<td>Red</td>
 					<td>1</td>
-					<td>#911317</td>
+					<td>#a62126</td>
 					<td><img src="./images/colors/1.png"/></td>
 				</tr>
 				<tr>
@@ -50,35 +49,35 @@
 				<tr>
 					<td>Yellow</td>
 					<td>3</td>
-					<td>#a83816</td>
+					<td>#a86419</td>
 					<td><img src="./images/colors/3.png"/></td>
 				</tr>
 				<tr>
 					<td>Blue</td>
 					<td>4</td>
-					<td>#665f39</td>
+					<td>#8c6f46</td>
 					<td><img src="./images/colors/4.png"/></td>
 				</tr>
 				<tr>
 					<td>Magenta</td>
 					<td>5</td>
-					<td>#59303d</td>
+					<td>#754636</td>
 					<td><img src="./images/colors/5.png"/></td>
 				</tr>
 				<tr>
 					<td>Cyan</td>
 					<td>6</td>
-					<td>#75280e</td>
+					<td>#852d10</td>
 					<td><img src="./images/colors/6.png"/></td>
 				</tr>
 				<tr>
 					<td>White</td>
 					<td>7</td>
-					<td>#bf7f36</td>
+					<td>#f6c463</td>
 					<td><img src="./images/colors/7.png"/></td>
 				</tr>
 				<tr>
-					<td>Light Black</td>
+					<td>Light black</td>
 					<td>8</td>
 					<td>#916634</td>
 					<td><img src="./images/colors/8.png"/></td>
