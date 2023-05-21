@@ -15,7 +15,7 @@ hi FlamerialYellowForeground guifg=#a86419
 hi FlamerialBlueForeground guifg=#8c6f46
 hi FlamerialGreenForeground guifg=#755717
 hi FlamerialMagentaForeground guifg=#754636
-hi FlamerialCyanForeground guifg=#75280e
+hi FlamerialCyanForeground guifg=#852d10
 hi FlamerialWhiteForeground guifg=#f6c463
 hi FlamerialLightBlackForeground guifg=#916634
 
@@ -23,7 +23,7 @@ hi FlamerialRedBackground guibg=#a62126 guifg=#f6c463
 hi FlamerialYellowBackground guibg=#a86419 guifg=#f6c463
 hi FlamerialBlueBackground guibg=#8c6f46 guifg=#f6c463
 hi FlamerialMagentaBackground guibg=#754636 guifg=#f6c463
-hi FlamerialCyanBackground guibg=#75280e guifg=#f6c463
+hi FlamerialCyanBackground guibg=#852d10 guifg=#f6c463
 hi FlamerialWhiteBackground guibg=#f6c463 guifg=#0d0000
 hi FlamerialLightBlackBackground guibg=#916634 guifg=#f6c463
 hi FlamerialBlackVariant0Background guibg=#260b0b guifg=#f6c463
