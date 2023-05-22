@@ -11,7 +11,6 @@ flamerial = Palette.new([
 	Color.new("black", 0, "#0d0000"),
 	Color.new("black variant 0", "0v0", "#260b0b"),
 	Color.new("black variant 1", "0v1", "#661f1f"),
-	Color.new("black variant 2", "0v2", "#992e2e"),
 	Color.new("red", 1, "#a62126"),
 	Color.new("green", 2, "#755717"),
 	Color.new("yellow", 3, "#a86419"),
