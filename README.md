@@ -3,7 +3,7 @@
 		<p>A tribal inspired dark theme.</p>
 		<img src="./images/preview_terminal.png"/>
 		<img src="./images/preview_vim.png"/>
-		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (variant <code>ss08</code>). Code editor used is <a href="https://github.com/vim/vim">vim</a>. Tiling window manager used is <a href="https://github.com/baskerville/bspwm">bspwm</a>. Wallpaper can be find in the Wallpapers subsection of the Installation And Usage section of this document.</p>
+		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://fonts.google.com/specimen/Inconsolata">Inconsolata</a> font.</p>
 	<h2>Palette</h2>
 		<p>Here is a table with all the colors used in the Flamerial palette.</p>
 		<table>
@@ -127,6 +127,13 @@ cp vim/flamerial.vim ~/.vim/colors
 					</code></pre>
 				<li>Apply the colorscheme in the file <code>~/.vimrc</code> using the <code>colorscheme</code> rule.</li>
 					<pre><code>colorscheme flamerial</code></pre>
+				<li>If you want to use the colorscheme for the vim-airline plugin, copy the file <code>vim/autoload/airline/themes/flamerial.vim</code> to <code>~/.vim/autoload/airline/themes</code>.</li>
+					<pre><code>
+mkdir -p ~/.vim/autoload/airline/themes
+cp vim/autoload/airline/themes/flamerial.vim ~/.vim/autoload/airline/themes
+					</code></pre>
+				<li>Apply the vim-airline colorscheme by setting the global variable <code>airline_theme</code> in the file <code>~/.vimrc</code>:</li>
+					<pre><code>let g:airline_theme="flamerial"</code></pre>
 				<li>Restart vim.</li>
 			</ul>
 		<h3>Wallpapers</h3>
