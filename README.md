@@ -35,6 +35,12 @@
 					<td><img src="./images/colors/0v1.png"/></td>
 				</tr>
 				<tr>
+					<td>Black variant 2</td>
+					<td>None</td>
+					<td>#992e2e</td>
+					<td><img src="./images/colors/0v2.png"/></td>
+				</tr>
+				<tr>
 					<td>Red</td>
 					<td>1</td>
 					<td>#a62126</td>
