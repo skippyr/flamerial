@@ -82,13 +82,16 @@ hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
 hi! link SpecialComment Comment
 hi! link StorageClass FlamerialRedForeground
-hi! link TabLine FlamerialWhiteBackground
+hi! link TabLine FlamerialBlackVariant0Background
+hi! link TabLineFill FlamerialBlackVariant0Background
+hi! link TabLineSel FlamerialRedBackground
 hi! link SignColumn FlamerialWhiteForeground
 hi! link DiagnosticHint FlamerialBlackVariant0Background
 hi! link DiagnosticError FlamerialBlackVariant0Background
 hi! link DiagnosticWarn FlamerialBlackVariant0Background
 hi! link DiagnosticInfo FlamerialBlackVariant0Background
 hi! link DiagnosticOk FlamerialBlackVariant0Background
+hi! link StatusLine FlamerialBlackVariant0Background
 
 " Language Specific Highlights
 
