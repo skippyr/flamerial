@@ -16,25 +16,24 @@ hi FlamerialBlueForeground guifg=#8c6f46
 hi FlamerialGreenForeground guifg=#755717
 hi FlamerialMagentaForeground guifg=#754636
 hi FlamerialCyanForeground guifg=#852d10
-hi FlamerialWhiteForeground guifg=#f6c463
+hi FlamerialWhiteForeground guifg=#f5cc7a
 hi FlamerialLightBlackForeground guifg=#916634
 
-hi FlamerialRedBackground guibg=#a62126 guifg=#f6c463
-hi FlamerialYellowBackground guibg=#a86419 guifg=#f6c463
-hi FlamerialBlueBackground guibg=#8c6f46 guifg=#f6c463
-hi FlamerialMagentaBackground guibg=#754636 guifg=#f6c463
-hi FlamerialCyanBackground guibg=#852d10 guifg=#f6c463
-hi FlamerialWhiteBackground guibg=#f6c463 guifg=#0d0000
-hi FlamerialLightBlackBackground guibg=#916634 guifg=#f6c463
-hi FlamerialBlackVariant0Background guibg=#260b0b guifg=#f6c463
-hi FlamerialBlackVariant1Background guibg=#661f1f guifg=#f6c463
-hi FlamerialNormalInverted guibg=#f6c463 guifg=#0d0000
+hi FlamerialRedBackground guibg=#a62126 guifg=#f5cc7a
+hi FlamerialYellowBackground guibg=#a86419 guifg=#f5cc7a
+hi FlamerialBlueBackground guibg=#8c6f46 guifg=#f5cc7a
+hi FlamerialMagentaBackground guibg=#754636 guifg=#f5cc7a
+hi FlamerialCyanBackground guibg=#852d10 guifg=#f5cc7a
+hi FlamerialWhiteBackground guibg=#f5cc7a guifg=#0d0600
+hi FlamerialLightBlackBackground guibg=#916634 guifg=#f5cc7a
+hi FlamerialBlackVariant0Background guibg=#261200 guifg=#f5cc7a
+hi FlamerialNormalInverted guibg=#f5cc7a guifg=#0d0600
 
 " Basic Highlights
 
-hi Normal guibg=#0d0000 guifg=#f6c463
+hi Normal guibg=#0d0600 guifg=#f5cc7a
 hi Underlined gui=underline guifg=#a62126
-hi DiagnosticUnderlineHint gui=underline guisp=#f6c463
+hi DiagnosticUnderlineHint gui=underline guisp=#f5cc7a
 hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineInfo DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineError DiagnosticUnderlineHint
@@ -70,14 +69,14 @@ hi! link ColorColumn FlamerialLightBlackBackground
 hi! link Function FlamerialRedForeground
 hi! link Statement FlamerialRedForeground
 hi! link Pmenu FlamerialBlackVariant0Background
-hi! link PmenuSel FlamerialBlackVariant1Background
-hi! link PmenuSbar FlamerialBlackVariant1Background
+hi! link PmenuSel FlamerialRedBackground
+hi! link PmenuSbar FlamerialYellowBackground
 hi! link PmenuThumb FlamerialWhiteBackground
 hi! link Question FlamerialGreenForeground
 hi! link MoreMsg FlamerialGreenForeground
-hi! link CursorLine FlamerialBlackVariant1Background
-hi! link CursorLineNr FlamerialBlackVariant1Background
-hi! link CursorColumn FlamerialBlackVariant1Background
+hi! link CursorLine FlamerialBlackVariant0Background
+hi! link CursorLineNr FlamerialBlackVariant0Background
+hi! link CursorColumn FlamerialBlackVariant0Background
 hi! link Delimiter FlamerialNormalForeground
 hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
