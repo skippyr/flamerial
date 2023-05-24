@@ -3,7 +3,7 @@
 		<p>A tribal inspired dark theme.</p>
 		<img src="./images/preview_terminal.png"/>
 		<img src="./images/preview_vim.png"/>
-		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://fonts.google.com/specimen/Inconsolata">Inconsolata</a> font.</p>
+		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (stylistic set <code>ss08</code>).</p>
 	<h2>Palette</h2>
 		<p>Here is a table with all the colors used in the Flamerial palette.</p>
 		<table>
@@ -19,7 +19,7 @@
 				<tr>
 					<td>Black</td>
 					<td>0</td>
-					<td>#0d0000</td>
+					<td>#0d0600</td>
 					<td><img src="./images/colors/0.png"/></td>
 				</tr>
 				<tr>
@@ -27,12 +27,6 @@
 					<td>None</td>
 					<td>#260b0b</td>
 					<td><img src="./images/colors/0v0.png"/></td>
-				</tr>
-				<tr>
-					<td>Black variant 1</td>
-					<td>None</td>
-					<td>#661f1f</td>
-					<td><img src="./images/colors/0v1.png"/></td>
 				</tr>
 				<tr>
 					<td>Red</td>
@@ -73,7 +67,7 @@
 				<tr>
 					<td>White</td>
 					<td>7</td>
-					<td>#f6c463</td>
+					<td>#f5cc7a</td>
 					<td><img src="./images/colors/7.png"/></td>
 				</tr>
 				<tr>

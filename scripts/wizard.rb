@@ -8,16 +8,15 @@ elsif Arguments.is_to_preview_colors?()
 	exit(0)
 end
 flamerial = Palette.new([
-	Color.new("black", 0, "#0d0000"),
-	Color.new("black variant 0", "0v0", "#260b0b"),
-	Color.new("black variant 1", "0v1", "#661f1f"),
+	Color.new("black", 0, "#0d0600"),
+	Color.new("black variant 0", "0v0", "#261200"),
 	Color.new("red", 1, "#a62126"),
 	Color.new("green", 2, "#755717"),
 	Color.new("yellow", 3, "#a86419"),
 	Color.new("blue", 4, "#8c6f46"),
 	Color.new("magenta", 5, "#754636"),
 	Color.new("cyan", 6, "#852d10"),
-	Color.new("white", 7, "#f6c463"),
+	Color.new("white", 7, "#f5cc7a"),
 	Color.new("light black", 8, "#916634")
 ])
 if Arguments.is_to_create_table?()
