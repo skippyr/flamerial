@@ -41,8 +41,8 @@ hi! link DiagnosticUnderlineOk DiagnosticUnderlineHint
 hi! link Folded FlamerialBlueForeground
 hi! link SpecialKey FlamerialLightBlackForeground
 hi! link LineNr FlamerialYellowForeground
-hi! link Comment FlamerialBlueForeground
-hi! link NonText FlamerialBlueForeground
+hi! link Comment FlamerialLightBlackForeground
+hi! link NonText Comment
 hi! link Title FlamerialMagentaForeground
 hi! link Special FlamerialMagentaForeground
 hi! link PreProc FlamerialMagentaForeground
@@ -66,8 +66,7 @@ hi! link DiffChange FlamerialWhiteForeground
 hi! link DiffDelete FlamerialWhiteForeground
 hi! link DiffText FlamerialWhiteForeground
 hi! link ColorColumn FlamerialLightBlackBackground
-hi! link Function FlamerialRedForeground
-hi! link Statement FlamerialRedForeground
+hi! link Statement FlamerialMagentaForeground
 hi! link Pmenu FlamerialBlackVariant0Background
 hi! link PmenuSel FlamerialRedBackground
 hi! link PmenuSbar FlamerialYellowBackground
@@ -77,11 +76,11 @@ hi! link MoreMsg FlamerialGreenForeground
 hi! link CursorLine FlamerialBlackVariant0Background
 hi! link CursorLineNr FlamerialBlackVariant0Background
 hi! link CursorColumn FlamerialBlackVariant0Background
-hi! link Delimiter FlamerialNormalForeground
+hi! link Delimiter FlamerialWhiteForeground
 hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
 hi! link SpecialComment Comment
-hi! link StorageClass FlamerialRedForeground
+hi! link StorageClass Statement
 hi! link TabLine FlamerialBlackVariant0Background
 hi! link TabLineFill FlamerialBlackVariant0Background
 hi! link TabLineSel FlamerialRedBackground
@@ -92,15 +91,18 @@ hi! link DiagnosticWarn FlamerialBlackVariant0Background
 hi! link DiagnosticInfo FlamerialBlackVariant0Background
 hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
+hi! link Function FlamerialYellowForeground
+hi! link Operator FlamerialWhiteForeground
+hi! link Identifier FlamerialRedForeground
 
 " Language Specific Highlights
 
 hi! link htmlTag FlamerialWhiteForeground
 hi! link htmlEndTag FlamerialWhiteForeground
-hi! link javascriptBraces FlamerialNormalForeground
-hi! link typescriptBraces FlamerialNormalForeground
-hi! link cssBraces FlamerialNormalForeground
-hi! link rustFuncName FlamerialNormalForeground
-hi! link rustDerive FlamerialNormalForeground
+hi! link htmlTagName Identifier
+hi! link javascriptBraces FlamerialWhiteForeground
+hi! link typescriptBraces FlamerialWhiteForeground
+hi! link cssBraces FlamerialWhiteForeground
+hi! link rustDerive FlamerialWhiteForeground
 hi! link rustAttribute Function
 
