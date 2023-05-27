@@ -2,7 +2,6 @@
 	<h2>Starting Point</h2>
 		<p>A tribal inspired dark theme.</p>
 		<img src="./images/preview_terminal.png"/>
-		<img src="./images/preview_vim.png"/>
 		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (stylistic set <code>ss08</code>).</p>
 	<h2>Palette</h2>
 		<p>Here is a table with all the colors used in the Flamerial palette.</p>
@@ -110,26 +109,8 @@ mv ./kitty/flamerial.conf ~/.config/kitty/themes
 					<p>These changes are not persistents and will be reverted if you restart X11. To make them persistent, include that same command in a script that is executed every time you enter the graphical server. X11, for example, allows you to do that by using the <code>~/.xinitrc</code> file but there are other ways too.</p>
 					<p>If you are going to do it, just remember to replace the relative path by the absolute path of the theme file, in the command, otherwise it will not be found.</p>
 			</ul>
-		<h3>Vim</h3>
-			<ul>
-				<li>Access the repository's directory.</li>
-					<pre><code>cd flamerial</code></pre>
-				<li>Copy the file <code>vim/flamerial.vim</code> to <code>~/.vim/colors</code>.</li>
-					<pre><code>
-mkdir -p ~/.vim/colors
-cp vim/flamerial.vim ~/.vim/colors
-					</code></pre>
-				<li>Apply the colorscheme in the file <code>~/.vimrc</code> using the <code>colorscheme</code> rule.</li>
-					<pre><code>colorscheme flamerial</code></pre>
-				<li>If you want to use the colorscheme for the vim-airline plugin, copy the file <code>vim/autoload/airline/themes/flamerial.vim</code> to <code>~/.vim/autoload/airline/themes</code>.</li>
-					<pre><code>
-mkdir -p ~/.vim/autoload/airline/themes
-cp vim/autoload/airline/themes/flamerial.vim ~/.vim/autoload/airline/themes
-					</code></pre>
-				<li>Apply the vim-airline colorscheme by setting the global variable <code>airline_theme</code> in the file <code>~/.vimrc</code>:</li>
-					<pre><code>let g:airline_theme="flamerial"</code></pre>
-				<li>Restart vim.</li>
-			</ul>
+		<h3>Vim/Neovim</h3>
+			<p>Find more information about how to install for these applications in its <a href="https://github.com/skippyr/flamerial.nvim">exclusive repository</a>.</p>
 		<h3>Wallpapers</h3>
 			<p>I have separated some URLS from where you can get free to use wallpapers that match really well with Flamerial at <code>wallpapers/wallpapers.md</code>. All credits will go to their respective authors, which you can then support by downloading the wallpapers directly from their sources.</p>
 	<h2>Issues And Contributions</h2>
