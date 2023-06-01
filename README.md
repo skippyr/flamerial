@@ -109,6 +109,11 @@ mv ./kitty/flamerial.conf ~/.config/kitty/themes
 					<p>These changes are not persistents and will be reverted if you restart X11. To make them persistent, include that same command in a script that is executed every time you enter the graphical server. X11, for example, allows you to do that by using the <code>~/.xinitrc</code> file but there are other ways too.</p>
 					<p>If you are going to do it, just remember to replace the relative path by the absolute path of the theme file, in the command, otherwise it will not be found.</p>
 			</ul>
+		<h3>Linux Virtual Console</h3>
+			<ul>
+				<li>Execute the script <code>linux_virtual_console/flamerial.sh</code>.</li>
+					<pre><code>./linux_virtual_console/flamerial.sh</code></pre>
+			</ul>
 		<h3>Vim/Neovim</h3>
 			<p>Find more information about how to install for these applications in its <a href="https://github.com/skippyr/flamerial.nvim">exclusive repository</a>.</p>
 		<h3>Wallpapers</h3>
