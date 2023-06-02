@@ -123,6 +123,20 @@ mv ./kitty/flamerial.conf ~/.config/kitty/themes
 					<pre><code>sudo make clean install</code></pre>
 				<li>Reopen st if it is already running.</li>
 			</ul>
+		<h3>Alacritty</h3>
+			<ul>
+				<li>Copy the file <code>alacritty/flamerial.yml</code> to <code>~/.config/alacritty</code>.</li>
+					<pre><code>
+mkdir -p ~/.config/alacritty
+cp alacritty/flamerial.yml ~/.config/alacritty
+					</code></pre>
+				<li>Add an import rule in the file <code>~/.config/alacritty/alacritty.yml</code> to import the file copied in the previous step:</li>
+					<pre><code>
+import:
+  - ~/.config/alacritty/flamerial.yml
+					</code></pre>
+				<p>Note that the <code>alacritty.yml</code> must use 2 spaces as indentation for it to work.</p>
+			</ul>
 		<h3>Vim/Neovim</h3>
 			<p>Find more information about how to install for these applications in its <a href="https://github.com/skippyr/flamerial.nvim">exclusive repository</a>.</p>
 		<h3>Wallpapers</h3>
