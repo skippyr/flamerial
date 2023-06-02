@@ -114,6 +114,15 @@ mv ./kitty/flamerial.conf ~/.config/kitty/themes
 				<li>Execute the script <code>linux_virtual_console/flamerial.sh</code>.</li>
 					<pre><code>./linux_virtual_console/flamerial.sh</code></pre>
 			</ul>
+		<h3>St</h3>
+			<ul>
+				<li>Substitute the variable definitions related to the terminal colors in the file <code>config.def.h</code> by the ones in the file <code>st/flamerial.c</code>.</li>
+				<li>Remove the <code>config.h</code> file if it exists.</li>
+					<pre><code>rm -f config.h</code></pre>
+				<li>Compile the source code and install st.</li>
+					<pre><code>sudo make clean install</code></pre>
+				<li>Reopen st if it is already running.</li>
+			</ul>
 		<h3>Vim/Neovim</h3>
 			<p>Find more information about how to install for these applications in its <a href="https://github.com/skippyr/flamerial.nvim">exclusive repository</a>.</p>
 		<h3>Wallpapers</h3>
