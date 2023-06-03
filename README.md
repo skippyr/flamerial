@@ -17,63 +17,57 @@
 			<tbody>
 				<tr>
 					<td>Black</td>
-					<td>0</td>
-					<td>#0d0600</td>
-					<td><img src="./images/colors/0.png"/></td>
-				</tr>
-				<tr>
-					<td>Black variant 0</td>
-					<td>None</td>
-					<td>#260b0b</td>
-					<td><img src="./images/colors/0v0.png"/></td>
+					<td><code>0</code></td>
+					<td><code>#170e05</code></td>
+					<td><img src="./images/colors/black.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Red</td>
-					<td>1</td>
-					<td>#a62126</td>
-					<td><img src="./images/colors/1.png"/></td>
+					<td><code>1</code></td>
+					<td><code>#b3001b</code></td>
+					<td><img src="./images/colors/red.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Green</td>
-					<td>2</td>
-					<td>#755717</td>
-					<td><img src="./images/colors/2.png"/></td>
+					<td><code>2</code></td>
+					<td><code>#9c661f</code></td>
+					<td><img src="./images/colors/green.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Yellow</td>
-					<td>3</td>
-					<td>#a86419</td>
-					<td><img src="./images/colors/3.png"/></td>
+					<td><code>3</code></td>
+					<td><code>#bf5b04</code></td>
+					<td><img src="./images/colors/yellow.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Blue</td>
-					<td>4</td>
-					<td>#8c6f46</td>
-					<td><img src="./images/colors/4.png"/></td>
+					<td><code>4</code></td>
+					<td><code>#335c58</code></td>
+					<td><img src="./images/colors/blue.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Magenta</td>
-					<td>5</td>
-					<td>#754636</td>
-					<td><img src="./images/colors/5.png"/></td>
+					<td><code>5</code></td>
+					<td><code>#744d34</code></td>
+					<td><img src="./images/colors/magenta.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Cyan</td>
-					<td>6</td>
-					<td>#852d10</td>
-					<td><img src="./images/colors/6.png"/></td>
+					<td><code>6</code></td>
+					<td><code>#9c3513</code></td>
+					<td><img src="./images/colors/cyan.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>White</td>
-					<td>7</td>
-					<td>#f5cc7a</td>
-					<td><img src="./images/colors/7.png"/></td>
+					<td><code>7</code></td>
+					<td><code>#f5cc7a</code></td>
+					<td><img src="./images/colors/white.png" alt=""/></td>
 				</tr>
 				<tr>
-					<td>Light black</td>
-					<td>8</td>
-					<td>#916634</td>
-					<td><img src="./images/colors/8.png"/></td>
+					<td>Light Black</td>
+					<td><code>8</code></td>
+					<td><code>#916634</code></td>
+					<td><img src="./images/colors/light_black.png" alt=""/></td>
 				</tr>
 			</tbody>
 		</table>
