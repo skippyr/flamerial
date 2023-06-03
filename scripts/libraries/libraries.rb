@@ -1,3 +1,7 @@
+require("fileutils")
 require_relative("art/Color")
 require_relative("art/Palette")
 require_relative("project/Project")
+require_relative("images/ImagesCreator")
+require_relative("images/ImageMagick")
+require_relative("file_system/Directory")
