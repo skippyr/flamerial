@@ -14,6 +14,7 @@ class Project
 	def self.get_palette()
 		Palette.new([
 			Color.new("Black", "black", 0, "#170e05"),
+			Color.new("Black Variant 0", "black_variant_0", "None", "#331f0b"),
 			Color.new("Red", "red", 1, "#b3001b"),
 			Color.new("Green", "green", 2, "#9c661f"),
 			Color.new("Yellow", "yellow", 3, "#bf5b04"),

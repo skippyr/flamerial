@@ -22,6 +22,12 @@
 					<td><img src="./images/colors/black.png" alt=""/></td>
 				</tr>
 				<tr>
+					<td>Black Variant 0</td>
+					<td><code>None</code></td>
+					<td><code>#331f0b</code></td>
+					<td><img src="./images/colors/black_variant_0.png" alt=""/></td>
+				</tr>
+				<tr>
 					<td>Red</td>
 					<td><code>1</code></td>
 					<td><code>#b3001b</code></td>
