@@ -14,7 +14,7 @@ colors:
     green: "#9c661f"
     yellow: "#bf5b04"
     blue: "#335c58"
-    magenta: "#744d34"
+    magenta: "#8a5b3e"
     cyan: "#9c3513"
     white: "#f5cc7a"
   bright:
@@ -23,7 +23,7 @@ colors:
     green: "#9c661f"
     yellow: "#bf5b04"
     blue: "#335c58"
-    magenta: "#744d34"
+    magenta: "#8a5b3e"
     cyan: "#9c3513"
     white: "#f5cc7a"
 

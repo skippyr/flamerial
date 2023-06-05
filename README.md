@@ -54,7 +54,7 @@
 				<tr>
 					<td>Magenta</td>
 					<td><code>5</code></td>
-					<td><code>#744d34</code></td>
+					<td><code>#8a5b3e</code></td>
 					<td><img src="./images/colors/magenta.png" alt=""/></td>
 				</tr>
 				<tr>
