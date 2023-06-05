@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ${TERM} == "linux" ]]; then
-	echo -en "\\e]P0170e05"
+	echo -en "\\e]P01f1307"
 	echo -en "\\e]P1b3001b"
 	echo -en "\\e]P29c661f"
 	echo -en "\\e]P3bf5b04"

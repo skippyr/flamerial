@@ -1,8 +1,9 @@
 <h1>Flamerial</h1>
 	<h2>Starting Point</h2>
-		<p>A tribal inspired dark theme.</p>
+		<p>Flamerial is a tribal inspired dark theme for you to pimp your terminal and code editor. Some ports are already available.</p>
+		<p>Here is a preview that you can check out.</p>
 		<img src="./images/preview_terminal.png"/>
-		<p>In the images, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (stylistic set <code>ss08</code>).</p>
+		<p>In the preview, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (stylistic set <code>ss08</code>).</p>
 	<h2>Palette</h2>
 		<p>Here is a table with all the colors used in the Flamerial palette.</p>
 		<table>
@@ -18,7 +19,7 @@
 				<tr>
 					<td>Black</td>
 					<td><code>0</code></td>
-					<td><code>#170e05</code></td>
+					<td><code>#1f1307</code></td>
 					<td><img src="./images/colors/black.png" alt=""/></td>
 				</tr>
 				<tr>

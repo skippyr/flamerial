@@ -1,6 +1,6 @@
 colors:
   primary:
-    background: "#170e05"
+    background: "#1f1307"
     foreground: "#f5cc7a"
   cursor:
     text: CellBackground
@@ -9,7 +9,7 @@ colors:
     text: CellBackground
     cursor: CellForeground
   normal:
-    black: "#170e05"
+    black: "#1f1307"
     red: "#b3001b"
     green: "#9c661f"
     yellow: "#bf5b04"
