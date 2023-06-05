@@ -25,7 +25,7 @@
 				<tr>
 					<td>Black Variant 0</td>
 					<td><code>None</code></td>
-					<td><code>#331f0b</code></td>
+					<td><code>#40270f</code></td>
 					<td><img src="./images/colors/black_variant_0.png" alt=""/></td>
 				</tr>
 				<tr>
