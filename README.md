@@ -48,7 +48,7 @@
 				<tr>
 					<td>Blue</td>
 					<td><code>4</code></td>
-					<td><code>#335c58</code></td>
+					<td><code>#857256</code></td>
 					<td><img src="./images/colors/blue.png" alt=""/></td>
 				</tr>
 				<tr>
