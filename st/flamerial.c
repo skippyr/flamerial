@@ -1,23 +1,44 @@
 static const char *colorname[] = {
-	[0] = "#1f1307",
-	[1] = "#b3001b",
-	[2] = "#9c661f",
-	[3] = "#bf5b04",
-	[4] = "#857256",
-	[5] = "#8a5b3e",
-	[6] = "#9c3513",
-	[7] = "#f5cc7a",
-	[8] = "#916634",
-	[9] = "#b3001b",
-	[10] = "#9c661f",
-	[11] = "#bf5b04",
-	[12] = "#857256",
-	[13] = "#8a5b3e",
-	[14] = "#9c3513",
-	[15] = "#f5cc7a",
+	// Black
+	[0] = "#332720",
+	[8] = "#aaab90",
+
+	// Red
+	[1] = "#cc2623",
+	[9] = "#cc2623",
+
+	// Green
+	[2] = "#c99510",
+	[10] = "#c99510",
+
+	// Yellow
+	[3] = "#de7c04",
+	[11] = "#de7c04",
+
+	// Blue
+	[4] = "#aaab90",
+	[12] = "#aaab90",
+
+	// Magenta
+	[5] = "#b35f6c",
+	[13] = "#b35f6c",
+
+	// Cyan
+	[6] = "#d1441d",
+	[14] = "#d1441d",
+
+	// White
+	[7] = "#ebcba9",
+	[15] = "#ebcba9",
 };
+
+// Foreground
 unsigned int defaultfg = 15;
+// Background
 unsigned int defaultbg = 0;
+
+// Cursor Background
 unsigned int defaultcs = 15;
-static unsigned int defaultrcs = 0;
+// Cursor Background When Selected
+static unsigned int defaultrcs = 0; 
 
