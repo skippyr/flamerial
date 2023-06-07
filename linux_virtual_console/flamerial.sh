@@ -1,21 +1,42 @@
 #!/usr/bin/env bash
 
+function apply_color {
+	typeset -r ansi_as_hex="${1}"
+	typeset -r color_hex="${2}"
+	echo -en "\\e]P${ansi_as_hex}${color_hex}"
+}
+
 if [[ ${TERM} == "linux" ]]; then
-	echo -en "\\e]P01f1307"
-	echo -en "\\e]P1b3001b"
-	echo -en "\\e]P29c661f"
-	echo -en "\\e]P3bf5b04"
-	echo -en "\\e]P4857256"
-	echo -en "\\e]P58a5b3e"
-	echo -en "\\e]P69c3513"
-	echo -en "\\e]P7f5cc7a"
-	echo -en "\\e]P8916634"
-	echo -en "\\e]P9b3001b"
-	echo -en "\\e]Pa9c661f"
-	echo -en "\\e]Pbbf5b04"
-	echo -en "\\e]Pc857256"
-	echo -en "\\e]Pd8a5b3e"
-	echo -en "\\e]Pe9c3513"
-	echo -en "\\e]Pff5cc7a"
+	# Black
+	apply_color "0" "332720"
+	apply_color "8" "aaab90"
+
+	# Red
+	apply_color "1" "cc2623"
+	apply_color "9" "cc2623"
+
+	# Green
+	apply_color "2" "c99510"
+	apply_color "a" "c99510"
+
+	# Yellow
+	apply_color "3" "de7c04"
+	apply_color "b" "de7c04"
+	
+	# Blue
+	apply_color "4" "aaab90"
+	apply_color "c" "aaab90"
+
+	# Magenta
+	apply_color "5" "b35f6c"
+	apply_color "d" "b35f6c"
+
+	# Cyan
+	apply_color "6" "d1441d"
+	apply_color "e" "d1441d"
+
+	# White
+	apply_color "7" "ebcba9"
+	apply_color "f" "ebcba9"
 fi
 
