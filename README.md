@@ -1,6 +1,6 @@
 <h1>Flamerial</h1>
 	<h2>Starting Point</h2>
-		<p>Flamerial is a tribal inspired dark theme for you to pimp your terminal and code editor. Some ports are already available.</p>
+		<p>Flamerial is a dark theme with a soft palette. Some ports for terminals and for Vim/Neovim are already available.</p>
 		<p>Here is a preview that you can check out.</p>
 		<img src="./images/preview_terminal.png"/>
 		<p>In the preview, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (stylistic set <code>ss08</code>).</p>
@@ -19,65 +19,59 @@
 				<tr>
 					<td>Black</td>
 					<td><code>0</code></td>
-					<td><code>#1f1307</code></td>
+					<td><code>#332720</code></td>
 					<td><img src="./images/colors/black.png" alt=""/></td>
-				</tr>
-				<tr>
-					<td>Black Variant 0</td>
-					<td><code>None</code></td>
-					<td><code>#40270f</code></td>
-					<td><img src="./images/colors/black_variant_0.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Red</td>
 					<td><code>1</code></td>
-					<td><code>#b3001b</code></td>
+					<td><code>#cc2623</code></td>
 					<td><img src="./images/colors/red.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Green</td>
 					<td><code>2</code></td>
-					<td><code>#9c661f</code></td>
+					<td><code>#c99510</code></td>
 					<td><img src="./images/colors/green.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Yellow</td>
 					<td><code>3</code></td>
-					<td><code>#bf5b04</code></td>
+					<td><code>#de7c04</code></td>
 					<td><img src="./images/colors/yellow.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Blue</td>
 					<td><code>4</code></td>
-					<td><code>#857256</code></td>
+					<td><code>#aaab90</code></td>
 					<td><img src="./images/colors/blue.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Magenta</td>
 					<td><code>5</code></td>
-					<td><code>#8a5b3e</code></td>
+					<td><code>#b35f6c</code></td>
 					<td><img src="./images/colors/magenta.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Cyan</td>
 					<td><code>6</code></td>
-					<td><code>#9c3513</code></td>
+					<td><code>#d1441d</code></td>
 					<td><img src="./images/colors/cyan.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>White</td>
 					<td><code>7</code></td>
-					<td><code>#f5cc7a</code></td>
+					<td><code>#ebcba9</code></td>
 					<td><img src="./images/colors/white.png" alt=""/></td>
-				</tr>
-				<tr>
-					<td>Light Black</td>
-					<td><code>8</code></td>
-					<td><code>#916634</code></td>
-					<td><img src="./images/colors/light_black.png" alt=""/></td>
 				</tr>
 			</tbody>
 		</table>
+		<p>This palette was inspired by these other awesome themes:</p>
+		<ul>
+			<li><a href="https://github.com/morhetz/gruvbox">Gruvbox</a>.</li>
+			<li><a href="https://github.com/dracula/dracula-theme">Dracula</a>.</li>
+			<li>Birds Of Paradise.</li>
+		</ul>
 	<h2>Installation And Usage</h2>
 		<p>For any installation, you must first download this repository.</p>
 		<p>If you have <code>git</code> installed, you can use the following command:</p>
