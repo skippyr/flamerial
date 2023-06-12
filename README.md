@@ -5,7 +5,7 @@
 		<img src="./images/preview_terminal.png"/>
 		<p>In the preview, Flamerial was used on the <a href="https://github.com/kovidgoyal/kitty">Kitty</a> terminal emulator with the <a href="https://github.com/skippyr/river_dreams">River Dreams</a> ZSH theme and <a href="https://github.com/be5invis/Iosevka">Iosevka</a> font (stylistic set <code>ss08</code>).</p>
 	<h2>Palette</h2>
-		<p>Here is a table with all the colors used in the Flamerial palette.</p>
+		<p>Here is a table with all the colors used in the Flamerial palette. All colors used stick within the 3bits palette to allow compatibily with old terminal emulators.</p>
 		<table>
 			<thead>
 				<tr>
