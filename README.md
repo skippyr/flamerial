@@ -77,6 +77,18 @@
 		<p>If you have <code>git</code> installed, you can use the following command:</p>
 		<pre><code>git clone --depth=1 https://github.com/skippyr/flamerial</code></pre>
 		<p>If you do not have <code>git</code> installed, you can download it from its page on GitHub: access that page, then click on the button labeled <code>Code</code> on the top of the page, then click on the button labeled <code>Download ZIP</code> that will appear in the floating menu. This will download a compressed file with the repository, you just have to unzip it in a formidable directory.</p>
+		<h3>Vim/Neovim</h3>
+			<p>Find more information about how to install for these applications in its <a href="https://github.com/skippyr/flamerial.nvim">exclusive repository</a>.</p>
+		<h3>Bspwm</h3>
+			<ul>
+				<li>Copy the file <code>bspwm/flamerial.sh</code> to <code>~/.config/bspwm</code>.</li>
+					<pre><code>
+mkdir -p ~/.config/bspwm
+cp bspwm/flamerial.sh ~/.config/bspwm
+					</code></pre>
+				<li>Add a source rule in the file <code>~/.config/bspwm/bspwmrc</code> to include the theme file copied.</li>
+					<pre><code>source ~/.config/bspwm/flamerial.sh</code></pre>
+			</ul>
 		<h3>Kitty</h3>
 			<ul>
 				<li>Access the repository's directory.</li>
@@ -132,8 +144,6 @@ import:
 					</code></pre>
 				<p>Note that the <code>alacritty.yml</code> must use 2 spaces as indentation for it to work.</p>
 			</ul>
-		<h3>Vim/Neovim</h3>
-			<p>Find more information about how to install for these applications in its <a href="https://github.com/skippyr/flamerial.nvim">exclusive repository</a>.</p>
 		<h3>Wallpapers</h3>
 			<p>I have separated some URLS from where you can get free to use wallpapers that match really well with Flamerial at <code>wallpapers/wallpapers.md</code>. All credits will go to their respective authors, which you can then support by downloading the wallpapers directly from their sources.</p>
 	<h2>Issues And Contributions</h2>
