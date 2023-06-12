@@ -10,6 +10,7 @@
 			<thead>
 				<tr>
 					<td>Name</td>
+					<td>Syntax Highlights</td>
 					<td>Ansi</td>
 					<td>Hex</td>
 					<td>Preview</td>
@@ -18,48 +19,56 @@
 			<tbody>
 				<tr>
 					<td>Black</td>
+					<td>Background</td>
 					<td><code>0</code></td>
 					<td><code>#332720</code></td>
 					<td><img src="./images/colors/black.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Red</td>
+					<td>Values</td>
 					<td><code>1</code></td>
 					<td><code>#cc2623</code></td>
 					<td><img src="./images/colors/red.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Green</td>
+					<td>Types And Objects</td>
 					<td><code>2</code></td>
 					<td><code>#c99510</code></td>
 					<td><img src="./images/colors/green.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Yellow</td>
+					<td>Variables</td>
 					<td><code>3</code></td>
 					<td><code>#de7c04</code></td>
 					<td><img src="./images/colors/yellow.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Blue</td>
+					<td>Comments</td>
 					<td><code>4</code></td>
 					<td><code>#aaab90</code></td>
 					<td><img src="./images/colors/blue.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Magenta</td>
+					<td>Functions</td>
 					<td><code>5</code></td>
 					<td><code>#b35f6c</code></td>
 					<td><img src="./images/colors/magenta.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>Cyan</td>
+					<td>Keywords</td>
 					<td><code>6</code></td>
 					<td><code>#d1441d</code></td>
 					<td><img src="./images/colors/cyan.png" alt=""/></td>
 				</tr>
 				<tr>
 					<td>White</td>
+					<td>Foreground</td>
 					<td><code>7</code></td>
 					<td><code>#ebcba9</code></td>
 					<td><img src="./images/colors/white.png" alt=""/></td>
