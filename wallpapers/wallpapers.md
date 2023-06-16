@@ -19,5 +19,17 @@
 			<td><a href="https://unsplash.com/photos/zzqw25Oa51A">A window with a sign on it</a></td>
 			<td>Robert Katzki</td>
 		</tr>
+		<tr>
+			<td><a href="https://unsplash.com/photos/-jEEnRx38wo">Gray rock mountain illustration</a></td>
+			<td>Felix Bacher</td>
+		</tr>
+		<tr>
+			<td><a href="https://unsplash.com/photos/XnkK88K2bao">Waterfalls during daytime</a></td>
+			<td>Ingi Haraldss</td>
+		</tr>
+		<tr>
+			<td><a href="https://unsplash.com/photos/HsEz1XZ1TO8">Brown wooden dock near mountain during daytime</a></td>
+			<td>Mar Bustos</td>
+		</tr>
 	</tbody>
 </table>
