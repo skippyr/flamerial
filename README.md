@@ -5,6 +5,11 @@
 The Flamerial project is a dark theme with an aged palette. It was inspired
 by the [Gruvbox](https://github.com/morhetz/gruvbox) theme.
 
+You can setup Flamerial with many wallpapers and themes. Use the following
+preview as a source of inspiration of what you can do.
+
+![](images/preview.png)
+
 ## Palette
 
 | Name        | ANSI | Hex     | Preview                  |
