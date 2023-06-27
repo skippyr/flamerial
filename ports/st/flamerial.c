@@ -1,0 +1,22 @@
+static const char *colorname[16] = {
+	[0] = "#241a12",
+	[1] = "#a62929",
+	[2] = "#9a6b1b",
+	[3] = "#d97904",
+	[4] = "#a59a78",
+	[5] = "#b3374a",
+	[6] = "#c2421f",
+	[7] = "#e6d0bb",
+	[8] = "#c78e59",
+	[9] = "#a62929",
+	[10] = "#9a6b1b",
+	[11] = "#d97904",
+	[12] = "#a59a78",
+	[13] = "#b3374a",
+	[14] = "#c2421f",
+	[15] = "#e6d0bb"
+};
+unsigned int defaultfg = 15;
+unsigned int defaultbg = 0;
+unsigned int defaultcs = 15;
+static unsigned int defaultrcs = 0; 
