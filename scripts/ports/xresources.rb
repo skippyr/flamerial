@@ -1,4 +1,4 @@
-require_relative("../libs/metadata")
+require_relative('../libs/metadata')
 
 puts(".*background: #{$flamerial[:colors][:black]}")
 puts(".*foreground: #{$flamerial[:colors][:white]}")
