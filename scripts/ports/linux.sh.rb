@@ -4,8 +4,8 @@ def puts_echo_sequence(hex_ansi, color)
   puts("echo -en \"\\\\e]P#{hex_ansi}#{color[1..]}\"")
 end
 
-puts('#!/usr/bin/env bash')
-puts('[[ ${TERM} != "linux" ]] && exit')
+puts("#!/usr/bin/env bash\n\n")
+puts("[[ ${TERM} != \"linux\" ]] && exit\n\n")
 puts_echo_sequence('0', $flamerial[:colors][:black])
 puts_echo_sequence('1', $flamerial[:colors][:red])
 puts_echo_sequence('2', $flamerial[:colors][:green])

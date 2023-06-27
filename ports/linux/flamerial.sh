@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+
 [[ ${TERM} != "linux" ]] && exit
+
 echo -en "\\e]P0241a12"
 echo -en "\\e]P1a62929"
 echo -en "\\e]P29a6b1b"
