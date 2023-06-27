@@ -1,3 +1,6 @@
 $repo_directory = File.dirname(File.dirname(File.dirname(__FILE__)))
 $images_directory = File.join($repo_directory, 'images')
 $colors_directory = File.join($images_directory, 'colors')
+$ports_directory = File.join($repo_directory, 'ports')
+$scripts_directory = File.join($repo_directory, 'scripts')
+$scripts_ports_directory = File.join($scripts_directory, 'ports')

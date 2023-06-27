@@ -5,7 +5,7 @@ def puts_echo_sequence(hex_ansi, color)
 end
 
 puts('#!/usr/bin/env bash')
-puts('[[ ${TERM} != \"linux\" ]] && exit')
+puts('[[ ${TERM} != "linux" ]] && exit')
 puts_echo_sequence('0', $flamerial[:colors][:black])
 puts_echo_sequence('1', $flamerial[:colors][:red])
 puts_echo_sequence('2', $flamerial[:colors][:green])
