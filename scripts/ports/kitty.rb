@@ -5,6 +5,16 @@ puts("## name: Flamerial
 ## license: #{$flamerial[:license]}
 ## upstream: #{$flamerial[:upstream]}
 
+cursor #{$flamerial[:colors][:white]}
+cursor_text_color #{$flamerial[:colors][:black]}
+selection_background #{$flamerial[:colors][:white]}
+selection_foreground #{$flamerial[:colors][:black]}
+active_tab_background #{$flamerial[:colors][:white]}
+active_tab_foreground #{$flamerial[:colors][:black]}
+inactive_tab_background #{$flamerial[:colors][:black]}
+inactive_tab_foreground #{$flamerial[:colors][:white]}
+active_border_color #{$flamerial[:colors][:red]}
+inactive_border_color #{$flamerial[:colors][:black]}
 background #{$flamerial[:colors][:black]}
 foreground #{$flamerial[:colors][:white]}
 color0 #{$flamerial[:colors][:black]}
