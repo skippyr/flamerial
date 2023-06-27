@@ -22,13 +22,13 @@ by the [Gruvbox](https://github.com/morhetz/gruvbox) theme.
 ## Installation
 
 In this repository, you will find all the ports of the Flamerial theme that
-do not have any special specification, such as: for terminal emulators.
+do not have any special specification, such as: the ones for terminal emulators.
 
 All the ports can be find under the `ports` directory and manuals explaining how
 to install each port can be find under the `manuals` directory.
 
-There are some wallpapers, described in the `wallpapers/wallpaper.md`, that you
-can download to match with the theme.
+There are some wallpapers, described in the `wallpapers/wallpaper.md` file, that
+you can download to match with the theme.
 
 For more ports, there are other repositories that contains related content:
 
