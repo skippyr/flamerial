@@ -10,6 +10,10 @@ preview as a source of inspiration of what you can do.
 
 ![](images/preview.png)
 
+> In the preview, Flamerial was used within the [Kitty](https://github.com/kovidgoyal/kitty)
+> terminal emulator with the ZSH theme [Chinatown](https://github.com/skippyr/chinatown).
+> Font used is Inconsolata Nerd Font. Interface is [bspwm](https://github.com/baskerville/bspwm).
+
 ## Palette
 
 | Name        | ANSI | Hex     | Preview                  |
