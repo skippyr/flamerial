@@ -14,7 +14,7 @@ $flamerial = Palette.new(
     yellow:          Color.new('Functions' , 3     , '#d97904'),
     blue:            Color.new('None'      , 4     , '#a59a78'),
     magenta:         Color.new('Macros'    , 5     , '#b3374a'),
-    cyan:            Color.new('None'      , 6     , '#c2421f'),
+    cyan:            Color.new('Statements', 6     , '#c2421f'),
     white:           Color.new('Foreground', 7     , '#e6d0bb'),
     light_black:     Color.new('Comments'  , 8     , '#c78e59')
   }

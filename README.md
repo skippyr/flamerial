@@ -27,7 +27,7 @@ preview as a source of inspiration of what you can do.
 | yellow          | Functions        | 3    | #d97904 | ![](images/colors/yellow.png)          |
 | blue            | None             | 4    | #a59a78 | ![](images/colors/blue.png)            |
 | magenta         | Macros           | 5    | #b3374a | ![](images/colors/magenta.png)         |
-| cyan            | None             | 6    | #c2421f | ![](images/colors/cyan.png)            |
+| cyan            | Statements       | 6    | #c2421f | ![](images/colors/cyan.png)            |
 | white           | Foreground       | 7    | #e6d0bb | ![](images/colors/white.png)           |
 | light_black     | Comments         | 8    | #c78e59 | ![](images/colors/light_black.png)     |
 
