@@ -1,81 +1,36 @@
-require_relative('../libs/metadata')
+require_relative('../libs/meta')
 
-puts(
-    "## name: Flamerial
-## author: #{$flamerial[
-        :author
-    ]}
-## license: #{$flamerial[:license]}
-## upstream: #{$flamerial[
-        :upstream
-    ]}
-
-cursor #{$flamerial[:colors][:white]}
-cursor_text_color #{$flamerial[
-        :colors
-    ][
-        :black
-    ]}
-selection_background #{$flamerial[:colors][
-        :white
-    ]}
-selection_foreground #{$flamerial[:colors][
-        :black
-    ]}
-active_tab_background #{$flamerial[:colors][
-        :white
-    ]}
-active_tab_foreground #{$flamerial[:colors][
-        :black
-    ]}
-inactive_tab_background #{$flamerial[:colors][
-        :black
-    ]}
-inactive_tab_foreground #{$flamerial[:colors][
-        :white
-    ]}
-active_border_color #{$flamerial[:colors][
-        :red
-    ]}
-inactive_border_color #{$flamerial[:colors][
-        :black
-    ]}
-url_color #{$flamerial[:colors][:red]}
-background #{$flamerial[:colors][
-        :black
-    ]}
-foreground #{$flamerial[:colors][:white]}
-color0 #{$flamerial[:colors][
-        :black
-    ]}
-color1 #{$flamerial[:colors][:red]}
-color2 #{$flamerial[:colors][
-        :green
-    ]}
-color3 #{$flamerial[:colors][:yellow]}
-color4 #{$flamerial[:colors][
-        :blue
-    ]}
-color5 #{$flamerial[:colors][:magenta]}
-color6 #{$flamerial[:colors][
-        :cyan
-    ]}
-color7 #{$flamerial[:colors][:white]}
-color8 #{$flamerial[:colors][
-        :light_black
-    ]}
-color9 #{$flamerial[:colors][:red]}
-color10 #{$flamerial[:colors][
-        :green
-    ]}
-color11 #{$flamerial[:colors][:yellow]}
-color12 #{$flamerial[:colors][
-        :blue
-    ]}
-color13 #{$flamerial[:colors][:magenta]}
-color14 #{$flamerial[:colors][
-        :cyan
-    ]}
-color15 #{$flamerial[:colors][:white]}
-"
-)
+puts("## name: Flamerial
+## author: #{$flamerial.get_author()}
+## license: #{$flamerial.get_license()}
+## upstream: #{$flamerial.get_upstream()}
+cursor #{$flamerial.get_color_hex(:white)}
+cursor_text_color #{$flamerial.get_color_hex(:black)}
+selection_background #{$flamerial.get_color_hex(:white)}
+selection_foreground #{$flamerial.get_color_hex(:black)}
+active_tab_background #{$flamerial.get_color_hex(:white)}
+active_tab_foreground #{$flamerial.get_color_hex(:black)}
+inactive_tab_background #{$flamerial.get_color_hex(:black)}
+inactive_tab_foreground #{$flamerial.get_color_hex(:white)}
+active_border_color #{$flamerial.get_color_hex(:red)}
+inactive_border_color #{$flamerial.get_color_hex(:black)}
+url_color #{$flamerial.get_color_hex(:red)}
+background #{$flamerial.get_color_hex(:black)}
+foreground #{$flamerial.get_color_hex(:white)}
+color0 #{$flamerial.get_color_hex(:black)}
+color1 #{$flamerial.get_color_hex(:red)}
+color2 #{$flamerial.get_color_hex(:green)}
+color3 #{$flamerial.get_color_hex(:yellow)}
+color4 #{$flamerial.get_color_hex(:blue)}
+color5 #{$flamerial.get_color_hex(:magenta)}
+color6 #{$flamerial.get_color_hex(:cyan)}
+color7 #{$flamerial.get_color_hex(:white)}
+color8 #{$flamerial.get_color_hex(:light_black)}
+color9 #{$flamerial.get_color_hex(:red)}
+color10 #{$flamerial.get_color_hex(:green)}
+color11 #{$flamerial.get_color_hex(:yellow)}
+color12 #{$flamerial.get_color_hex(:blue)}
+color13 #{$flamerial.get_color_hex(:magenta)}
+color14 #{$flamerial.get_color_hex(:cyan)}
+color15 #{$flamerial.get_color_hex(:white)}
+")
