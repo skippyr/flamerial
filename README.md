@@ -18,18 +18,18 @@ preview as a source of inspiration of what you can do.
 
 | Name            | Syntax Highlight | Ansi | Hex     | Preview                                |
 | --------------- | ---------------- | ---- | ------- | -------------------------------------- |
-| black           | Background       | 0    | #241a12 | ![](images/colors/black.png)           |
-| black_variant_0 | Background       | None | #33251a | ![](images/colors/black_variant_0.png) |
-| black_variant_1 | Background       | None | #543c2a | ![](images/colors/black_variant_1.png) |
-| black_variant_2 | Background       | None | #735239 | ![](images/colors/black_variant_2.png) |
-| red             | Values           | 1    | #a62929 | ![](images/colors/red.png)             |
-| green           | Variables        | 2    | #9a6b1b | ![](images/colors/green.png)           |
-| yellow          | Functions        | 3    | #d97904 | ![](images/colors/yellow.png)          |
-| blue            | None             | 4    | #a59a78 | ![](images/colors/blue.png)            |
-| magenta         | Macros           | 5    | #b3374a | ![](images/colors/magenta.png)         |
-| cyan            | Statements       | 6    | #c2421f | ![](images/colors/cyan.png)            |
-| white           | Foreground       | 7    | #e6d0bb | ![](images/colors/white.png)           |
-| light_black     | Comments         | 8    | #c78e59 | ![](images/colors/light_black.png)     |
+| black           | Background       | 0    | #0d0807 | ![](images/colors/black.png)           |
+| black_variant_0 | Background       | None | #0d0807 | ![](images/colors/black_variant_0.png) |
+| black_variant_1 | Background       | None | #0d0807 | ![](images/colors/black_variant_1.png) |
+| black_variant_2 | Background       | None | #0d0807 | ![](images/colors/black_variant_2.png) |
+| red             | Values           | 1    | #8a4033 | ![](images/colors/red.png)             |
+| green           | Variables        | 2    | #8f764f | ![](images/colors/green.png)           |
+| yellow          | Functions        | 3    | #85695d | ![](images/colors/yellow.png)          |
+| blue            | None             | 4    | #918686 | ![](images/colors/blue.png)            |
+| magenta         | Macros           | 5    | #85444c | ![](images/colors/magenta.png)         |
+| cyan            | Statements       | 6    | #8f5519 | ![](images/colors/cyan.png)            |
+| white           | Foreground       | 7    | #c2bcb2 | ![](images/colors/white.png)           |
+| light_black     | Comments         | 8    | #918686 | ![](images/colors/light_black.png)     |
 
 ## Installation
 
