@@ -6,5 +6,5 @@ end
 
 puts("#!/usr/bin/env bash\n\n")
 print_config('focused_border_color', $flamerial.get_color_hex(:red))
-print_config('normal_border_color', $flamerial.get_color_hex(:black))
+print_config('normal_border_color', $flamerial.get_color_hex(:black_variant_0))
 print_config('presel_feedback_color', $flamerial.get_color_hex(:magenta))

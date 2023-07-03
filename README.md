@@ -2,26 +2,20 @@
 
 ## Starting Point
 
-The Flamerial project is a dark theme with an aged palette. It was inspired
-by the [Gruvbox](https://github.com/morhetz/gruvbox) theme.
+The Flamerial project is a dark theme with an aged palette.
 
-You can setup Flamerial with many wallpapers and themes. Use the following
-preview as a source of inspiration of what you can do.
+Here is a preview that you can check out.
 
 ![](images/preview.png)
-
-> In the preview, Flamerial was used within the [Kitty](https://github.com/kovidgoyal/kitty)
-> terminal emulator with the ZSH theme [Chinatown](https://github.com/skippyr/chinatown).
-> Font used is Inconsolata Nerd Font. Interface is [bspwm](https://github.com/baskerville/bspwm).
 
 ## Palette
 
 | Name            | Syntax Highlight | Ansi | Hex     | Preview                                |
 | --------------- | ---------------- | ---- | ------- | -------------------------------------- |
 | black           | Background       | 0    | #0d0807 | ![](images/colors/black.png)           |
-| black_variant_0 | Background       | None | #0d0807 | ![](images/colors/black_variant_0.png) |
-| black_variant_1 | Background       | None | #0d0807 | ![](images/colors/black_variant_1.png) |
-| black_variant_2 | Background       | None | #0d0807 | ![](images/colors/black_variant_2.png) |
+| black_variant_0 | Background       | None | #261815 | ![](images/colors/black_variant_0.png) |
+| black_variant_1 | Background       | None | #402722 | ![](images/colors/black_variant_1.png) |
+| black_variant_2 | Background       | None | #593730 | ![](images/colors/black_variant_2.png) |
 | red             | Values           | 1    | #8a4033 | ![](images/colors/red.png)             |
 | green           | Variables        | 2    | #8f764f | ![](images/colors/green.png)           |
 | yellow          | Functions        | 3    | #85695d | ![](images/colors/yellow.png)          |
@@ -38,9 +32,6 @@ do not have any special specification, such as: the ones for terminal emulators.
 
 All the ports can be find under the `ports` directory and manuals explaining how
 to install each port can be find under the `manuals` directory.
-
-There are some wallpapers, described in the `wallpapers/wallpaper.md` file, that
-you can download to match with the theme.
 
 For more ports, there are other repositories that contains related content:
 
