@@ -5,18 +5,18 @@ $flamerial = Palette.new(
   'MIT',
   'https://github.com/skippyr/flamerial',
   {
-    black:           Color.new('Background', 0     , '#0d0807'),
-    black_variant_0: Color.new('Background', 'None', '#261815'),
-    black_variant_1: Color.new('Background', 'None', '#402722'),
-    black_variant_2: Color.new('Background', 'None', '#593730'),
-    red:             Color.new('Values'    , 1     , '#8a4033'),
-    green:           Color.new('Variables' , 2     , '#8f764f'),
-    yellow:          Color.new('Functions' , 3     , '#85695d'),
-    blue:            Color.new('None'      , 4     , '#918686'),
-    magenta:         Color.new('Macros'    , 5     , '#85444c'),
-    cyan:            Color.new('Statements', 6     , '#8f5519'),
-    white:           Color.new('Foreground', 7     , '#c2bcb2'),
-    light_black:     Color.new('Comments'  , 8     , '#918686')
+    black:           Color.new('Background', 0     , '#140f0f'),
+    black_variant_0: Color.new('Background', 'None', '#140f0f'),
+    black_variant_1: Color.new('Background', 'None', '#140f0f'),
+    black_variant_2: Color.new('Background', 'None', '#140f0f'),
+    red:             Color.new('Values'    , 1     , '#b32815'),
+    green:           Color.new('Variables' , 2     , '#960c0c'),
+    yellow:          Color.new('Functions' , 3     , '#c76e02'),
+    blue:            Color.new('None'      , 4     , '#a88e6e'),
+    magenta:         Color.new('Macros'    , 5     , '#899980'),
+    cyan:            Color.new('Statements', 6     , '#ba3e00'),
+    white:           Color.new('Foreground', 7     , '#e8dcbc'),
+    light_black:     Color.new('Comments'  , 8     , '#a88e6e')
   }
 )
 
