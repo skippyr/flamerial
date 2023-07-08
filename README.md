@@ -2,7 +2,8 @@
 
 ## Starting Point
 
-The Flamerial project is a dark theme with an aged palette.
+The Flamerial project is a theme with a palette forged with power and flames,
+that you can use whenever you want to feel imperious.
 
 Here is a preview that you can check out.
 

@@ -4,9 +4,9 @@ end
 
 wallpapers = [
   create_row(
-    "Zhu Peng",
-    "Closeup Photo of Brown and Black Wooden Houses",
-    "https://www.pexels.com/photo/closeup-photo-of-brown-and-black-wooden-houses-digital-wallpaper-734102/"
+    "Samuel Regan-Asante",
+    "A wall with posters on it",
+    "https://unsplash.com/photos/2UFsGAR_qNY"
   )
 ]
 
