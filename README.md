@@ -14,15 +14,15 @@ Here is a preview that you can check out.
 | Name            | Syntax Highlight | Ansi | Hex     | Preview                                |
 | --------------- | ---------------- | ---- | ------- | -------------------------------------- |
 | black           | Background       | 0    | #140f0f | ![](images/colors/black.png)           |
-| black_variant_0 | Background       | None | #261d1d | ![](images/colors/black_variant_0.png) |
-| black_variant_1 | Background       | None | #382a2a | ![](images/colors/black_variant_1.png) |
-| black_variant_2 | Background       | None | #4a3737 | ![](images/colors/black_variant_2.png) |
+| black_variant_0 | Background       | NONE | #261d1d | ![](images/colors/black_variant_0.png) |
+| black_variant_1 | Background       | NONE | #382a2a | ![](images/colors/black_variant_1.png) |
+| black_variant_2 | Background       | NONE | #4a3737 | ![](images/colors/black_variant_2.png) |
 | red             | Values           | 1    | #b32815 | ![](images/colors/red.png)             |
-| green           | Variables        | 2    | #960c0c | ![](images/colors/green.png)           |
-| yellow          | Functions        | 3    | #c76e02 | ![](images/colors/yellow.png)          |
-| blue            | None             | 4    | #a88e6e | ![](images/colors/blue.png)            |
-| magenta         | Macros           | 5    | #899980 | ![](images/colors/magenta.png)         |
-| cyan            | Statements       | 6    | #ba3e00 | ![](images/colors/cyan.png)            |
+| green           | Statements       | 2    | #960c0c | ![](images/colors/green.png)           |
+| yellow          | Variables        | 3    | #c76e02 | ![](images/colors/yellow.png)          |
+| blue            | Functions        | 4    | #a88e6e | ![](images/colors/blue.png)            |
+| magenta         | NONE             | 5    | #899980 | ![](images/colors/magenta.png)         |
+| cyan            | NONE             | 6    | #ba3e00 | ![](images/colors/cyan.png)            |
 | white           | Foreground       | 7    | #e8dcbc | ![](images/colors/white.png)           |
 | light_black     | Comments         | 8    | #a88e6e | ![](images/colors/light_black.png)     |
 
