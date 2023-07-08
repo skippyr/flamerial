@@ -6,9 +6,9 @@ $flamerial = Palette.new(
   'https://github.com/skippyr/flamerial',
   {
     black:           Color.new('Background', 0     , '#140f0f'),
-    black_variant_0: Color.new('Background', 'None', '#140f0f'),
-    black_variant_1: Color.new('Background', 'None', '#140f0f'),
-    black_variant_2: Color.new('Background', 'None', '#140f0f'),
+    black_variant_0: Color.new('Background', 'None', '#261d1d'),
+    black_variant_1: Color.new('Background', 'None', '#382a2a'),
+    black_variant_2: Color.new('Background', 'None', '#4a3737'),
     red:             Color.new('Values'    , 1     , '#b32815'),
     green:           Color.new('Variables' , 2     , '#960c0c'),
     yellow:          Color.new('Functions' , 3     , '#c76e02'),
