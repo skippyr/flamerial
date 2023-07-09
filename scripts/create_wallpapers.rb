@@ -12,6 +12,11 @@ wallpapers = [
     "Richard Lee",
     "Orange car parked between painted walls",
     "https://unsplash.com/photos/zvECJa2vXx0"
+  ),
+  create_row(
+    "Chad Madden",
+    "Aerial photography of trees and road",
+    "https://unsplash.com/photos/cPa-7yByq3o"
   )
 ]
 
