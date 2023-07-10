@@ -17,6 +17,11 @@ wallpapers = [
     "Chad Madden",
     "Aerial photography of trees and road",
     "https://unsplash.com/photos/cPa-7yByq3o"
+  ),
+  create_row(
+    "Mick Haupt",
+    "Assorted figure and books on shelve",
+    "https://unsplash.com/photos/QCYegnX76jI"
   )
 ]
 
