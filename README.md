@@ -41,7 +41,7 @@ For more ports, there are other repositories that contains related content:
 
 ## Issues And Suggestions
 
-Report issues and suggestion through the [issues tab](https://github.com/skippyr/reveal/issues).
+Report issues and suggestions through the [issues tab](https://github.com/skippyr/flamerial/issues).
 
 ## License
 
