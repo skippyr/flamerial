@@ -14,3 +14,5 @@ cp flamerial.conf ~/.config/kitty/themes
 include themes/flamerial.conf
 ```
 
+-	Reopen Kitty to reload the theme.
+
