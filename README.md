@@ -22,9 +22,10 @@ Here is the description of its colors:
 
 ## Installation
 
-In this repository, you will all the ports of the theme for terminal emulators.
-All the available ports are divided into directories, pick the one of the
-application that you want to modify and read the `README.md` inside of it.
+In this repository, you will find all the ports of the theme for terminal
+emulators. All the available ports are divided into directories, pick the one
+of the application that you want to modify and read the `README.md` inside of
+it.
 
 There are other repositories related to this one:
 -	[`flamerial.nvim`](https://github.com/skippyr/flamerial.nvim): the port of
