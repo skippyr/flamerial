@@ -1,18 +1,17 @@
 ## Installation
 
--	Copy the file `flamerial.conf` to `~/.config/kitty/themes`.
+-   Copy the file `flamerial.conf` to `~/.config/kitty/themes`.
 
 ```bash
 mkdir -p ~/.config/kitty/themes
 cp flamerial.conf ~/.config/kitty/themes
 ```
 
--	Apply the theme by adding the following rule in the file
-	`~/.config/kitty/kitty.conf`:
+-   Add the following include rule in the `~/.config/kitty/kitty.conf`. Ensure
+    that you are not including any other theme to not cause conflicts.
 
 ```bash
 include themes/flamerial.conf
 ```
 
--	Reopen Kitty to reload the theme.
-
+-   Reopen Kitty to load the theme.
