@@ -1,13 +1,18 @@
 ## Installation
 
--	Replace the theme variables used in the file `config.def.h` of your dwm's
-	fork by the ones in the file `flamerial.c`.
-
--	Compile your source files.
+-   In your dwm's fork create a copy of the file `config.def.h` named as
+    `config.h`.
 
 ```bash
-rm -f config.h
+cp config.def.h config.h
+```
+
+-   Replace the theme variables that are in the file `config.h` by the ones
+    defined in the file `flamerial.c`.
+-   Recompile the source code.
+
+```bash
 sudo make clean install
 ```
 
--	Reopen dwm to load the theme.
+-   Reopen dwm to load the theme.

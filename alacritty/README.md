@@ -13,7 +13,7 @@ cp flamerial.yml ~/.config/alacritty/themes
 
 ```bash
 import:
-  -  ~/.config/alacritty/themes/flamerial.yml
+  - ~/.config/alacritty/themes/flamerial.yml
 ```
 
 > **Note**
