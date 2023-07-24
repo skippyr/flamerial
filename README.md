@@ -2,7 +2,7 @@
 
 ## About
 
-A 3-bits dark theme with a flameish palette, perfectly designed to empower
+An 8 colors dark theme with a flameish palette, perfectly designed to empower
 terminal emulators and its applications.
 
 ![](images/preview.png)
