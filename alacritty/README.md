@@ -1,20 +1,23 @@
 ## Installation
 
--	Copy the file `flamerial.yml` to `~/.config/alacritty/themes`.
+-   Copy the file `flamerial.yml` to `~/.config/alacritty/themes`.
 
 ```bash
 mkdir -p ~/.config/alacritty/themes
 cp flamerial.yml ~/.config/alacritty/themes
 ```
 
--	Apply the theme by adding the following import rule in the file
-	`~/.config/alacritty/alacritty.yml`.
+-   Add the following import rule in the `~/.config/alacritty/alacritty.yml`
+    file. Ensure that you are not importing any other theme to not cause
+    conflicts.
 
 ```bash
 import:
-  - ~/.config/alacritty/themes/flamerial.yml
+  -  ~/.config/alacritty/themes/flamerial.yml
 ```
 
 > **Note**
 >
-> This file must be indented using 2 spaces.
+> This file must be indented with 2 spaces.
+
+-   Reopen Alacritty to load the theme.
