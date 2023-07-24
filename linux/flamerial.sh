@@ -2,9 +2,8 @@
 
 [[ ${TERM} != "linux" ]] && exit
 
-Apply_Color()
-{
-	echo -en "\\e]P$1$2"
+Apply_Color() {
+    echo -en "\\e]P${1}${2}"
 }
 
 Apply_Color 0 140f0f
@@ -23,4 +22,3 @@ Apply_Color c a88e6e
 Apply_Color d 899980
 Apply_Color e ba3e00
 Apply_Color f e8dcbc
-

@@ -1,11 +1,13 @@
 ## Installation
 
--	Execute the script `flamerial.sh`.
+-   Apply the theme by running the script `flamerial.sh`.
 
 ```bash
 ./flamerial.sh
 ```
 
-To make your changes persistent through sessions, add the execution command
-in your shell's startup file. Remember to use the full path to the script.
-
+> **Note**
+>
+> These changes will only remaing for your current terminal session. Make them
+> persistent by running that script in your shell's startup. Remember to use the
+> full path to the script in that case.
