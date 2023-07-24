@@ -42,4 +42,4 @@ Report issues, questions or suggestion through the [issues tab](https://github.c
 This software is distributed under the MIT License. A copy of the license is
 bundled with the source code.
 
-Copyright (c) 2023, Sherman Rofeman. MIT license.
+Copyright (c) Sherman Rofeman. MIT license.
