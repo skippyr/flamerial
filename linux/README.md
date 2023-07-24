@@ -8,6 +8,6 @@
 
 > **Note**
 >
-> These changes will only remaing for your current terminal session. Make them
+> These changes will only remain for your current terminal session. Make them
 > persistent by running that script in your shell's startup. Remember to use the
 > full path to the script in that case.

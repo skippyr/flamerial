@@ -10,6 +10,6 @@ xrdb -merge flamerial.xrdb
 
 > **Note**
 >
-> These changes will only remaing for your current X11 session. Make them
+> These changes will only remain for your current X11 session. Make them
 > persistent by running that same command in X11's startup. Remember to use the
 > full path to the script in that case.

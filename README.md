@@ -1,13 +1,15 @@
 # Flamerial
 
-## Description
+## About
 
-An 8-colors theme with a flameish analogous palette, perfectly design to suit
-terminal emulators.
+A 3-bits dark theme with a flameish palette, perfectly designed to empower
+terminal emulators and its applications.
 
 ![](images/preview.png)
 
-Here is the description of its colors:
+### Palette
+
+Here is a table with all the colors used in the theme:
 
 | Name | Ansi | Hex | Highlights | Preview |
 |-|-|-|-|-|
@@ -27,13 +29,13 @@ emulators. All the available ports are divided into directories, pick the one
 of the application that you want to modify and read the `README.md` inside of
 it.
 
-There are other repositories related to this one:
--	[`flamerial.nvim`](https://github.com/skippyr/flamerial.nvim): the port of
-	the theme for Vim and Neovim.
+There are other repositories related to this theme:
+-   [`flamerial.nvim`](https://github.com/skippyr/flamerial.nvim): the port of
+    the theme for Vim and Neovim.
 
 ## Support
 
-Report issues, questions and suggestion through the [issues tab](https://github.com/skippyr/flamerial/issues).
+Report issues, questions or suggestion through the [issues tab](https://github.com/skippyr/flamerial/issues).
 
 ## Copyright
 
