@@ -1,11 +1,15 @@
 ## Installation
 
--	Use `xrdb` to merge the configuration that is inside the file
-	`flamerial.xrdb`.
+-   Apply the theme by running `xrdb` on the file `flamerial.xrdb`.
 
 ```bash
 xrdb -merge flamerial.xrdb
 ```
-To make your changes persistent through sessions, add the execution command
-in a script that is executed every time you enter the X11 graphical
-environment. Remember to use the full path to the script.
+
+-   If there are X11 applications open, reopen them to load the theme.
+
+> **Note**
+>
+> These changes will only remaing for your current X11 session. Make them
+> persistent by running that same command in X11's startup. Remember to use the
+> full path to the script in that case.

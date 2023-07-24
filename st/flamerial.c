@@ -5,4 +5,3 @@ static const char *colorname[16] = {
 };
 unsigned int defaultfg = 15, defaultbg = 0, defaultcs = 15;
 static unsigned int defaultrcs = 0;
-
