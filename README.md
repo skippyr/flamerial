@@ -25,13 +25,15 @@ Here is a table with all the colors used in the theme:
 ## Installation
 
 In this repository, you will find all the ports of the theme for terminal
-emulators. All the available ports are divided into directories, pick the one
-of the application that you want to modify and read the `README.md` inside of
-it.
+emulators. All the available ports are divided into directories inside of the
+directory `ports`, pick the one of the application that you want to modify and
+read the `README.md` inside of it.
 
 There are other repositories related to this theme:
 -   [`flamerial.nvim`](https://github.com/skippyr/flamerial.nvim): the port of
     the theme for Vim and Neovim.
+-   [`themes-creator`](https://github.com/skippyr/themes-creator): the
+    collection of scripts that help create ports of this theme.
 
 ## Support
 
