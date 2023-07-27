@@ -1,8 +1,3 @@
-! name: Flamerial
-! author: Sherman Rofeman
-! license: MIT
-! upstream: https://github.com/skippyr/flamerial
-
 .*background: #140f0f
 .*foreground: #e8dcbc
 .*color0: #140f0f

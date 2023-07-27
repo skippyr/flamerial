@@ -1,18 +1,13 @@
-# name: Flamerial
-# author: Sherman Rofeman
-# license: MIT
-# upstream: https://github.com/skippyr/flamerial
-
 colors:
   primary:
     background: "#140f0f"
     foreground: "#e8dcbc"
   cursor:
-    text: CellBackground
     cursor: CellForeground
+    text: CellBackground
   selection:
-    text: CellBackground
     cursor: CellForeground
+    text: CellBackground
   normal:
     black: "#140f0f"
     red: "#b32815"

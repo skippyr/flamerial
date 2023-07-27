@@ -1,25 +1,21 @@
 #!/usr/bin/env bash
-
-# name: Flamerial
-# author: Sherman Rofeman
-# license: MIT
-# upstream: https://github.com/skippyr/flamerial
-
 [[ ${TERM} != "linux" ]] && exit
-
-echo -en "\\e]P0140f0f"
-echo -en "\\e]P1b32815"
-echo -en "\\e]P2960c0c"
-echo -en "\\e]P3c76e02"
-echo -en "\\e]P4a88e6e"
-echo -en "\\e]P59e6a4f"
-echo -en "\\e]P6ba3e00"
-echo -en "\\e]P7e8dcbc"
-echo -en "\\e]P8a88e6e"
-echo -en "\\e]P9b32815"
-echo -en "\\e]Pa960c0c"
-echo -en "\\e]Pbc76e02"
-echo -en "\\e]Pca88e6e"
-echo -en "\\e]Pd9e6a4f"
-echo -en "\\e]Peba3e00"
-echo -en "\\e]Pfe8dcbc"
+apply_color() {
+  echo -en "\\e]P${1}${2}"
+}
+apply_color 0 140f0f
+apply_color 1 b32815
+apply_color 2 960c0c
+apply_color 3 c76e02
+apply_color 4 a88e6e
+apply_color 5 9e6a4f
+apply_color 6 ba3e00
+apply_color 7 e8dcbc
+apply_color 8 a88e6e
+apply_color 9 b32815
+apply_color a 960c0c
+apply_color b c76e02
+apply_color c a88e6e
+apply_color d 9e6a4f
+apply_color e ba3e00
+apply_color f e8dcbc

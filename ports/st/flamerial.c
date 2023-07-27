@@ -1,10 +1,3 @@
-/*
- * name: Flamerial
- * author: Sherman Rofeman
- * license: MIT
- * upstream: https://github.com/skippyr/flamerial
- */
-
 static const char *colorname[16] = {
 	"#140f0f",
 	"#b32815",

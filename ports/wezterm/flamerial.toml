@@ -2,7 +2,6 @@
 name = "Flamerial"
 author = "Sherman Rofeman"
 origin_url = "https://github.com/skippyr/flamerial"
-
 [colors]
 background = "#140f0f"
 foreground = "#e8dcbc"
@@ -18,7 +17,7 @@ ansi = [
     "#a88e6e",
     "#9e6a4f",
     "#ba3e00",
-    "#e8dcbc",
+    "#e8dcbc"
 ]
 brights = [
     "#a88e6e",
@@ -28,5 +27,5 @@ brights = [
     "#a88e6e",
     "#9e6a4f",
     "#ba3e00",
-    "#e8dcbc",
+    "#e8dcbc"
 ]
