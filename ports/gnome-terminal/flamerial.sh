@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-profile_uuid=$(
+typeset -r profile_uuid=$(
   gsettings get org.gnome.Terminal.ProfilesList default | tr -d \'
 )
 apply_property() {
