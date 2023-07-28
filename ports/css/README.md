@@ -7,5 +7,5 @@
   @import url('flamerial.css');
   ```
 
-  This will add all the variables in scope so you can use when building a
+  This will add all the variables in scope so you can use them when building a
   website.
