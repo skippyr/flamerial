@@ -33,7 +33,7 @@ There are other repositories related to this theme:
 -   [`flamerial.nvim`](https://github.com/skippyr/flamerial.nvim): the port of
     the theme for Vim and Neovim.
 -   [`themes-creator`](https://github.com/skippyr/themes-creator): the
-    collection of scripts that help create ports of this theme.
+    collection of scripts that helps me maintain the ports of this theme.
 
 ## Support
 
