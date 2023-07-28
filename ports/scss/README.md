@@ -3,7 +3,7 @@
 - Add the file `flamerial.scss` to your project and import in your stylesheet
   file.
 
-  ```bash
+  ```scss
   @use 'flamerial';
   ```
 

@@ -3,7 +3,7 @@
 - Add the file `flamerial.css` to your project and import in your stylesheet
   file.
 
-  ```bash
+  ```css
   @import url('flamerial.css');
   ```
 
