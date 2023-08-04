@@ -3,11 +3,11 @@ colors:
     background: "#140f0f"
     foreground: "#e8dcbc"
   cursor:
-    cursor: CellForeground
-    text: CellBackground
+    cursor: "#e8dcbc"
+    text: "#140f0f"
   selection:
-    cursor: CellForeground
-    text: CellBackground
+    cursor: "#e8dcbc"
+    text: "#140f0f"
   normal:
     black: "#140f0f"
     red: "#b32815"
