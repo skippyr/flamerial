@@ -22,6 +22,9 @@ These are the colors used in the theme:
 | Cyan                | 6    | `#ba3e00` |
 | White (foreground)  | 7    | `#e8dcbc` |
 
+### Support
+Report issues, questions and suggestions through its [issues page](https://github.com/skippyr/flamerial/issues).
+
 ## Copyright
 This software is under the MIT license. A copy of the license is bundled with
 the source code.
