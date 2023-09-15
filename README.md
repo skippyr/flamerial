@@ -1,29 +1,35 @@
 # Flamerial
 ## About
-This repository contains the ports of the Flamerial theme for terminal
-emulators. That is a theme with a flameish palette: containing an
-analogous combination of red and yellow.
+This repository contains ports of the Flamerial theme for terminal emulators,
+that is an 8-colors theme with a flameish palette: containing an intense warm
+combination of red and yellow.
 
-Here is a preview of its palette that you can check out:
+Here is a preview that you can check it out:
 
-![](preview.png)
+![](assets/preview.png)
 
 ## Palette
-These are the colors used in the theme:
+Here is a table containing all the colors used in the theme.
 
-| Name                | ANSI | Hex Code  |
-| ------------------- | ---- | --------- |
-| Black (background)  | 0    | `#140f0f` |
-| Red                 | 1    | `#b32815` |
-| Green               | 2    | `#960c0c` |
-| Yellow              | 3    | `#c76e02` |
-| Blue                | 4    | `#a88e6e` |
-| Magenta             | 5    | `#9e6a4f` |
-| Cyan                | 6    | `#ba3e00` |
-| White (foreground)  | 7    | `#e8dcbc` |
+| Name    | Hex       |
+| ------- | --------- |
+| black   | `#150d06` |
+| red     | `#b31c13` |
+| green   | `#990101` |
+| yellow  | `#c76800` |
+| blue    | `#b08548` |
+| magenta | `#8a3820` |
+| cyan    | `#9c3900` |
+| white   | `#e9d397` |
 
-### Support
-Report issues, questions and suggestions through its [issues page](https://github.com/skippyr/flamerial/issues).
+## Issues And Contributions
+You can use its [issues page](https://github.com/skippyr/flamerial/issues) to
+provide your feedback, to report any issue you are facing or to ask for help.
+
+You can also fork it and send pull requests to be reviewed.
+
+All kinds of contributions, from people of any skill level, is always
+appreciated.
 
 ## Copyright
 This software is under the MIT license. A copy of the license is bundled with
