@@ -1,7 +1,7 @@
 # Flamerial
 
 ## About
-A 4-bits terminal dark theme with flameish appeal.
+An 8-bits terminal dark theme with flameish appeal.
 
 ![](preview.png)
 
