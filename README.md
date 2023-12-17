@@ -1,4 +1,4 @@
-# Flamerial
+# flamerial
 
 ## About
 An 8-bits terminal dark theme with flameish appeal.
