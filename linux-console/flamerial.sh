@@ -1,5 +1,4 @@
 #!/bin/sh
-
 echo -ne "\\e]P0150d06"
 echo -ne "\\e]P1b31c13"
 echo -ne "\\e]P2990101"
