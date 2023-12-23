@@ -1,16 +1,14 @@
 # flamerial
-
-## About
 An 8-bits terminal dark theme with flameish colors.
 
 ![](preview.png)
 
-## Installation
-Use these theme files to customize your apps. Follow their respective
-instructions.
+## Install
+In order to install it, follow the theming instructions of your apps to use
+these theme files.
 
-## Colors
-These are the colors used ordered by their ANSI value:
+## Palette
+These are the colors used in it ordered by their ANSI value:
 
 ```
 #150d06
@@ -24,4 +22,4 @@ These are the colors used ordered by their ANSI value:
 ```
 
 ## Copyright
-See LICENSE file for copyright and license details.
+See `LICENSE` file for copyright and license details.
