@@ -21,5 +21,13 @@ These are the colors used in it ordered by their ANSI value:
 #e9d397
 ```
 
+## Bugs
+Report bugs at its [issues page](https://github.com/skippyr/flamerial/issues).
+
+## Patches
+Send patches to be reviewed through its [pull requests page](https://github.com/skippyr/flamerial/pulls).
+
+All contributions must remain under its same license.
+
 ## Copyright
 See `LICENSE` file for copyright and license details.
