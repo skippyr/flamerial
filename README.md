@@ -5,7 +5,7 @@ An eccentric 8-bits flameish theme.
 
 ## Install
 In order to install it, follow the theming instructions of your apps to use
-these theme files.
+these theme files under the `ports` directory.
 
 ## Palette
 These are the colors used in it ordered by their ANSI value:
