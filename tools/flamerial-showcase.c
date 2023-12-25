@@ -1,4 +1,10 @@
+/* See LICENSE for copyright and license details. */
+
 #include <tdk.h>
+
+static void ccenter(unsigned short int len);
+static void rcenter(unsigned short int len);
+static void triangles(unsigned short int len);
 
 static void
 ccenter(unsigned short int len)
@@ -12,11 +18,11 @@ ccenter(unsigned short int len)
 }
 
 static void
-wcenter(unsigned short int len)
+rcenter(unsigned short int len)
 {
+	int toppad;
 	unsigned short int ccol;
 	unsigned short int wrow;
-	int toppad;
 	tdk_getwdim(NULL, &wrow);
 	tdk_getcpos(&ccol, NULL);
 	tdk_setcpos(ccol, (toppad = (wrow - len) / 2) < 0 ? 0 : toppad);
@@ -38,13 +44,12 @@ main(void)
 	int i;
 	tdk_setwalt(1);
 	tdk_setcvis(0);
-	wcenter(3);
+	rcenter(7);
 	ccenter(27);
 	triangles(8);
 	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
 	printf(" Flamerial ");
 	triangles(8);
-	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
 	putchar('\n');
 	ccenter(27);
 	tdk_setclr(tdk_LyrFg, tdk_ClrMag);
@@ -54,22 +59,21 @@ main(void)
 		printf("   ");
 	}
 	tdk_setclr(tdk_LyrBg, tdk_ClrDft);
-	tdk_setclr(tdk_LyrFg, tdk_ClrMag);
 	printf(" \\¦");
 	putchar('\n');
 	ccenter(27);
 	triangles(27);
-	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
 	printf("\n\n");
 	ccenter(27);
+	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
 	printf(" github: ");
 	tdk_setclr(tdk_LyrFg, tdk_ClrRed);
 	tdk_seteff(tdk_EffUnd, 1);
 	printf("skippyr/flamerial");
 	tdk_seteff(tdk_EffUnd, 0);
-	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
 	printf("\n\n");
 	ccenter(20);
+	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
 	printf("Press ");
 	tdk_setlum(tdk_LumBld);
 	printf("Enter");
