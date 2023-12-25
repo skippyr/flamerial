@@ -1,9 +1,7 @@
-/* See LICENSE for copyright and license details. */
-
 #include <tdk.h>
 
 static void
-ccenter(size_t len)
+ccenter(unsigned short int len)
 {
 	int lpad;
 	unsigned short int crow;
@@ -14,7 +12,7 @@ ccenter(size_t len)
 }
 
 static void
-wcenter(size_t len)
+wcenter(unsigned short int len)
 {
 	unsigned short int ccol;
 	unsigned short int wrow;
@@ -24,17 +22,47 @@ wcenter(size_t len)
 	tdk_setcpos(ccol, (toppad = (wrow - len) / 2) < 0 ? 0 : toppad);
 }
 
+static void
+triangles(unsigned short int len)
+{
+	unsigned short int i;
+	for (i = 0; i < len; i++) {
+		tdk_setclr(tdk_LyrFg, i % 2 ? tdk_ClrRed : tdk_ClrYlw);
+		printf(i % 2 ? "⊼" : "⊵");
+	}
+}
+
 int
 main(void)
 {
-	char msg[] = "Flamerial";
+	int i;
 	tdk_setwalt(1);
 	tdk_setcvis(0);
 	wcenter(3);
-	ccenter(sizeof(msg));
-	printf("%s\n", msg);
-	ccenter(28);
-	printf(" github : ");
+	ccenter(27);
+	triangles(8);
+	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
+	printf(" Flamerial ");
+	triangles(8);
+	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
+	putchar('\n');
+	ccenter(27);
+	tdk_setclr(tdk_LyrFg, tdk_ClrMag);
+	printf("¦/ ");
+	for (i = tdk_ClrRed; i <= tdk_ClrWht; i++) {
+		tdk_setclr(tdk_LyrBg, i);
+		printf("   ");
+	}
+	tdk_setclr(tdk_LyrBg, tdk_ClrDft);
+	tdk_setclr(tdk_LyrFg, tdk_ClrMag);
+	printf(" \\¦");
+	putchar('\n');
+	ccenter(27);
+	triangles(27);
+	tdk_setclr(tdk_LyrFg, tdk_ClrDft);
+	printf("\n\n");
+	ccenter(27);
+	printf(" github: ");
 	tdk_setclr(tdk_LyrFg, tdk_ClrRed);
 	tdk_seteff(tdk_EffUnd, 1);
 	printf("skippyr/flamerial");
@@ -47,7 +75,7 @@ main(void)
 	printf("Enter");
 	tdk_setlum(tdk_LumDft);
 	printf(" to exit.");
-	tdk_getkey();
+	while (tdk_getkey() != tdk_KeyEnter);
 	tdk_setcvis(1);
 	tdk_setwalt(0);
 	return 0;
