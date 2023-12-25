@@ -11,6 +11,7 @@ these theme files.
 These are the colors used in it ordered by their ANSI value:
 
 | ANSI | Name    | Hex       |
+| ---- | ------- | --------- |
 | `0`  | Black   | `#150d06` |
 | `1`  | Red     | `#b31c13` |
 | `2`  | Green   | `#6c7422` |
