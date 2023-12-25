@@ -1,5 +1,5 @@
 # flamerial
-An 8-bits terminal dark theme with flameish colors.
+An eccentric 8-bits flameish theme.
 
 ![](preview.png)
 
@@ -10,16 +10,15 @@ these theme files.
 ## Palette
 These are the colors used in it ordered by their ANSI value:
 
-```
-#150d06
-#b31c13
-#6c7422
-#c76800
-#b08548
-#8a3820
-#9c3900
-#e9d397
-```
+| ANSI | Name    | Hex       |
+| `0`  | Black   | `#150d06` |
+| `1`  | Red     | `#b31c13` |
+| `2`  | Green   | `#6c7422` |
+| `3`  | Yellow  | `#c76800` |
+| `4`  | Blue    | `#b08548` |
+| `5`  | Magenta | `#8a3820` |
+| `6`  | Cyan    | `#9c3900` |
+| `7`  | White   | `#e9d397` |
 
 ## Bugs
 Report bugs at its [issues page](https://github.com/skippyr/flamerial/issues).
