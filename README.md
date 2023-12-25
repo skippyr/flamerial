@@ -13,7 +13,7 @@ These are the colors used in it ordered by their ANSI value:
 ```
 #150d06
 #b31c13
-#990101
+#6c7422
 #c76800
 #b08548
 #8a3820
