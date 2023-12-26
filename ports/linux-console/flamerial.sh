@@ -1,5 +1,4 @@
 #!/bin/sh
-# See LICENSE for copyright and license details.
 
 [[ ${TERM} != "linux" ]] && exit 1
 echo -ne "\\e]P0150d06"

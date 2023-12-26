@@ -1,5 +1,3 @@
-/* See LICENSE for copyright and license details. */
-
 #include <tdk.h>
 
 static void ccenter(unsigned short int len);

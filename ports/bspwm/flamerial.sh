@@ -1,5 +1,4 @@
 #!/bin/sh
-# See LICENSE file copyright and license details.
 
 bspc config active_border_color \#8a3820
 bspc config focused_border_color \#b31c13
