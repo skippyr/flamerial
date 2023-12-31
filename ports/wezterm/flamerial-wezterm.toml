@@ -1,0 +1,24 @@
+#  //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+#  MIT License
+#  Copyright (c) 2023, Sherman Rofeman <skippyr.developer@gmail.com>
+#
+#  See the LICENSE file that comes in its source code for more details.
+#  //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+
+[metadata]
+author = "Sherman Rofeman <skippyr.developer@gmail.com>"
+name = "flamerial"
+origin_url = "https://github.com/skippyr/flamerial"
+
+[colors]
+background = "#1c1108"
+foreground = "#e8d08e"
+cursor_bg = "#e8d08e"
+cursor_border = "#e8d08e"
+cursor_fg = "#1c1108"
+selection_bg = "#e8d08e"
+selection_fg = "#1c1108"
+ansi = ["#1c1108", "#b31c13", "#94711f", "#c76800", "#b08548", "#ad5b30",
+        "#9c3900", "#e8d08e"]
+brights = ["#b08548", "#e62319", "#c7982a", "#fa8100", "#e3ab5d", "#e0773f",
+           "#cf4c00", "#e8d08e"]

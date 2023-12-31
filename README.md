@@ -1,33 +1,61 @@
 # flamerial
-An eccentric 8-bits flameish theme.
+
+## About
+
+A tribal-inspired theme.
 
 ![](preview.png)
-> In the preview, the font is [0xProto](https://github.com/0xType/0xProto) (Nerd Fonts patched).
+> In the preview, the font is [Iosevka](https://github.com/be5invis/Iosevka)
+> (Nerd Fonts patched).
 
 ## Install
-In order to install it, follow the theming instructions of your apps to use the theme files under the `ports` directory. There are, also, some curated wallpapers described in `wallpapers.md`.
+
+Under the `ports` directory you will find all available ports of the theme.
+Pick one you would like to apply and read the `README` file inside it.
 
 ## Palette
-These are the colors used in it ordered by their ANSI value:
 
 | ANSI | Name | Hex |
 | - | - | - |
-| `0` | Black | `#150d06` |
+| `0` | Black | `#1c1108` |
 | `1` | Red | `#b31c13` |
-| `2` | Green | `#6c7422` |
+| `2` | Green | `#94711f` |
 | `3` | Yellow | `#c76800` |
 | `4` | Blue | `#b08548` |
-| `5` | Magenta | `#8a3820` |
+| `5` | Magenta | `#ad5b30` |
 | `6` | Cyan | `#9c3900` |
-| `7` | White | `#e9d397` |
+| `7` | White | `#e8d08e` |
+| `8` | Bright Black | `#b08548` |
+| `9` | Bright Red | `#e62319` |
+| `10` | Bright Green | `#c7982a` |
+| `11` | Bright Yellow | `#fa8100` |
+| `12` | Bright Blue | `#e3ab5d` |
+| `13` | Bright Magenta | `#e0773f` |
+| `14` | Bright Cyan | `#cf4c00` |
+| `15` | Bright White | `#e8d08e` |
+| `None` | Dimmed Black | `#1c1108` |
+| `None` | Dimmed Red | `#80140e` |
+| `None` | Dimmed Green | `#614a14` |
+| `None` | Dimmed Yellow | `#944c00` |
+| `None` | Dimmed Blue | `#7d5e33` |
+| `None` | Dimmed Magenta | `#61341b` |
+| `None` | Dimmed Cyan | `#692600` |
+| `None` | Dimmed White | `#b08548` |
 
-## Bugs
-Report bugs at its [issues page](https://github.com/skippyr/flamerial/issues).
+## Help
 
-## Patches
-Send patches to be reviewed through its [pull requests page](https://github.com/skippyr/flamerial/pulls).
+You can ask for help related to this project through its [issues page](https://github.com/skippyr/flamerial/issues).
 
-All contributions must remain under its same license.
+## Contributing
+
+This project is open to receive contributions from people of any skill level.
+You can send code contributions to be reviewed through its [pull requests page](https://github.com/skippyr/flamerial/pulls).
+
+By contributing to this project, you agree to use the same copyright used by it.
 
 ## Copyright
-See `LICENSE` file for copyright and license details.
+
+MIT License\
+Copyright (c) 2023, Sherman Rofeman \<skippyr.developer@gmail.com\>
+
+See the `LICENSE` file that comes in its source code for more details.

@@ -1,0 +1,35 @@
+#  //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+#  MIT License
+#  Copyright (c) 2023, Sherman Rofeman <skippyr.developer@gmail.com>
+#
+#  See the LICENSE file that comes in its source code for more details.
+#  //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+
+colors:
+  primary:
+    background: "#1c1108"
+    foreground: "#e8d08e"
+  cursor:
+    cursor: "#e8d08e"
+    text: "#1c1108"
+  selection:
+    background: "#e8d08e"
+    text: "#1c1108"
+  normal:
+    black: "#1c1108"
+    red: "#b31c13"
+    green: "#94711f"
+    yellow: "#c76800"
+    blue: "#b08548"
+    magenta: "#ad5b30"
+    cyan: "#9c3900"
+    white: "#e8d08e"
+  bright:
+    black: "#b08548"
+    red: "#e62319"
+    green: "#c7982a"
+    yellow: "#fa8100"
+    blue: "#e3ab5d"
+    magenta: "#e0773f"
+    cyan: "#cf4c00"
+    white: "#e8d08e"

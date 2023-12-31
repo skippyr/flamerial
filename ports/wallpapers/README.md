@@ -1,10 +1,16 @@
-# wallpapers
-Here is a bunch of wallpapers that match well with Flamerial's palette.
+# flamerial (wallpapers)
+
+## Install
+
+Here is a list of wallpapers that match well with the Flamerial theme. Access
+the link from one you would like to use, download it from its source and then
+apply it.
 
 | Author | Name |
 | - | - |
 | Benson Low | [A Building With A Dragon Roof](https://unsplash.com/photos/a-building-with-a-dragon-roof-jh6V4Y2s6OU) |
 | Chad Madden | [Aerial Photography Of Trees And Road](https://unsplash.com/photos/aerial-photography-of-trees-and-road-cPa-7yByq3o) |
+| Christian | [A Group Of Buildings With A Flag Flying In Front Of Them](https://unsplash.com/photos/a-group-of-buildings-with-a-flag-flying-in-front-of-them-Ll2G5vklZHw) |
 | Darwin Vegher | [Boat On Canal Beside House Door](https://unsplash.com/photos/boat-on-canal-beside-house-door-dYXkL__ryl0) |
 | Felix Bacher | [Gray Rock Mountain Illustration](https://unsplash.com/photos/gray-rock-mountain-illustration--jEEnRx38wo) |
 | Ingi Haraldss | [Waterfalls During Daytime](https://unsplash.com/photos/waterfalls-during-daytime-XnkK88K2bao) |
