@@ -2,7 +2,8 @@
 
 ## About
 
-A tribal-inspired theme.
+A tribal-inspired warm dark theme designed to remark the strong culture from
+Pará, a state of Brazil.
 
 ![](preview.png)
 > In the preview, the font is [Iosevka](https://github.com/be5invis/Iosevka)
