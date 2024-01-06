@@ -2,12 +2,9 @@
 
 ## About
 
-A tribal-inspired warm dark theme designed to remark the strong culture from
-Pará, a state of Brazil.
+A tribal-inspired dark theme.
 
 ![](preview.png)
-> In the preview, the font is [Iosevka](https://github.com/be5invis/Iosevka)
-> (Nerd Fonts patched).
 
 ## Install
 
@@ -34,14 +31,14 @@ Pick one you would like to apply and read the `README` file inside it.
 | `13` | Bright Magenta | `#e0773f` |
 | `14` | Bright Cyan | `#cf4c00` |
 | `15` | Bright White | `#e8d08e` |
-| `None` | Dimmed Black | `#1c1108` |
-| `None` | Dimmed Red | `#80140e` |
-| `None` | Dimmed Green | `#614a14` |
-| `None` | Dimmed Yellow | `#944c00` |
-| `None` | Dimmed Blue | `#7d5e33` |
-| `None` | Dimmed Magenta | `#61341b` |
-| `None` | Dimmed Cyan | `#692600` |
-| `None` | Dimmed White | `#b08548` |
+| `-` | Dimmed Black | `#1c1108` |
+| `-` | Dimmed Red | `#80140e` |
+| `-` | Dimmed Green | `#614a14` |
+| `-` | Dimmed Yellow | `#944c00` |
+| `-` | Dimmed Blue | `#7d5e33` |
+| `-` | Dimmed Magenta | `#61341b` |
+| `-` | Dimmed Cyan | `#692600` |
+| `-` | Dimmed White | `#b08548` |
 
 ## Help
 
@@ -49,8 +46,8 @@ You can ask for help related to this project through its [issues page](https://g
 
 ## Contributing
 
-This project is open to receive contributions from people of any skill level.
-You can send code contributions to be reviewed through its [pull requests page](https://github.com/skippyr/flamerial/pulls).
+This project is open to receive contributions. You can send code contributions
+to be reviewed through its [pull requests page](https://github.com/skippyr/flamerial/pulls).
 
 By contributing to this project, you agree to use the same copyright used by it.
 

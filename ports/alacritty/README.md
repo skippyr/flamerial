@@ -12,7 +12,7 @@ You can check your alacritty version by running:
 alacritty --version
 ```
 
-## Install (version `< 0.13.0`)
+## Install (`< v0.13.0`)
 
 - Copy the theme file `flamerial-alacritty.yml` to `~/.config/alacritty/themes`:
 
@@ -31,7 +31,7 @@ import:
 
 - Reopen alacritty.
 
-## Install (version `>= 0.13.0`)
+## Install (`>= v0.13.0`)
 
 - Copy the theme file `flamerial-alacritty.toml` to
   `~/.config/alacritty/themes`:

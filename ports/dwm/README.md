@@ -10,7 +10,7 @@ cp config.def.h config.h
 ```
 
 - Replace the colors definitions in your `config.h` configuration file by the
-  ones present in the `flamerial-dwm.h` file:
+  ones present in the `flamerial-dwm.h` file.
 - Recompile dwm (use `sudo` if necessary):
 
 ```sh
