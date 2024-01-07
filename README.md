@@ -2,7 +2,7 @@
 
 ## About
 
-A tribal-inspired dark theme.
+A tribal inspired dark theme.
 
 ![](preview.png)
 
