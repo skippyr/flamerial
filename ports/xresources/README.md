@@ -6,15 +6,15 @@
   `~/.config/xresources/themes`:
 
 ```sh
-mkdir -p ~/.config/xresources/themes
-cp flamerial-xresources.xrdb ~/.config/xresources/themes
+mkdir -p ~/.config/xresources/themes;
+cp flamerial-xresources.xrdb ~/.config/xresources/themes;
 ```
 
 - Merge that theme file with your current X11 configuration by using the `xrdb`
   X11 utility:
 
 ```sh
-xrdb -merge ~/.config/xresources/themes/flamerial-xresources.xrdb
+xrdb -merge ~/.config/xresources/themes/flamerial-xresources.xrdb;
 ```
 
 For it to be a permanent change, add that command to your `~/.xinitrc` X11

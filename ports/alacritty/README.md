@@ -9,7 +9,7 @@ both versions before and after that reference.
 You can check your alacritty version by running:
 
 ```sh
-alacritty --version
+alacritty --version;
 ```
 
 ## Install (`< v0.13.0`)
@@ -17,8 +17,8 @@ alacritty --version
 - Copy the theme file `flamerial-alacritty.yml` to `~/.config/alacritty/themes`:
 
 ```sh
-mkdir -p ~/.config/alacritty/themes
-cp flamerial-alacritty.yml ~/.config/alacritty/themes
+mkdir -p ~/.config/alacritty/themes;
+cp flamerial-alacritty.yml ~/.config/alacritty/themes;
 ```
 
 - Import that theme file in your `~/.config/alacritty/alacritty.yml`
@@ -37,8 +37,8 @@ import:
   `~/.config/alacritty/themes`:
 
 ```sh
-mkdir -p ~/.config/alacritty/themes
-cp flamerial-alacritty.toml ~/.config/alacritty/themes
+mkdir -p ~/.config/alacritty/themes;
+cp flamerial-alacritty.toml ~/.config/alacritty/themes;
 ```
 
 - Import that theme file in your `~/.config/alacritty/alacritty.toml`

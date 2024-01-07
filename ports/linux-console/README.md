@@ -6,5 +6,5 @@
   to apply the theme:
 
 ```sh
-./flamerial-linux-console.sh
+./flamerial-linux-console.sh;
 ```

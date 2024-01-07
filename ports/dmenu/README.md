@@ -6,7 +6,7 @@
   file named as `config.h`:
 
 ```sh
-cp config.def.h config.h
+cp config.def.h config.h;
 ```
 
 - Replace the colors definitions in your `config.h` configuration file by the
@@ -14,5 +14,5 @@ cp config.def.h config.h
 - Recompile dmenu (use `sudo` if necessary):
 
 ```sh
-sudo make install clean
+sudo make install clean;
 ```

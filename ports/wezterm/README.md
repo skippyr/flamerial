@@ -5,8 +5,8 @@
 - Copy the theme file `flamerial-wezterm.toml` to `~/.config/wezterm/colors`:
 
 ```sh
-mkdir -p ~/.config/wezterm/colors
-cp flamerial-wezterm.toml ~/.config/wezterm/colors
+mkdir -p ~/.config/wezterm/colors;
+cp flamerial-wezterm.toml ~/.config/wezterm/colors;
 ```
 
 - Apply the theme in your `~/.config/wezterm/wezterm.lua` configuration file
