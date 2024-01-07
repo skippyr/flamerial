@@ -1,24 +1,12 @@
 # flamerial (alacritty)
 
-## Notes
-
-alacritty has changed its configuration file and syntax on version `0.13.0` to
-use TOML instead of YAML. This documentation will describe the installation for
-both versions before and after that reference.
-
-You can check your alacritty version by running:
-
-```sh
-alacritty --version;
-```
-
 ## Install (`< v0.13.0`)
 
-- Copy the theme file `flamerial-alacritty.yml` to `~/.config/alacritty/themes`:
+- Copy the theme file `flamerial_alacritty.yml` to `~/.config/alacritty/themes`:
 
 ```sh
 mkdir -p ~/.config/alacritty/themes;
-cp flamerial-alacritty.yml ~/.config/alacritty/themes;
+cp flamerial_alacritty.yml ~/.config/alacritty/themes;
 ```
 
 - Import that theme file in your `~/.config/alacritty/alacritty.yml`
@@ -26,26 +14,26 @@ cp flamerial-alacritty.yml ~/.config/alacritty/themes;
 
 ```yml
 import:
-  - ~/.config/alacritty/themes/flamerial-alacritty.yml
+  - ~/.config/alacritty/themes/flamerial_alacritty.yml
 ```
 
-- Reopen alacritty.
+- Reopen `alacritty`.
 
 ## Install (`>= v0.13.0`)
 
-- Copy the theme file `flamerial-alacritty.toml` to
+- Copy the theme file `flamerial_alacritty.toml` to
   `~/.config/alacritty/themes`:
 
 ```sh
 mkdir -p ~/.config/alacritty/themes;
-cp flamerial-alacritty.toml ~/.config/alacritty/themes;
+cp flamerial_alacritty.toml ~/.config/alacritty/themes;
 ```
 
 - Import that theme file in your `~/.config/alacritty/alacritty.toml`
   configuration file by adding these lines to it:
 
 ```toml
-import = ["~/.config/alacritty/themes/flamerial-alacritty.toml"]
+import = ["~/.config/alacritty/themes/flamerial_alacritty.toml"]
 ```
 
-- Reopen alacritty.
+- Reopen `alacritty`.

@@ -2,7 +2,7 @@
 
 ## Install
 
-- In your dwm copy, create a copy of the `config.def.h` backup configuration
+- In your `dwm` copy, create a copy of the `config.def.h` backup configuration
   file named as `config.h`:
 
 ```sh
@@ -10,8 +10,8 @@ cp config.def.h config.h;
 ```
 
 - Replace the colors definitions in your `config.h` configuration file by the
-  ones present in the `flamerial-dwm.h` file.
-- Recompile dwm (use `sudo` if necessary):
+  ones present in the `flamerial_dwm.h` file.
+- Recompile `dwm` (use `sudo` if necessary):
 
 ```sh
 sudo make install clean;
