@@ -1,23 +1,11 @@
-# flamerial (xresources)
+<h1 align="center">flamerial</h1>
+<p align="center">xresources</p>
 
-## Install
-
-- Copy the theme file `flamerial_xresources.xrdb` to
-  `~/.config/xresources/themes`:
-
-```sh
-mkdir -p ~/.config/xresources/themes;
-cp flamerial_xresources.xrdb ~/.config/xresources/themes;
-```
-
-- Merge that theme file with your current X11 configuration by using the `xrdb`
-  X11 utility:
+1. Use xrdb to merge the color definitions present in the theme file
+   flamerial.xrdb:
 
 ```sh
-xrdb -merge ~/.config/xresources/themes/flamerial_xresources.xrdb;
+xrdb -merge flamerial.xrdb;
 ```
 
-For it to be a permanent change, add that command to your `~/.xinitrc` X11
-startup file.
-
-- Reopen your X11 applications to reload the theme.
+2. Reopen your X11 applications.

@@ -1,10 +1,11 @@
-# flamerial (linux)
+<h1 align="center">flamerial</h1>
+<p align="center">linux</p>
 
 ## Install
 
-- While running the `linux` console, run the script `flamerial_linux.sh` to
-  apply the theme:
+1. While running the linux console, execute the flamerial.sh script to apply the
+   theme.
 
 ```sh
-./flamerial_linux.sh;
+./flamerial.sh;
 ```

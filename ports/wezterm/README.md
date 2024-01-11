@@ -1,21 +1,21 @@
-# flamerial (wezterm)
+<h1 align="center">flamerial</h1>
+<p align="center">wezterm</p>
 
-# Install
+## Install
 
-- Copy the theme file `flamerial_wezterm.toml` to `~/.config/wezterm/colors`:
+1. Copy the theme file flamerial.toml to ~/.config/wezterm/colors:
 
 ```sh
 mkdir -p ~/.config/wezterm/colors;
-cp flamerial_wezterm.toml ~/.config/wezterm/colors;
+cp flamerial.toml ~/.config/wezterm/colors;
 ```
 
-- Apply the theme in your `~/.config/wezterm/wezterm.lua` configuration file
-  by adding these lines to it:
+2. Apply the theme in your ~/.config/wezterm/wezterm.lua configuration file:
 
 ```lua
 return {
-  color_scheme = "flamerial"
+	color_scheme = "flamerial"
 }
 ```
 
-- Reopen `wezterm`.
+3. Reopen wezterm.

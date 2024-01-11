@@ -1,8 +1,8 @@
 #include <tdk.h>
 
-void writetriangles(int len);
+void triangles(int len);
 
-void writetriangles(int len)
+void triangles(int len)
 {
 	int i;
 	for (i = 0; i < len; i++) {
@@ -15,9 +15,9 @@ void writetriangles(int len)
 int main(void)
 {
 	int clr;
-	writetriangles(8);
+	triangles(8);
 	printf(" flamerial ");
-	writetriangles(8);
+	triangles(8);
 	tdk_setclr(tdk_ClrMag, tdk_LyrFg);
 	printf("\n¦/ ");
 	for (clr = tdk_ClrRed; clr <= tdk_ClrWht; clr++) {
@@ -26,7 +26,7 @@ int main(void)
 	}
 	tdk_setclr(tdk_ClrDft, tdk_LyrBg);
 	printf(" \\¦\n");
-	writetriangles(27);
+	triangles(27);
 	putchar('\n');
 	return 0;
 }

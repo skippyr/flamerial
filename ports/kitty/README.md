@@ -1,19 +1,19 @@
-# flamerial (kitty)
+<h1 align="center">flamerial</h1>
+<p align="center">kitty</p>
 
 ## Install
 
-- Copy the theme file `flamerial_kitty.conf` to `~/.config/kitty/themes`:
+1. Copy the theme file flamerial.conf to ~/.config/kitty/themes:
 
 ```sh
 mkdir -p ~/.config/kitty/themes;
-cp flamerial_kitty.conf ~/.config/kitty/themes;
+cp flamerial.conf ~/.config/kitty/themes;
 ```
 
-- Include that theme file in your `~/.config/kitty/kitty.conf` configuration
-  file by adding these lines to it:
+2. Apply the theme in your ~/.config/kitty/kitty.conf configuration file:
 
-```sh
-include themes/flamerial_kitty.conf
+```
+include themes/flamerial.conf
 ```
 
-- Reopen `kitty`.
+3. Reopen kitty.

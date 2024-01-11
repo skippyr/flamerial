@@ -1,59 +1,94 @@
-# flamerial
+<h1 align="center">flamerial</h1>
 
 ## About
 
-A tribal inspired dark theme.
+It is a vibrant tropical dark theme to bring some good vibes to your days.
 
-![](preview.png)
+<img align="center" src="preview.png" />
+
+<p align="center"><strong>Caption:</strong> a preview of the flamerial theme
+applied on a terminal. The font used is
+<a href="https://github.com/intel/intel-one-mono">intel-one-mono</a>.</p>
 
 ## Install
 
-Under the `ports` directory you will find all available ports of the theme.
-Pick one you would like to apply and read the `README` file inside it.
+All available ports of the theme are under the ports directory. Open one you
+would like to apply, then read the README inside it to find out how to
+install it.
 
 ## Palette
 
-| ANSI | Name | Hex |
-| - | - | - |
-| `0` | Black | `#1c1108` |
-| `1` | Red | `#b31c13` |
-| `2` | Green | `#94711f` |
-| `3` | Yellow | `#c76800` |
-| `4` | Blue | `#b08548` |
-| `5` | Magenta | `#ad5b30` |
-| `6` | Cyan | `#9c3900` |
-| `7` | White | `#e8d08e` |
-| `8` | Bright Black | `#b08548` |
-| `9` | Bright Red | `#e62319` |
-| `10` | Bright Green | `#c7982a` |
-| `11` | Bright Yellow | `#fa8100` |
-| `12` | Bright Blue | `#e3ab5d` |
-| `13` | Bright Magenta | `#e0773f` |
-| `14` | Bright Cyan | `#cf4c00` |
-| `15` | Bright White | `#e8d08e` |
-| `-` | Dimmed Black | `#1c1108` |
-| `-` | Dimmed Red | `#80140e` |
-| `-` | Dimmed Green | `#614a14` |
-| `-` | Dimmed Yellow | `#944c00` |
-| `-` | Dimmed Blue | `#7d5e33` |
-| `-` | Dimmed Magenta | `#61341b` |
-| `-` | Dimmed Cyan | `#692600` |
-| `-` | Dimmed White | `#b08548` |
+<table align="center">
+	<thead>
+		<tr>
+			<th>ANSI</th>
+			<th>Name</th>
+			<th>HEX</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>0</td>
+			<td>Black</td>
+			<td>#382210</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Red</td>
+			<td>#ba1d14</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Green</td>
+			<td>#5a8241</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Yellow</td>
+			<td>#d97000</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Blue</td>
+			<td>#b08548</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Magenta</td>
+			<td>#b86a40</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>Cyan</td>
+			<td>#bf4600</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>White</td>
+			<td>#e8d08e</td>
+		</tr>
+	</tbody>
+</table>
+<p align="center"><strong>Caption:</strong> the flamerial palette with their
+respective ANSI values.</p>
 
 ## Help
 
-You can ask for help related to this project through its [issues page](https://github.com/skippyr/flamerial/issues).
+If you need help about this project, open a new issue in its
+[issues page](https://github.com/skippyr/flamerial/issues) or send me an
+[e-mail](mailto:skippyr.developer@gmail.com) describing what is going on.
 
 ## Contributing
 
-This project is open to receive contributions. You can send code contributions
-to be reviewed through its [pull requests page](https://github.com/skippyr/flamerial/pulls).
+This project is open to review and possibly accept contributions, specially
+fixes and suggestions. If you are interested, send your contribution to its
+[pull requests page](https://github.com/skippyr/flamerial/pulls) or to my
+[e-mail](mailto:skippyr.developer@gmail.com).
 
-By contributing to this project, you agree to use the same copyright used by it.
+By contributing to this project, you must agree to license your work under the
+same license that the project uses.
 
-## Copyright
+## License
 
-MIT License\
-Copyright (c) 2023, Sherman Rofeman \<skippyr.developer@gmail.com\>
-
-See the `LICENSE` file that comes in its source code for more details.
+This project is licensed under the MIT License. Refer to the LICENSE file that
+comes in its source code for license and copyright details.

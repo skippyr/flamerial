@@ -1,18 +1,20 @@
-# flamerial (st)
+<h1 align="center">flamerial</h1>
+<p align="center">st</p>
 
 ## Install
 
-- In your `st` copy, create a copy of the `config.def.h` backup configuration
-  file named as `config.h`:
+1. In your st copy, create a copy of the config.def.h file named as config.h:
 
 ```sh
 cp config.def.h config.h;
 ```
 
-- Replace the colors definitions in your `config.h` configuration file by the
-  ones present in the `flamerial_st.h` file.
-- Recompile `st` (use `sudo` if necessary):
+2. Replace the color definitions in your config.h configuration file by the
+   ones defined in the flamerial.h theme file.
+3. Recompile st:
 
 ```sh
 sudo make install clean;
 ```
+
+4. Reopen st.
