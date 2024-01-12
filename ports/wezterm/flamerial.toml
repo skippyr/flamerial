@@ -4,14 +4,14 @@ name = "flamerial"
 origin_url = "https://github.com/skippyr/flamerial"
 
 [colors]
-background = "#382210"
-foreground = "#e8d08e"
-cursor_bg = "#e8d08e"
-cursor_border = "#e8d08e"
-cursor_fg = "#382210"
-selection_bg = "#e8d08e"
-selection_fg = "#382210"
-ansi = ["#382210", "#ba1d14", "#5a8241", "#d97000", "#b08548", "#b86a40",
-        "#bf4600", "#e8d08e"]
-brights = ["#b08548", "#ba1d14", "#5a8241", "#d97000", "#b08548", "#b86a40",
-           "#bf4600", "#e8d08e"]
+background = "#24130e"
+foreground = "#e8cf89"
+cursor_bg = "#e8cf89"
+cursor_border = "#e8cf89"
+cursor_fg = "#24130e"
+selection_bg = "#e8cf89"
+selection_fg = "#24130e"
+ansi = ["#24130e", "#b8150d", "#9e7100", "#db7a00", "#c48d49", "#9c542d",
+        "#80854b", "#e8cf89"]
+brights = ["#c48d49", "#b8150d", "#9e7100", "#db7a00", "#c48d49", "#9c542d",
+           "#80854b", "#e8cf89"]

@@ -2,13 +2,17 @@
 
 ## About
 
-It is a vibrant tropical dark theme to bring some good vibes to your days.
+A fiery terminal dark theme to bring some good vibes to your days. Designed as a
+combination of 4 chromatic and 4 neutral colors, it has a decent balance between
+usability and an unalike experience.
 
-<img align="center" src="preview.png" />
+<p align="center">
+  <img src="preview.png" />
+</p>
 
 <p align="center"><strong>Caption:</strong> a preview of the flamerial theme
 applied on a terminal. The font used is
-<a href="https://github.com/intel/intel-one-mono">intel-one-mono</a>.</p>
+<a href="https://github.com/be5invis/Iosevka">Iosevka SS08</a>.</p>
 
 ## Install
 
@@ -30,42 +34,42 @@ install it.
     <tr>
       <td>0</td>
       <td>Black</td>
-      <td>#382210</td>
+      <td>#24130e</td>
     </tr>
     <tr>
       <td>1</td>
       <td>Red</td>
-      <td>#ba1d14</td>
+      <td>#b8150d</td>
     </tr>
     <tr>
       <td>2</td>
       <td>Green</td>
-      <td>#5a8241</td>
+      <td>#9e7100</td>
     </tr>
     <tr>
       <td>3</td>
       <td>Yellow</td>
-      <td>#d97000</td>
+      <td>#db7a00</td>
     </tr>
     <tr>
       <td>4</td>
       <td>Blue</td>
-      <td>#b08548</td>
+      <td>#c48d49</td>
     </tr>
     <tr>
       <td>5</td>
       <td>Magenta</td>
-      <td>#b86a40</td>
+      <td>#9c542d</td>
     </tr>
     <tr>
       <td>6</td>
       <td>Cyan</td>
-      <td>#bf4600</td>
+      <td>#80854b</td>
     </tr>
     <tr>
       <td>7</td>
       <td>White</td>
-      <td>#e8d08e</td>
+      <td>#e8cf89</td>
     </tr>
   </tbody>
 </table>
