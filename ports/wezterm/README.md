@@ -14,7 +14,7 @@ cp flamerial.toml ~/.config/wezterm/colors;
 
 ```lua
 return {
-	color_scheme = "flamerial"
+  color_scheme = "flamerial"
 }
 ```
 

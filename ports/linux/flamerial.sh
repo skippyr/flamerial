@@ -1,14 +1,13 @@
 #!/bin/sh
 
-function setclr
-{
-	echo -ne \\e]P${1}${2};
+function setclr {
+  echo -ne \\e]P${1}${2};
 }
 
 if [[ ${TERM} != linux ]];
 then
-	echo "flamerial.sh: the linux-console is not being used.";
-	exit 1;
+  echo "flamerial.sh: the linux-console is not being used.";
+  exit 1;
 fi
 
 setclr 0 382210;
