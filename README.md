@@ -1,4 +1,4 @@
-<h1 align="center">flamerial</h1>
+<h1 align="center">⊼⊵⊼⊵&ensp;flamerial&ensp;⊼⊵⊼⊵</h1>
 <p align="center">
   <img src="https://img.shields.io/github/license/skippyr/flamerial" alt="" />
   <img src="https://img.shields.io/github/v/tag/skippyr/flamerial" alt="" />
