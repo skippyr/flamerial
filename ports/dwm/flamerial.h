@@ -1,5 +1,5 @@
 static const char col_gray1[] = "#24130e";
-static const char col_gray2[] = "#b8150d";
+static const char col_gray2[] = "#24130e";
 static const char col_gray3[] = "#e8cf89";
 static const char col_gray4[] = "#e8cf89";
 static const char col_cyan[] = "#b8150d";
