@@ -1,7 +1,7 @@
 <p align="center">
 	<img src="../../banner.webp" alt="" />
 </p>
-<h1 align="center">flamerial</h1>
+<h1 align="center">⊼⊵⊼⊵&ensp;flamerial&ensp;⊼⊵⊼⊵</h1>
 <p align="center">alacritty</p>
 
 ## ❡ Install (< v0.13.0)
