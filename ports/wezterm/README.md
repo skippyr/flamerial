@@ -1,16 +1,19 @@
+<p align="center">
+	<img src="../../banner.webp" alt="" />
+</p>
 <h1 align="center">flamerial</h1>
 <p align="center">wezterm</p>
 
-## Install
+## ❡ Install
 
-1. Copy the theme file flamerial.toml to ~/.config/wezterm/colors:
+&emsp;**1.**&ensp;Copy the theme file flamerial.toml to ~/.config/wezterm/colors:
 
 ```sh
 mkdir -p ~/.config/wezterm/colors;
 cp flamerial.toml ~/.config/wezterm/colors;
 ```
 
-2. Apply the theme in your ~/.config/wezterm/wezterm.lua configuration file:
+&emsp;**2.**&ensp;Apply the theme in your ~/.config/wezterm/wezterm.lua configuration file:
 
 ```lua
 return {
@@ -18,4 +21,4 @@ return {
 }
 ```
 
-3. Reopen wezterm.
+&emsp;**3.**&ensp;Reopen wezterm.

@@ -1,19 +1,22 @@
+<p align="center">
+	<img src="../../banner.webp" alt="" />
+</p>
 <h1 align="center">flamerial</h1>
 <p align="center">kitty</p>
 
-## Install
+## ❡ Install
 
-1. Copy the theme file flamerial.conf to ~/.config/kitty/themes:
+&emsp;**1.**&ensp;Copy the theme file flamerial.conf to ~/.config/kitty/themes:
 
 ```sh
 mkdir -p ~/.config/kitty/themes;
 cp flamerial.conf ~/.config/kitty/themes;
 ```
 
-2. Apply the theme in your ~/.config/kitty/kitty.conf configuration file:
+&emsp;**2.**&ensp;Apply the theme in your ~/.config/kitty/kitty.conf configuration file:
 
 ```
 include themes/flamerial.conf
 ```
 
-3. Reopen kitty.
+&emsp;**3.**&ensp;Reopen kitty.
