@@ -9,8 +9,7 @@
 cp config.def.h config.h;
 ```
 
-2. Replace the color definitions in your config.h configuration file by the
-   ones defined in the flamerial.h theme file.
+2. Replace the color definitions in your config.h configuration file by the ones defined in the flamerial.h theme file.
 3. Recompile dwm:
 
 ```sh

@@ -3,6 +3,5 @@
 
 ## Install
 
-1. Copy the commands of the flamerial.sh file to your ~/.config/bspwm/bspwmrc
-   configuration file.
+1. Copy the commands of the flamerial.sh file to your ~/.config/bspwm/bspwmrc configuration file.
 2. Reopen bspwm.

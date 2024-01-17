@@ -3,8 +3,7 @@
 
 ## Install
 
-1. While running the linux console, execute the flamerial.sh script to apply the
-   theme.
+1. While running the linux console, execute the flamerial.sh script to apply the theme.
 
 ```sh
 ./flamerial.sh;

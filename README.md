@@ -1,9 +1,9 @@
 <h1 align="center">⊼⊵⊼⊵&ensp;flamerial&ensp;⊼⊵⊼⊵</h1>
 <p align="center">
-  <img src="https://img.shields.io/github/license/skippyr/flamerial" alt="" />
-  <img src="https://img.shields.io/github/v/tag/skippyr/flamerial" alt="" />
-  <img src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial" alt="" />
-  <img src="https://img.shields.io/github/stars/skippyr/flamerial" alt="" />
+	<img src="https://img.shields.io/github/license/skippyr/flamerial" alt="" />
+	<img src="https://img.shields.io/github/v/tag/skippyr/flamerial" alt="" />
+	<img src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial" alt="" />
+	<img src="https://img.shields.io/github/stars/skippyr/flamerial" alt="" />
 </p>
 
 ## About
@@ -20,55 +20,55 @@ All available ports of the theme are under the ports directory. Open one you wou
 ## Palette
 
 <table align="center">
-  <thead>
-    <tr>
-      <th>ANSI</th>
-      <th>Name</th>
-      <th>HEX</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td>Black</td>
-      <td>#24130e</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Red</td>
-      <td>#b8150d</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Green</td>
-      <td>#9e7100</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Yellow</td>
-      <td>#db7a00</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Blue</td>
-      <td>#c48d49</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Magenta</td>
-      <td>#9c542d</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Cyan</td>
-      <td>#80854b</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>White</td>
-      <td>#e8cf89</td>
-    </tr>
-  </tbody>
+	<thead>
+		<tr>
+			<th>ANSI</th>
+			<th>Name</th>
+			<th>HEX</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>0</td>
+			<td>Black</td>
+			<td>#24130e</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Red</td>
+			<td>#b8150d</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Green</td>
+			<td>#9e7100</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Yellow</td>
+			<td>#db7a00</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Blue</td>
+			<td>#c48d49</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Magenta</td>
+			<td>#9c542d</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>Cyan</td>
+			<td>#80854b</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>White</td>
+			<td>#e8cf89</td>
+		</tr>
+	</tbody>
 </table>
 <p align="center"><sup><strong>Caption:</strong> the flamerial palette with their
 respective ANSI values.</sup></p>

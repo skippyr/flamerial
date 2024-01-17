@@ -3,8 +3,7 @@
 
 ## Install
 
-1. Copy the theme file flamerial.theme to
-   ~/.local/share/xfce4/terminal/colorschemes:
+1. Copy the theme file flamerial.theme to ~/.local/share/xfce4/terminal/colorschemes:
 
 ```sh
 mkdir -p ~/.local/share/xfce4/terminal/colorschemes;

@@ -28,8 +28,7 @@ mkdir -p ~/.config/alacritty/themes;
 cp flamerial.toml ~/.config/alacritty/themes;
 ```
 
-2. Apply the theme in your ~/.config/alacritty/alacritty.toml configuration
-   file:
+2. Apply the theme in your ~/.config/alacritty/alacritty.toml configuration file:
 
 ```toml
 import = ["~/.config/alacritty/themes/flamerial.toml"]
