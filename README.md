@@ -14,7 +14,7 @@
 
 ## ❡ About
 
-A fiery terminal dark theme to bring some good vibes to your days. Designed as a combination of 4 chromatic and 4 neutral colors, it has a decent balance between usability and an unalike experience.
+A fiery dark terminal theme.
 
 <p align="center"><img src="preview.webp" alt="" /></p>
 <p align="center"><sup><strong>Caption:</strong> a preview of the flamerial theme applied on a terminal. The font used is <a href="https://github.com/be5invis/Iosevka">Iosevka SS08</a>.</sup></p>
@@ -76,8 +76,7 @@ All available ports of the theme are under the ports directory. Open one you wou
 		</tr>
 	</tbody>
 </table>
-<p align="center"><sup><strong>Caption:</strong> the flamerial palette with their
-respective ANSI values.</sup></p>
+<p align="center"><sup><strong>Caption:</strong> the flamerial palette with their respective ANSI values.</sup></p>
 
 ## ❡ Help
 
