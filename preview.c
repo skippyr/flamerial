@@ -4,13 +4,12 @@ void clr(int lyr);
 void ln(void);
 void title(void);
 
-void
-clr(int lyr)
+void clr(int lyr)
 {
 	int i;
 	tdk_setclr(tdk_ClrBle, tdk_LyrFg);
 	printf("¦ ");
-	for (i = 1; i < 8; i++)
+	for (i = 1; i < 8; i++) {
 		if (lyr == tdk_LyrFg) {
 			tdk_setclr(i, tdk_LyrFg);
 			printf("Fla");
@@ -18,14 +17,14 @@ clr(int lyr)
 			tdk_setclr(i, tdk_LyrBg);
 			printf("   ");
 		}
+	}
 	tdk_setclr(tdk_ClrDft, tdk_LyrBg);
 	tdk_setclr(tdk_ClrBle, tdk_LyrFg);
 	printf(" ¦");
 	tdk_setclr(tdk_ClrDft, tdk_LyrFg);
 }
 
-void
-ln(void)
+void ln(void)
 {
 	int i;
 	tdk_setclr(tdk_ClrYlw, tdk_LyrFg);
@@ -33,8 +32,9 @@ ln(void)
 	tdk_setclr(tdk_ClrRed, tdk_LyrFg);
 	printf("~");
 	tdk_setclr(tdk_ClrBle, tdk_LyrFg);
-	for (i = 0; i < 21; i++)
+	for (i = 0; i < 21; i++) {
 		putchar('-');
+	}
 	tdk_setclr(tdk_ClrRed, tdk_LyrFg);
 	printf("~");
 	tdk_setclr(tdk_ClrYlw, tdk_LyrFg);
@@ -42,8 +42,7 @@ ln(void)
 	tdk_setclr(tdk_ClrDft, tdk_LyrFg);
 }
 
-void
-title(void)
+void title(void)
 {
 	int ccol;
 	int cln;
@@ -53,8 +52,7 @@ title(void)
 	tdk_setcpos(ccol, cln);
 }
 
-int
-main(void)
+int main(void)
 {
 	printf("           🔥🐉\n");
 	ln();
@@ -66,5 +64,5 @@ main(void)
 	printf("\n");
 	ln();
 	printf("\n");
-	return 0;
+	return (0);
 }
