@@ -4,7 +4,8 @@ void clr(int lyr);
 void ln(void);
 void title(void);
 
-void clr(int lyr)
+void
+clr(int lyr)
 {
 	int i;
 	tdk_setclr(tdk_ClrBle, tdk_LyrFg);
@@ -23,7 +24,8 @@ void clr(int lyr)
 	tdk_setclr(tdk_ClrDft, tdk_LyrFg);
 }
 
-void ln(void)
+void
+ln(void)
 {
 	int i;
 	tdk_setclr(tdk_ClrYlw, tdk_LyrFg);
@@ -40,7 +42,8 @@ void ln(void)
 	tdk_setclr(tdk_ClrDft, tdk_LyrFg);
 }
 
-void title(void)
+void
+title(void)
 {
 	int ccol;
 	int cln;
@@ -50,7 +53,8 @@ void title(void)
 	tdk_setcpos(ccol, cln);
 }
 
-int main(void)
+int
+main(void)
 {
 	printf("           🔥🐉\n");
 	ln();
