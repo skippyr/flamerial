@@ -2,12 +2,12 @@
 
 function setclr
 {
-	echo -ne \\e]P${1}${2};
+	printf "\33]P${1}${2}";
 }
 
 if [[ ${TERM} != linux ]];
 then
-	echo "flamerial.sh: the linux-console is not being used.";
+	printf "\33[31mflamerial (linux):\33[0m the linux-console is not being used.\n";
 	exit 1;
 fi
 
