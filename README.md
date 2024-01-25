@@ -16,7 +16,7 @@
 
 A fiery dark terminal theme.
 
-<p align="center"><img src="preview.webp" alt="" /></p>
+<p align="center"><img src="preview.webp" width="700" alt="" /></p>
 <p align="center"><sup><strong>Caption:</strong> a preview of the flamerial theme applied on a terminal. The font used is <a href="https://github.com/be5invis/Iosevka">Iosevka SS08</a>.</sup></p>
 
 ## ❡ Install
