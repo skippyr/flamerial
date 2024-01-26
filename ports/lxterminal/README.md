@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="../../banner.webp" alt="" />
+	<img src="../../imgs/ornament.webp" alt="" />
 </p>
 <h1 align="center">⊼⊵⊼⊵&ensp;flamerial&ensp;⊼⊵⊼⊵</h1>
 <p align="center">lxterminal</p>
