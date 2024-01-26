@@ -17,7 +17,7 @@
 A fiery dark terminal theme made of a balanced combination of 4 chromatic and 4 neutral colors.
 
 <p align="center"><img src="imgs/preview.webp" width="700" alt="" /></p>
-<p align="center"><sup><strong>Caption:</strong> a preview of the flamerial theme applied on a terminal. The font used is <a href="https://fonts.google.com/specimen/Source+Code+Pro">source code pro</a>.</sup></p>
+<p align="center"><sup><strong>Caption:</strong> a preview of the flamerial theme applied on a terminal. The font used is <a href="https://github.com/be5invis/Iosevka">iosevka</a>.</sup></p>
 
 ## ❡ Install
 
