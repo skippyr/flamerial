@@ -21,7 +21,11 @@ A fiery dark terminal theme made of a balanced combination of 4 chromatic and 4 
 
 ## ❡ Install
 
-All available ports of the theme are under the ports directory. Open one you would like to apply, then read the README inside it to find out how to install it.
+Most available ports of the theme are under the ports directory. Open one you would like to apply, then read the README inside it to find out how to install it.
+
+The remaining ports require special repositories to host their contents and instructions:
+
+&emsp;**1.**&ensp;[flamerial.vim](https://github.com/skippyr/flamerial.vim).
 
 ## ❡ Palette
 
