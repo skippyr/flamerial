@@ -6,5 +6,5 @@
 
 ## ❡ Install
 
-&emsp;**1.**&ensp;Replace the color definitions in your ~/.hyper.js configuration file by the ones defined in the flamerial.js file.\
-&emsp;**2.**&ensp;Reopen hyper.
+- Replace the color definitions in your ~/.hyper.js configuration file by the ones defined in the flamerial.js file.
+- Reopen hyper.

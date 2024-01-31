@@ -23,9 +23,9 @@ A fiery dark terminal theme made of a balanced combination of 4 chromatic and 4 
 
 Most available ports of the theme are under the ports directory. Open one you would like to apply, then read the README inside it to find out how to install it.
 
-The remaining ports require special repositories to host their contents and instructions:
+The remaining ports require exclusive repositories to host their contents and instructions:
 
-&emsp;**1.**&ensp;[flamerial.vim](https://github.com/skippyr/flamerial.vim).
+- [flamerial.vim](https://github.com/skippyr/flamerial.vim).
 
 ## ❡ Palette
 
@@ -95,7 +95,3 @@ By contributing to this project, you must agree to license your work under the s
 ## ❡ License
 
 This project is licensed under the MIT License. Refer to the LICENSE file that comes in its source code for license and copyright details.
-
-&nbsp;
-
-<p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥v</strong><br />Made with love by skippyr <3</sup></p>

@@ -6,7 +6,7 @@
 
 ## ❡ Install
 
-&emsp;**1.**&ensp;While running the linux console, execute the flamerial.sh script to apply the theme.
+- While running the linux console, execute the flamerial.sh script to apply the theme.
 
 ```sh
 ./flamerial.sh;

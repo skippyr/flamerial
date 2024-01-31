@@ -6,11 +6,11 @@
 
 ## ❡ Install
 
-&emsp;**1.**&ensp;Copy the theme file flamerial.theme to ~/.local/share/xfce4/terminal/colorschemes:
+- Copy the theme file flamerial.theme to ~/.local/share/xfce4/terminal/colorschemes:
 
 ```sh
 mkdir -p ~/.local/share/xfce4/terminal/colorschemes;
 cp flamerial.theme ~/.local/share/xfce4/terminal/colorschemes;
 ```
 
-&emsp;**2.**&ensp;Apply the theme in xfce4-terminal settings.
+- Apply the theme in xfce4-terminal settings.
