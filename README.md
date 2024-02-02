@@ -25,7 +25,7 @@ Most available ports of the theme are under the ports directory. Open one you wo
 
 The remaining ports require exclusive repositories to host their contents and instructions:
 
-- [flamerial.vim](https://github.com/skippyr/flamerial.vim).
+- [flamerial.vim](https://github.com/skippyr/flamerial.vim): the port for vim/neovim.
 
 ## ❡ Palette
 
