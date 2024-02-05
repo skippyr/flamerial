@@ -1,10 +1,12 @@
 <p align="center">
-	<img src="../../imgs/ornament.webp" alt="" />
+  <img alt="" src="../../imgs/ornament.webp" />
 </p>
 <h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
 <p align="center">terminator</p>
-
-## ❡ Install
-
-- Replace the colors definitions in the default profile of your ~/.config/terminator/config configuration file by the ones present in the theme file flamerial.conf.
-- Reopen terminator.
+<h2>❡ Install</h2>
+<ul>
+<li>Replace the default colors declared in your <code>~/.config/terminator/config</code> configuration file by the ones in the file <code>flamerial.conf</code>.</li>
+<li>Reopen <code>terminator</code>.</li>
+</ul>
+&ensp;
+<p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>

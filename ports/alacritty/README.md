@@ -1,39 +1,40 @@
 <p align="center">
-	<img src="../../imgs/ornament.webp" alt="" />
+  <img alt="" src="../../imgs/ornament.webp" />
 </p>
 <h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
 <p align="center">alacritty</p>
-
-## ❡ Install (< v0.13.0)
-
-- Copy the theme file flamerial.yml to ~/.config/alacritty/themes:
+<h2>❡ Install (< v13.0.0)</h2>
+<ul>
+<li>Copy the file <code>flamerial.yml</code> to <code>~/.config/alacritty/themes</code>:</li>
 
 ```sh
 mkdir -p ~/.config/alacritty/themes;
 cp flamerial.yml ~/.config/alacritty/themes;
 ```
 
-- Apply the theme in your ~/.config/alacritty/alacritty.yml configuration file:
+<li>Apply the theme in your <code>~/.config/alacritty/alacritty.yml</code> configuration file:</li>
 
 ```yml
 import:
   - ~/.config/alacritty/themes/flamerial.yml
 ```
 
-- Reopen alacritty.
-
-## ❡ Install (>= v0.13.0)
-
-- Copy the theme file flamerial.toml to ~/.config/alacritty/themes:
+<li>Reopen <code>alacritty</code>.</li>
+</ul>
+<h2>❡ Install (>= v13.0.0)</h2>
+<li>Copy the file <code>flamerial.toml</code> to <code>~/.config/alacritty/themes</code>:</li>
 
 ```sh
 mkdir -p ~/.config/alacritty/themes;
 cp flamerial.toml ~/.config/alacritty/themes;
 ```
-- Apply the theme in your ~/.config/alacritty/alacritty.toml configuration file:
+
+<li>Apply the theme in your <code>~/.config/alacritty/alacritty.toml</code> configuration file:</li>
 
 ```toml
 import = ["~/.config/alacritty/themes/flamerial.toml"]
 ```
 
-- Reopen alacritty.
+<li>Reopen <code>alacritty</code>.</li>
+&ensp;
+<p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
