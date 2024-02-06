@@ -12,7 +12,7 @@
   <img alt="" src="https://img.shields.io/github/stars/skippyr/flamerial?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
 </p>
 <h2>❡ About</h2>
-<p>A 3-bits fiery dark color scheme.</p>
+<p>A 3-bits fiery dark color scheme designed for the old school programmers.</p>
 <p align="center">
   <img alt="" src="imgs/preview.webp" width="700" />
   <p align="center"><sup><strong>Caption:</strong> a preview showing flamerial applied on a terminal. The font used is <a href="https://fonts.google.com/specimen/Inconsolata">inconsolata</a>.</sup></p>
