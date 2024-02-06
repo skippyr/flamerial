@@ -15,6 +15,7 @@
 <p>A 3-bits fiery dark color scheme.</p>
 <p align="center">
   <img alt="" src="imgs/preview.webp" width="700" />
+  <p align="center"><sup><strong>Caption:</strong> a preview showing flamerial applied on a terminal. The font used is <a href="https://fonts.google.com/specimen/Inconsolata">inconsolata</a>.</sup></p>
 </p>
 <h2>❡ Install</h2>
 <p>Most of the available ports are under the <code>ports</code> directory. Access it, find one you would like to install, then read the <code>README.md</code> inside of it for instructions.</p>
