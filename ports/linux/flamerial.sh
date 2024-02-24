@@ -1,28 +1,27 @@
 #!/bin/sh
 
-setclr() {
-  printf "\33]P${1}${2}";
+set_color() {
+  printf "\033]P${1}${2}";
 }
 
-if [[ ${TERM} != linux ]];
-then
-  printf "flamerial.sh: the linux terminal is not being used.\n";
+if [[ ${TERM} != linux ]]; then
+  printf 'flamerial.sh: the linux terminal is not being used.\n';
   exit 1;
 fi
 
-setclr 0 24130e;
-setclr 1 b8150d;
-setclr 2 9e7100;
-setclr 3 db7a00;
-setclr 4 c48d49;
-setclr 5 9c542d;
-setclr 6 80854b;
-setclr 7 e8cf89;
-setclr 8 c48d49;
-setclr 9 b8150d;
-setclr a 9e7100;
-setclr b db7a00;
-setclr c c48d49;
-setclr d 9c542d;
-setclr e 80854b;
-setclr f e8cf89;
+set_color 0 24130e;
+set_color 1 b8150d;
+set_color 2 9e7100;
+set_color 3 db7a00;
+set_color 4 c48d49;
+set_color 5 9c542d;
+set_color 6 80854b;
+set_color 7 e8cf89;
+set_color 8 c48d49;
+set_color 9 b8150d;
+set_color a 9e7100;
+set_color b db7a00;
+set_color c c48d49;
+set_color d 9c542d;
+set_color e 80854b;
+set_color f e8cf89;

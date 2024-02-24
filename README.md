@@ -1,29 +1,36 @@
 <p align="center">
-  <img alt="" src="imgs/ornament.webp" />
+  <img alt="" src="assets/ornament.webp" />
 </p>
 <h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
 <p align="center">
   <img alt="" src="https://img.shields.io/github/license/skippyr/flamerial?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" />
-  &nbsp;
+    &nbsp;
   <img alt="" src="https://img.shields.io/github/v/tag/skippyr/flamerial?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" />
-  &nbsp;
+    &nbsp;
   <img alt="" src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" />
-  &nbsp;
+    &nbsp;
   <img alt="" src="https://img.shields.io/github/stars/skippyr/flamerial?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
 </p>
-<h2>❡ About</h2>
-<p>A 3-bits fiery dark color scheme designed for the old school programmers.</p>
+
+## ❡ About
+
+A 3-bits fiery dark color scheme designed for old-school programmers.
+
 <p align="center">
-  <img alt="" src="imgs/preview.webp" width="700" />
+  <img alt="" src="assets/preview.webp" width="700" />
   <p align="center"><sup><strong>Caption:</strong> a preview showing flamerial applied on a terminal. The font used is <a href="https://fonts.google.com/specimen/Inconsolata">inconsolata</a>.</sup></p>
 </p>
-<h2>❡ Install</h2>
-<p>Most of the available ports are under the <code>ports</code> directory. Access it, find one you would like to install, then read the <code>README.md</code> inside of it for instructions.</p>
-<p>The remaining ports require exclusive repositories for their contents and instructions, you can visit them for more info. Those are:</p>
-<ul>
-  <li><strong><a href="https://github.com/skippyr/flamerial.vim">flamerial.vim</a></strong>: the port for vim/neovim.</li>
-</ul>
-<h2>❡ Pallete</h2>
+
+## ❡ Install
+
+Most of the available ports are under the `ports` directory. Access it, find one you would like to install, then read the `README.md` inside of it for instructions.
+
+The remaining ports require exclusive repositories for their contents and instructions, you can visit them for more info. Those are:
+
+- **[flamerial.vim](https://github.com/skippyr/flamerial.vim)**: the port for `vim`/`neovim`.
+
+## ❡ Pallete
+
 <table align="center">
   <thead>
     <tr>
@@ -76,12 +83,20 @@
   </tbody>
 </table>
 <p align="center"><strong>Caption:</strong> the colors used in the flamerial color scheme with their respective ANSI values.</p>
-<h2>❡ Help</h2>
-<p>If you need help related to this project, open a new issue in its <a href="https://github.com/skippyr/flamerial/issues">issues page</a> or send me an <a href="mailto:skippyr.developer@gmail.com">e-mail</a> describing what is going on.</p>
-<h2>❡ Contributing</h2>
-<p>This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its <a href="https://github.com/skippyr/flamerial/pulls">pull requests page</a> or to my <a href="mailto:skippyr.developer@gmail.com">e-mail</a>.</p>
-<a>By contributing to this project, you must agree to license your work under the same license that the project uses.</a>
-<h2>❡ License</h2>
-<p>This project is licensed under the MIT License. Refer to the <code>LICENSE</code> file that comes in its source code for license and copyright details.</p>
+
+## ❡ Help
+
+If you need help related to this project, open a new issue in its [issues page](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@gmail.com) describing what is going on.
+
+## ❡ Contributing
+
+This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@gmail.com).
+
+By contributing to this project, you must agree to license your work under the same license that the project uses.
+
+## ❡ License
+
+This project is licensed under the MIT License. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
+
 &ensp;
 <p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
