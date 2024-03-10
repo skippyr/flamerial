@@ -1,5 +1,5 @@
 <p align="center">
-	<img alt="" src="../../assets/ornament.webp" />
+  <img alt="" src="../../assets/ornament.webp" />
 </p>
 <h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
 <p align="center">wezterm</p>
@@ -17,7 +17,7 @@ cp flamerial.toml ~/.config/wezterm/colors;
 
 ```lua
 return {
-    color_scheme = 'flamerial'
+  color_scheme = 'flamerial'
 }
 ```
 
