@@ -18,7 +18,7 @@ A 3-bits fiery dark theme for the old-school programmers.
 
 <p align="center">
   <img alt="" src="assets/preview.webp" width="700" />
-  <p align="center"><sup><strong>Caption:</strong> a preview showing Flamerial applied on a terminal. The font used is <a href="https://github.com/madmalik/mononoki">Mononoki Nerd Font</a>.</sup></p>
+  <p align="center"><sup><strong>Caption:</strong> a preview showing Flamerial applied on a terminal. The font used is <a href="https://github.com/source-foundry/Hack">Hack</a>.</sup></p>
 </p>
 
 ## ❡ Install
