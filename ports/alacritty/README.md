@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="" src="../../assets/ornament.webp" />
+    <img alt="" src="../../assets/ornament.webp" />
 </p>
 <h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
 <p align="center">alacritty</p>
@@ -40,4 +40,4 @@ import = ["~/.config/alacritty/themes/flamerial.toml"]
 - Reopen `alacritty`.
 
 &ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
+<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
