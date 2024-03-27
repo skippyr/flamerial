@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function setColor()
+function setColor
 {
     printf "\033]P${1}${2}";
 }

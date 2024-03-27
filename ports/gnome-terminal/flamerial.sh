@@ -2,7 +2,7 @@
 
 typeset -g g_profileUUID=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \');
 
-function applyProperty()
+function applyProperty
 {
     gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${g_profileUUID}/ ${1} ${2};
 }
