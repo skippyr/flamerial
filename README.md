@@ -1,24 +1,24 @@
 <p align="center">
-    <img alt="" src="assets/ornament.webp" />
+  <img alt="" src="assets/ornament.webp" />
 </p>
 <h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
 <p align="center">
-    <img alt="" src="https://img.shields.io/github/license/skippyr/flamerial?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" />
-    &nbsp;
-    <img alt="" src="https://img.shields.io/github/v/tag/skippyr/flamerial?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" />
-    &nbsp;
-    <img alt="" src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" />
-    &nbsp;
-    <img alt="" src="https://img.shields.io/github/stars/skippyr/flamerial?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
+  <img alt="" src="https://img.shields.io/github/license/skippyr/flamerial?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" />
+  &nbsp;
+  <img alt="" src="https://img.shields.io/github/v/tag/skippyr/flamerial?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" />
+  &nbsp;
+  <img alt="" src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" />
+  &nbsp;
+  <img alt="" src="https://img.shields.io/github/stars/skippyr/flamerial?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
 </p>
 
 ## ❡ About
 
-A 3-bits fiery dark theme for the old-school programmers.
+A 3-bits fiery and dark theme.
 
 <p align="center">
-    <img alt="" src="assets/preview.webp" width="700" />
-    <p align="center"><sup><strong>Caption:</strong> a preview showing Flamerial applied on a terminal. The font used is <a href="https://github.com/source-foundry/Hack">Hack</a>.</sup></p>
+  <img alt="" src="assets/preview.webp" width="700" />
+  <p align="center"><sup><strong>Caption:</strong> a preview showing Flamerial applied on a terminal. The font used is <a href="https://fonts.google.com/specimen/Fira+Code">Fira Code</a>.</sup></p>
 </p>
 
 ## ❡ Install
@@ -32,55 +32,55 @@ The remaining ports require exclusive repositories for their contents and instru
 ## ❡ Pallete
 
 <table align="center">
-    <thead>
-        <tr>
-            <th>ANSI</th>
-            <th>Name</th>
-            <th>HEX</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>0</td>
-            <td>Black</td>
-            <td><code>#24130e</code></td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Red</td>
-            <td><code>#b8150d</code></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Green</td>
-            <td><code>#a1650b</code></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Yellow</td>
-            <td><code>#db7a00</code></td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Blue</td>
-            <td><code>#c48d49</code></td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Magenta</td>
-            <td><code>#9e4711</code></td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Cyan</td>
-            <td><code>#948141</code></td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>White</td>
-            <td><code>#e8cf89</code></td>
-        </tr>
-    </tbody>
+  <thead>
+    <tr>
+      <th>ANSI</th>
+      <th>Name</th>
+      <th>HEX</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>Black</td>
+      <td><code>#24130e</code></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Red</td>
+      <td><code>#b8150d</code></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Green</td>
+      <td><code>#a1650b</code></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Yellow</td>
+      <td><code>#db7a00</code></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Blue</td>
+      <td><code>#c48d49</code></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Magenta</td>
+      <td><code>#9e4711</code></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Cyan</td>
+      <td><code>#948141</code></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>White</td>
+      <td><code>#e8cf89</code></td>
+    </tr>
+  </tbody>
 </table>
 <p align="center"><strong>Caption:</strong> the colors used in the flamerial color scheme with their respective ANSI values.</p>
 

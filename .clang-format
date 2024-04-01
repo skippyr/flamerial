@@ -1,0 +1,8 @@
+AlignEscapedNewlines: DontAlign
+AlignTrailingComments: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortLambdasOnASingleLine: None
+BasedOnStyle: LLVM
+JavaScriptQuotes: Single
+SpacesInContainerLiterals: false
