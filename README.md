@@ -23,11 +23,7 @@ A 3-bits fiery and dark theme.
 
 ## ❡ Install
 
-Most of the available ports are under the `ports` directory. Access it, find one you would like to install, then read the `README.md` inside of it for instructions.
-
-The remaining ports require exclusive repositories for their contents and instructions, you can visit them for more info. Those are:
-
-- **[flamerial.vim](https://github.com/skippyr/flamerial.vim)**: the port for `vim`/`neovim`.
+Available ports are under the `ports` directory. Access it, find one you would like to install, then read the `README.md` inside of it for instructions.
 
 ## ❡ Pallete
 
