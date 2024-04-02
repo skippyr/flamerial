@@ -92,7 +92,7 @@ By contributing to this project, you must agree to license your work under the s
 
 ## ❡ License
 
-This project is licensed under the MIT License. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
+This is free software licensed under the MIT License that comes WITH NO WARRANTY. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
 
 &ensp;
 <p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
