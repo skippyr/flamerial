@@ -1,0 +1,28 @@
+{
+    "schemes":
+    [
+        {
+            "background": "#24130e",
+            "foreground": "#e8cf89",
+            "cursorColor": "#e8cf89",
+            "selectionBackground": "#e8cf89",
+            "black": "#24130e",
+            "red": "#b8150d",
+            "green": "#a1650b",
+            "yellow": "#db7a00",
+            "blue": "#c48d49",
+            "purple": "#9e4711",
+            "cyan": "#948141",
+            "white": "#e8cf89",
+            "brightBlack": "#c48d49",
+            "brightRed": "#b8150d",
+            "brightGreen": "#a1650b",
+            "brightYellow": "#db7a00",
+            "brightBlue": "#c48d49",
+            "brightPurple": "#9e4711",
+            "brightCyan": "#948141",
+            "brightWhite": "#e8cf89",
+            "name": "flamerial"
+        }
+    ]
+}
