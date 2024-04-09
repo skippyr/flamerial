@@ -1,8 +1,13 @@
+AccessModifierOffset: -4
 AlignEscapedNewlines: DontAlign
 AlignTrailingComments: false
-AllowShortEnumsOnASingleLine: false
-AllowShortFunctionsOnASingleLine: None
 AllowShortLambdasOnASingleLine: None
-BasedOnStyle: LLVM
-JavaScriptQuotes: Single
+AlwaysBreakTemplateDeclarations: Yes
+BasedOnStyle: Microsoft
+BreakAfterJavaFieldAnnotations: true
+FixNamespaceComments: false
+JavaScriptQuotes: Double
+NamespaceIndentation : All
+PointerAlignment: Left
 SpacesInContainerLiterals: false
+UseTab: ForContinuationAndIndentation
