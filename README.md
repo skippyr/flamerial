@@ -18,7 +18,7 @@ A 3-bits fiery and dark theme.
 
 <p align="center">
 	<img alt="" src="assets/preview.webp" width="700" />
-	<p align="center"><sup><strong>Caption:</strong> a preview showing Flamerial applied on a terminal. The font used is <a href="https://fonts.google.com/specimen/Fira+Code">Fira Code</a>.</sup></p>
+	<p align="center"><sup><strong>Caption:</strong> a preview showing flamerial applied on a terminal. The font used is <a href="https://github.com/be5invis/Iosevka">iosevka ss08</a>.</sup></p>
 </p>
 
 ## ❡ Install
