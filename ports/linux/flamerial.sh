@@ -1,13 +1,13 @@
 #!/bin/bash
 
 setclr() {
-  printf "\033]P${1}${2}";
+	printf "\033]P${1}${2}";
 }
 
 if [[ ${TERM} != "linux" ]];
 then
-  printf "flamerial.sh: the linux terminal is not being used.\n";
-  exit 1;
+	printf "flamerial.sh: the linux terminal is not being used.\n";
+	exit 1;
 fi
 
 setclr 0 "24130e";
