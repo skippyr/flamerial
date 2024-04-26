@@ -14,7 +14,7 @@
 
 ## ❡ About
 
-A 3-bits fiery and dark theme.
+A fiery and spice terminal theme.
 
 <p align="center">
 	<img alt="" src="assets/preview.webp" width="700" />
