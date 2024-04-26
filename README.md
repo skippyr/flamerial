@@ -69,7 +69,7 @@ Available ports are under the `ports` directory. Access it, find one you would l
 		<tr>
 			<td>6</td>
 			<td>Cyan</td>
-			<td><code>#948141</code></td>
+			<td><code>#c74216</code></td>
 		</tr>
 		<tr>
 			<td>7</td>

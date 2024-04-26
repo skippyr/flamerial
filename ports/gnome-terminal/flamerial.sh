@@ -15,5 +15,5 @@ setattr cursor-foreground-color \#24130e;
 setattr highlight-background-color \#e8cf89;
 setattr highlight-foreground-color \#24130e;
 setattr palette [\"#24130e\",\"#b8150d\",\"#a1650b\",\"#db7a00\",\"#c48d49\",\
-\"#9e4711\",\"#948141\",\"#e8cf89\",\"#c48d49\",\"#b8150d\",\"#a1650b\",\
-\"#db7a00\",\"#c48d49\",\"#9e4711\",\"#948141\",\"#e8cf89\"];
+\"#9e4711\",\"#c74216\",\"#e8cf89\",\"#c48d49\",\"#b8150d\",\"#a1650b\",\
+\"#db7a00\",\"#c48d49\",\"#9e4711\",\"#c74216\",\"#e8cf89\"];

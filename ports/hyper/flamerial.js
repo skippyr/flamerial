@@ -12,7 +12,7 @@ modules.exports = {
       yellow: '#db7a00',
       blue: '#c48d49',
       magenta: '#9e4711',
-      cyan: '#948141',
+      cyan: '#c74216',
       white: '#e8cf89',
       lightBlack: '#c48d49',
       lightRed: '#b8150d',
@@ -20,7 +20,7 @@ modules.exports = {
       lightYellow: '#db7a00',
       lightBlue: '#c48d49',
       lightMagenta: '#9e4711',
-      lightCyan: '#948141',
+      lightCyan: '#c74216',
       lightWhite: '#e8cf89',
       limeGreen: '#32cd32',
       lightCoral: '#f08080'
