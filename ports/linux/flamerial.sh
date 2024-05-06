@@ -2,13 +2,13 @@
 
 setColor()
 {
-    echo -ne \\033]P${1}${2};
+	echo -ne \\033]P${1}${2};
 }
 
 if [[ ${TERM} != linux ]];
 then
-    echo "flamerial.sh: the linux terminal is not being used.";
-    exit 1;
+	echo "flamerial.sh: the linux terminal is not being used.";
+	exit 1;
 fi
 
 setColor 0 24130e;
