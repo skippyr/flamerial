@@ -70,7 +70,7 @@ function writeTable() {
       <td><img alt="" src="assets/colors/${g_palette[offset][0].toLowerCase()}.webp" /></td>
       <td>${offset}</td>
       <td>${g_palette[offset][0]}</td>
-      <td>\`${g_palette[offset][1]}\`</td>
+      <td><code>${g_palette[offset][1]}</code></td>
     </tr>`);
   }
   console.log(`  </tbody>

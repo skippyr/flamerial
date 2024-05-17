@@ -41,49 +41,49 @@ Available ports are under the `ports` directory. Access it, find one you would l
       <td><img alt="" src="assets/colors/black.webp" /></td>
       <td>0</td>
       <td>Black</td>
-      <td>`#221107`</td>
+      <td><code>#221107</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/red.webp" /></td>
       <td>1</td>
       <td>Red</td>
-      <td>`#990b3a`</td>
+      <td><code>#990b3a</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/green.webp" /></td>
       <td>2</td>
       <td>Green</td>
-      <td>`#cc561b`</td>
+      <td><code>#cc561b</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/yellow.webp" /></td>
       <td>3</td>
       <td>Yellow</td>
-      <td>`#e0a100`</td>
+      <td><code>#e0a100</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/blue.webp" /></td>
       <td>4</td>
       <td>Blue</td>
-      <td>`#b98361`</td>
+      <td><code>#b98361</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/magenta.webp" /></td>
       <td>5</td>
       <td>Magenta</td>
-      <td>`#ae3a34`</td>
+      <td><code>#ae3a34</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/cyan.webp" /></td>
       <td>6</td>
       <td>Cyan</td>
-      <td>`#a16205`</td>
+      <td><code>#a16205</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/white.webp" /></td>
       <td>7</td>
       <td>White</td>
-      <td>`#f5efcd`</td>
+      <td><code>#f5efcd</code></td>
     </tr>
   </tbody>
 </table>
