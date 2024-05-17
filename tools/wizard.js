@@ -76,7 +76,7 @@ function writeTable() {
   }
   console.log(`  </tbody>
 </table>
-<p align="center"><strong>Caption:</strong> the colors used in the flamerial color scheme with their respective ANSI values.</p>`);
+<p align="center"><strong>Caption:</strong> the colors used in the Flamerial color scheme with their respective ANSI values.</p>`);
 }
 
 for (let argument of process.argv) {

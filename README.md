@@ -87,7 +87,7 @@ Available ports are under the `ports` directory. Access it, find one you would l
     </tr>
   </tbody>
 </table>
-<p align="center"><strong>Caption:</strong> the colors used in the flamerial color scheme with their respective ANSI values.</p>
+<p align="center"><strong>Caption:</strong> the colors used in the Flamerial color scheme with their respective ANSI values.</p>
 
 ## ❡ Help
 

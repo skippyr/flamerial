@@ -1,12 +1,12 @@
 #!/bin/bash
 
 set_color() {
-  echo -ne \\033]P${1}${2};
+  echo -ne \\x1b]P${1}${2};
 }
 
 if [[ ${TERM} != linux ]];
 then
-    echo "flamerial.sh: the linux terminal is not being used.";
+    echo -e "\x1b[1;31m[ERROR]\x1b[22;39m The \x1b[33m\"linux\"\x1b[39m terminal is not being used.";
     exit 1;
 fi
 
