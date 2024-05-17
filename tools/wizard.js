@@ -22,7 +22,12 @@ function createTablePreviews() {
     const size = 20;
     let file = `${g_palette[offset][0].toLowerCase()}.webp`;
     console.log(`  [${parseInt(offset) + 1}/${g_palette.length}] Creating image \x1b[33m"${file}"\x1b[39m`);
-    childProcess.execSync(`magick convert -size ${size}x${size} xc:${g_palette[offset][1]} ${path.join(g_colorsDirectory, file)}`);
+    try {
+      childProcess.execSync(`magick convert -size ${size}x${size} xc:${g_palette[offset][1]} ${path.join(g_colorsDirectory, file)}`,
+                            { stdio: 'ignore' });
+    } catch {
+      throwError('ImageMagick suite is not installed.');
+    }
   }
 }
 
@@ -39,19 +44,15 @@ function writeHelp() {
   console.log('  \x1b[38;5;8m--main-preview\x1b[39m    Writes the README main preview.');
   console.log('  \x1b[38;5;8m--table\x1b[39m           Writes the README table.');
   console.log('  \x1b[38;5;8m--table-previews\x1b[39m  Creates the README table previews.');
-  console.log('                    \x1b[38;5;8mRequires imagemagick suite installed.\x1b[39m');
+  console.log('                    \x1b[38;5;8mRequires ImageMagick suite installed.\x1b[39m');
 }
 
 function writeMainPreview() {
   console.log('          🔥🐉');
-  console.log('\x1b[33m%\x1b[31m~\x1b[34m-----\x1b[39m Flamerial \x1b[34m-----' +
-    '\x1b[31m~\x1b[33m%');
-  console.log('¦ \x1b[41m   \x1b[42m   \x1b[43m   \x1b[44m   \x1b[45m   ' +
-    '\x1b[46m   \x1b[47m   \x1b[49m ¦');
-  console.log('¦ \x1b[31mFla\x1b[32mFla\x1b[33mFla\x1b[34mFla\x1b[35mFla' +
-    '\x1b[36mFla\x1b[37mFla\x1b[34m ¦');
-  console.log('\x1b[33m%\x1b[31m~\x1b[34m---------------------\x1b[31m~' +
-    '\x1b[33m%\x1b[39m');
+  console.log('\x1b[33m%\x1b[31m~\x1b[34m-----\x1b[39m Flamerial \x1b[34m-----\x1b[31m~\x1b[33m%');
+  console.log('¦ \x1b[41m   \x1b[42m   \x1b[43m   \x1b[44m   \x1b[45m   \x1b[46m   \x1b[47m   \x1b[49m ¦');
+  console.log('¦ \x1b[31mFla\x1b[32mFla\x1b[33mFla\x1b[34mFla\x1b[35mFla\x1b[36mFla\x1b[37mFla\x1b[34m ¦');
+  console.log('\x1b[33m%\x1b[31m~\x1b[34m---------------------\x1b[31m~\x1b[33m%\x1b[39m');
 }
 
 function writeTable() {
