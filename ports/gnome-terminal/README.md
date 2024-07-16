@@ -1,14 +1,14 @@
 <p align="center">
-  <img alt="" src="../../assets/ornament.webp" />
+    <img alt="" src="../../assets/ornament.png" width=1020 />
 </p>
-<h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
-<p align="center">gnome-terminal</p>
+<h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
+<p align="center">Gnome Terminal</p>
 
 ## ❡ Install
 
-- While running the `gnome-terminal` terminal, execute the `flamerial.sh` script:
+- While running the Gnome Terminal, run the script `flamerial.sh`.
 
-```sh
+```zsh
 ./flamerial.sh;
 ```
 

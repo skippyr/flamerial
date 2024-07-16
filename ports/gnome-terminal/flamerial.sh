@@ -1,21 +1,18 @@
 #!/bin/bash
 
-g_uuid=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \');
+uuid_g=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \');
 
-set_attribute() {
-  gsettings set \
-      org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${g_uuid}/ \
-      ${1} ${2};
+function setAttribute
+{
+    gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${uuid_g}/ ${1} ${2};
 }
 
-set_attribute use-theme-colors false;
-set_attribute background-color \#221107;
-set_attribute foreground-color \#f5efcd;
-set_attribute cursor-background-color \#f5efcd;
-set_attribute cursor-foreground-color \#221107;
-set_attribute highlight-background-color \#f5efcd;
-set_attribute highlight-foreground-color \#221107;
-set_attribute palette [\"#221107\",\"#990b3a\",\"#cc561b\",\"#e0a100\",\
-\"#b98361\",\"#ae3a34\",\"#a16205\",\"#f5efcd\",\"#b98361\",\"#990b3a\",\
-\"#cc561b\",\"#e0a100\",\"#b98361\",\"#ae3a34\",\
-\"#a16205\",\"#f5efcd\"];
+setAttribute use-theme-colors false;
+setAttribute background-color \#150d06;
+setAttribute foreground-color \#e9d397;
+setAttribute cursor-background-color \#e9d397;
+setAttribute cursor-foreground-color \#150d06;
+setAttribute highlight-background-color \#e9d397;
+setAttribute highlight-foreground-color \#150d06;
+setAttribute palette [\"#150d06\",\"#b31c13\",\"#990101\",\"#c76800\",\"#b08548\",\"#8a3820\",\"#9c3900\",\"#e9d397\",\"#b08548\",\"#b31c13\",\"#990101\",\"#c76800\",\"#b08548\",\
+\"#8a3820\",\"#9c3900\",\"#e9d397\"];

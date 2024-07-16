@@ -1,27 +1,24 @@
 <p align="center">
-  <img alt="" src="../../assets/ornament.webp" />
+    <img alt="" src="../../assets/ornament.png" width=1020 />
 </p>
-<h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
-<p align="center">wezterm</p>
+<h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
+<p align="center">WezTerm</p>
 
 ## ❡ Install
 
 - Copy the file `flamerial.toml` to `~/.config/wezterm/colors`:
 
-```sh
+```zsh
 mkdir -p ~/.config/wezterm/colors;
 cp flamerial.toml ~/.config/wezterm/colors;
 ```
 
-- Apply the color scheme in your `~/.config/wezterm/wezterm.lua` configuration file:
+- Apply the theme in your `~/.config/wezterm/wezterm.lua` configuration file:
 
 ```lua
 return {
-  color_scheme = 'flamerial'
+    color_scheme = "Flamerial"
 }
 ```
 
-- Reopen `wezterm`.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
+- Reopen Wezterm.

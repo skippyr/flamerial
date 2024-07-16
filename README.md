@@ -1,24 +1,15 @@
 <p align="center">
-  <img alt="" src="assets/ornament.webp" />
+    <img alt="" src="assets/ornament.png" width=1020 />
 </p>
-<h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
-<p align="center">
-  <img alt="" src="https://img.shields.io/github/license/skippyr/flamerial?style=plastic&label=%E2%B8%96%20license&labelColor=%23221107&color=%23990b3a" />
-  &nbsp;
-  <img alt="" src="https://img.shields.io/github/v/tag/skippyr/flamerial?style=plastic&label=%E2%B8%96%20tag&labelColor=%23221107&color=%23990b3a" />
-  &nbsp;
-  <img alt="" src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial?style=plastic&label=%E2%B8%96%20commits&labelColor=%23221107&color=%23990b3a" />
-  &nbsp;
-  <img alt="" src="https://img.shields.io/github/stars/skippyr/flamerial?style=plastic&label=%E2%B8%96%20stars&labelColor=%23221107&color=%23990b3a" />
-</p>
+<h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
 
 ## ❡ About
 
-A fiery and spice terminal theme.
+A fiery and spice theme available on Windows, Linux and MacOS.
 
 <p align="center">
-  <img alt="" src="assets/preview.webp" width="700" />
-  <p align="center"><sup><strong>Caption:</strong> a preview showing Flamerial applied on a terminal. The font used is <a href="https://www.nerdfonts.com/font-downloads">Hack</a> (Nerd Fonts patched).</sup></p>
+    <img alt="" src="assets/preview.png" width="700" />
+    <p align="center"><strong>Caption:</strong> the Flamerial theme applied on a terminal.</p>
 </p>
 
 ## ❡ Install
@@ -28,74 +19,83 @@ Available ports are under the `ports` directory. Access it, find one you would l
 ## ❡ Pallete
 
 <table align="center">
-  <thead>
-    <tr>
-      <th>Preview</th>
-      <th>ANSI</th>
-      <th>Name</th>
-      <th>HEX</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img alt="" src="assets/colors/black.webp" /></td>
-      <td>0</td>
-      <td>Black</td>
-      <td><code>#221107</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/colors/red.webp" /></td>
-      <td>1</td>
-      <td>Red</td>
-      <td><code>#990b3a</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/colors/green.webp" /></td>
-      <td>2</td>
-      <td>Green</td>
-      <td><code>#cc561b</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/colors/yellow.webp" /></td>
-      <td>3</td>
-      <td>Yellow</td>
-      <td><code>#e0a100</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/colors/blue.webp" /></td>
-      <td>4</td>
-      <td>Blue</td>
-      <td><code>#b98361</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/colors/magenta.webp" /></td>
-      <td>5</td>
-      <td>Magenta</td>
-      <td><code>#ae3a34</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/colors/cyan.webp" /></td>
-      <td>6</td>
-      <td>Cyan</td>
-      <td><code>#a16205</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/colors/white.webp" /></td>
-      <td>7</td>
-      <td>White</td>
-      <td><code>#f5efcd</code></td>
-    </tr>
-  </tbody>
+    <thead>
+        <tr>
+            <th>Preview</th>
+            <th>ANSI</th>
+            <th>Name</th>
+            <th>HEX</th>
+            <th>RGB</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img alt="" src="assets/colors/black.png" /></td>
+            <td>0</td>
+            <td>Black</td>
+            <td><code>#150d06</code></td>
+            <td><code>21</code> <code>13</code> <code>6</code></td>
+        </tr>
+        <tr>
+            <td><img alt="" src="assets/colors/red.png" /></td>
+            <td>1</td>
+            <td>Red</td>
+            <td><code>#b31c13</code></td>
+            <td><code>179</code> <code>29</code> <code>19</code></td>
+        </tr>
+        <tr>
+            <td><img alt="" src="assets/colors/green.png" /></td>
+            <td>2</td>
+            <td>Green</td>
+            <td><code>#990101</code></td>
+            <td><code>153</code> <code>1</code> <code>1</code></td>
+        </tr>
+        <tr>
+            <td><img alt="" src="assets/colors/yellow.png" /></td>
+            <td>3</td>
+            <td>Yellow</td>
+            <td><code>#c76800</code></td>
+            <td><code>199</code> <code>104</code> <code>0</code></td>
+        </tr>
+        <tr>
+            <td><img alt="" src="assets/colors/blue.png" /></td>
+            <td>4</td>
+            <td>Blue</td>
+            <td><code>#b08548</code></td>
+            <td><code>176</code> <code>133</code> <code>72</code></td>
+        </tr>
+        <tr>
+            <td><img alt="" src="assets/colors/magenta.png" /></td>
+            <td>5</td>
+            <td>Magenta</td>
+            <td><code>#8a3820</code></td>
+            <td><code>138</code> <code>56</code> <code>32</code></td>
+        </tr>
+        <tr>
+            <td><img alt="" src="assets/colors/cyan.png" /></td>
+            <td>6</td>
+            <td>Cyan</td>
+            <td><code>#9c3900</code></td>
+            <td><code>156</code> <code>57</code> <code>0</code></td>
+        </tr>
+        <tr>
+            <td><img alt="" src="assets/colors/white.png" /></td>
+            <td>7</td>
+            <td>White</td>
+            <td><code>#e9d397</code></td>
+            <td><code>233</code> <code>211</code> <code>151</code></td>
+        </tr>
+    </tbody>
 </table>
-<p align="center"><strong>Caption:</strong> the colors used in the Flamerial color scheme with their respective ANSI values.</p>
+<p align="center"><strong>Caption:</strong> the colors of the Flamerial theme with their respective ANSI codes.</p>
 
 ## ❡ Help
 
-If you need help related to this project, open a new issue in its [issues page](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@gmail.com) describing what is going on.
+If you need help related to this project, open a new issue in its [issues page](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
 
 ## ❡ Contributing
 
-This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@gmail.com).
+This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
 
 By contributing to this project, you must agree to license your work under the same license that the project uses.
 

@@ -1,7 +1,5 @@
-static const char *colorname[] = {"#221107", "#990b3a", "#cc561b", "#e0a100",
-				  "#b98361", "#ae3a34", "#a16205", "#f5efcd",
-				  "#b98361", "#990b3a", "#cc561b", "#e0a100",
-				  "#b98361", "#ae3a34", "#a16205", "#f5efcd"};
+static const char *colorname[] = {"#150d06", "#b31c13", "#990101", "#c76800", "#b08548", "#8a3820", "#9c3900", "#e9d397", "#b08548", "#b31c13", "#990101", "#c76800", "#b08548",
+                                  "#8a3820", "#9c3900", "#e9d397"};
 unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
 unsigned int defaultcs = 15;

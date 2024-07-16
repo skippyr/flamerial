@@ -1,14 +1,14 @@
 <p align="center">
-  <img alt="" src="../../assets/ornament.webp" />
+    <img alt="" src="../../assets/ornament.png" width=1020 />
 </p>
-<h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
-<p align="center">alacritty</p>
+<h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
+<p align="center">Alacritty</p>
 
 ## ❡ Install (< v13.0.0)
 
 - Copy the file `flamerial.yml` to `~/.config/alacritty/themes`:
 
-```sh
+```zsh
 mkdir -p ~/.config/alacritty/themes;
 cp flamerial.yml ~/.config/alacritty/themes;
 ```
@@ -20,13 +20,13 @@ import:
   - ~/.config/alacritty/themes/flamerial.yml
 ```
 
-- Reopen `alacritty`.
+- Reopen Alacritty.
 
 ## ❡ Install (>= v13.0.0)
 
 - Copy the file `flamerial.toml` to `~/.config/alacritty/themes`:
 
-```sh
+```zsh
 mkdir -p ~/.config/alacritty/themes;
 cp flamerial.toml ~/.config/alacritty/themes;
 ```
@@ -37,7 +37,7 @@ cp flamerial.toml ~/.config/alacritty/themes;
 import = ["~/.config/alacritty/themes/flamerial.toml"]
 ```
 
-- Reopen `alacritty`.
+- Reopen Alacritty.
 
 &ensp;
 <p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>

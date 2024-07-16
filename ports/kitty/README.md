@@ -1,25 +1,25 @@
 <p align="center">
-  <img alt="" src="../../assets/ornament.webp" />
+    <img alt="" src="../../assets/ornament.png" width=1020 />
 </p>
-<h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
-<p align="center">kitty</p>
+<h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
+<p align="center">Kitty</p>
 
 ## ❡ Install
 
 - Copy the file `flamerial.conf` to `~/.config/kitty/themes`:
 
-```sh
+```zsh
 mkdir -p ~/.config/kitty/themes;
 cp flamerial.conf ~/.config/kitty/themes;
 ```
 
-- Apply the color scheme in your `~/.config/kitty/kitty.conf` configuration file:
+- Add the following line to your `~/.config/kitty/kitty.conf` configuration file:
 
-```sh
-include ~/.config/kitty/themes/flamerial.conf
+```
+include themes/flamerial.conf
 ```
 
-- Reopen or reload `kitty` by using `Ctrl + Shift + F5`.
+- Reopen Kitty.
 
 &ensp;
 <p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>

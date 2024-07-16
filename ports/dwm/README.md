@@ -2,18 +2,18 @@
     <img alt="" src="../../assets/ornament.png" width=1020 />
 </p>
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
-<p align="center">st</p>
+<p align="center">dwm</p>
 
 ## ❡ Install
 
-- In your st copy, create a copy of the `config.def.h` backup configuration file named as `config.h`:
+- In your dwm copy, create a copy of the `config.def.h` backup configuration file named as `config.h`:
 
 ```zsh
 cp config.def.h config.h;
 ```
 
 - Replace the colors in your `config.h` configuration file by the ones present in the `flamerial.h` file.
-- Recompile st (use `sudo` if necessary):
+- Recompile dwm (use `sudo` if necessary):
 
 ```zsh
 sudo make install clean;
