@@ -32,6 +32,10 @@ Here are some wallpapers that match well with the Flamerial theme. Access the li
       <td>Chad Madden</td>
       <td><a href="https://unsplash.com/photos/aerial-photography-of-trees-and-road-cPa-7yByq3o">Aerial Photography Of Trees And Road</a></td>
     </tr>
+    <tr>
+      <td>Aditya Vyas</td>
+      <td><a href="https://unsplash.com/photos/regal-cinemas-building-fWkVZjv2V8M">Regal Cinemas Building</a></td>
+    </tr>
   </tbody>
 </table>
 
