@@ -36,6 +36,10 @@ Here are some wallpapers that match well with the Flamerial theme. Access the li
       <td>Aditya Vyas</td>
       <td><a href="https://unsplash.com/photos/regal-cinemas-building-fWkVZjv2V8M">Regal Cinemas Building</a></td>
     </tr>
+    <tr>
+      <td>Jesse Bowser</td>
+      <td><a href="https://unsplash.com/photos/clouds-in-the-sky-su0x6uVJ7xI">Clouds In The Sky</a></td>
+    </tr>
   </tbody>
 </table>
 
