@@ -40,6 +40,10 @@ Here are some wallpapers that match well with the Flamerial theme. Access the li
       <td>Jesse Bowser</td>
       <td><a href="https://unsplash.com/photos/clouds-in-the-sky-su0x6uVJ7xI">Clouds In The Sky</a></td>
     </tr>
+    <tr>
+      <td>Pedro Ramos</td>
+      <td><a href="https://unsplash.com/photos/green-trees-near-white-concrete-building-during-daytime-RrmkrKFluU0">Green Trees Near White Concrete Building During Daytime</a></td>
+    </tr>
   </tbody>
 </table>
 
