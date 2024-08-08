@@ -5,11 +5,11 @@
 
 ## ❡ About
 
-A fiery and spice theme available on Windows, Linux and MacOS.
+A fiery and spice dark theme available for Windows, Linux and MacOS. It was designed to keep you inspired and help you rest your eyes during the day and night coding.
 
 <p align="center">
   <img alt="" src="assets/preview.png" width="700" />
-  <p align="center"><strong>Caption:</strong> the Flamerial theme applied on a terminal.</p>
+  <p align="center"><strong>Caption:</strong> the Flamerial theme applied on a terminal. Font is Hack (patched by the <a href="https://www.nerdfonts.com/font-downloads">Nerd Fonts</a> project)</p>
 </p>
 
 ## ❡ Install
@@ -41,19 +41,19 @@ Available ports are under the `ports` directory. Access it, find one you would l
       <td>1</td>
       <td>Red</td>
       <td><code>#b31c13</code></td>
-      <td><code>179</code> <code>29</code> <code>19</code></td>
+      <td><code>179</code> <code>28</code> <code>19</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/green.png" /></td>
       <td>2</td>
       <td>Green</td>
-      <td><code>#990101</code></td>
-      <td><code>153</code> <code>1</code> <code>1</code></td>
+      <td><code>#855814</code></td>
+      <td><code>133</code> <code>88</code> <code>20</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/yellow.png" /></td>
-      <td>Yellow</td>
       <td>3</td>
+      <td>Yellow</td>
       <td><code>#c76800</code></td>
       <td><code>199</code> <code>104</code> <code>0</code></td>
     </tr>
@@ -75,8 +75,8 @@ Available ports are under the `ports` directory. Access it, find one you would l
       <td><img alt="" src="assets/colors/cyan.png" /></td>
       <td>6</td>
       <td>Cyan</td>
-      <td><code>#9c3900</code></td>
-      <td><code>156</code> <code>57</code> <code>0</code></td>
+      <td><code>#a83e00</code></td>
+      <td><code>168</code> <code>62</code> <code>0</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/colors/white.png" /></td>
@@ -93,6 +93,11 @@ Available ports are under the `ports` directory. Access it, find one you would l
 
 If you need help related to this project, open a new issue in its [issues page](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
 
+## ❡ Privacy
+
+This software does not collect, store or share any user data. Its source code is available for reviews. If you have any questions about it, open a new issue in its [issues pages](https://github.com/skippyr/river-dreams/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
+
+
 ## ❡ Contributing
 
 This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
@@ -104,4 +109,5 @@ By contributing to this project, you must agree to license your work under the s
 This is free software licensed under the MIT License that comes WITH NO WARRANTY. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
 
 &ensp;
+<p align="center"><sup><strong>Birth:</strong> April 17th 2023.</sup></p>
 <p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
