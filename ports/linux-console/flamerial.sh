@@ -17,7 +17,7 @@ setColor 4 b08548;
 setColor 5 8a3820;
 setColor 6 a83e00;
 setColor 7 e9d397;
-setColor 8 b08548;
+setColor 8 695f44;
 setColor 9 b31c13;
 setColor a 855814;
 setColor b c76800;

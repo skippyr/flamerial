@@ -5,7 +5,7 @@
 
 ## ❡ About
 
-A fiery and spice dark theme available for Windows, Linux and MacOS. It was designed to keep you inspired and help you rest your eyes during the day and night coding.
+A fiery and spice dark theme.
 
 <p align="center">
   <img alt="" src="assets/preview.png" width="700" />
@@ -85,29 +85,27 @@ Available ports are under the `ports` directory. Access it, find one you would l
       <td><code>#e9d397</code></td>
       <td><code>233</code> <code>211</code> <code>151</code></td>
     </tr>
+    <tr>
+      <td><img alt="" src="assets/colors/light-black.png" /></td>
+      <td>8</td>
+      <td>Light Black</td>
+      <td><code>#695f44</code></td>
+      <td><code>95</code> <code>68</code> <code>41</code></td>
+    </tr>
   </tbody>
 </table>
 <p align="center"><strong>Caption:</strong> the colors of the Flamerial theme with their respective ANSI codes.</p>
 
 ## ❡ Help
-
-If you need help related to this project, open a new issue in its [issues page](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
-
-## ❡ Privacy
-
-This software does not collect, store or share any user data. Its source code is available for reviews. If you have any questions about it, open a new issue in its [issues pages](https://github.com/skippyr/river-dreams/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
-
+If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
 
 ## ❡ Contributing
-
 This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
 
-By contributing to this project, you must agree to license your work under the same license that the project uses.
+In order to keep it open-source, by contributing to this project, you must agree to license your work under the same license that the project uses. For other intentions, prefer to create a fork.
 
-## ❡ License
-
-This is free software licensed under the MIT License that comes WITH NO WARRANTY. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
+## ❡ Copyright
+This is free software licensed under the MIT License that comes WITH NO WARRANTY. Refer to the LICENSE file that comes in its source code for license and copyright details.
 
 &ensp;
-<p align="center"><sup><strong>Birth:</strong> April 17th 2023.</sup></p>
 <p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
