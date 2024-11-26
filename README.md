@@ -1,23 +1,19 @@
 <p align="center">
-  <img alt="" src="assets/ornament.png" width=1020 />
+  <img alt="" src="assets/ornament.png" width=900 />
 </p>
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
 
 ## ❡ About
-
-A fiery and spice dark theme.
-
+A fiery and spice dark theme made up of vibrant warm colors to ignite your creativity while soothing your eyes.
 <p align="center">
   <img alt="" src="assets/preview.png" width="700" />
-  <p align="center"><strong>Caption:</strong> the Flamerial theme applied on a terminal. Font is Hack (patched by the <a href="https://www.nerdfonts.com/font-downloads">Nerd Fonts</a> project)</p>
+  <p align="center"><strong>Caption:</strong> the Flamerial theme applied on a terminal. Font is Iosevka (patched by the <a href="https://www.nerdfonts.com/font-downloads">Nerd Fonts</a> project)</p>
 </p>
 
-## ❡ Install
-
-Available ports are under the `ports` directory. Access it, find one you would like to install, then read the `README.md` inside of it for instructions.
-
+## ❡ Installation
+Available ports are under the `ports` directory. Find one you would like to install, then read the `README.md` inside of it for instructions.
 ## ❡ Pallete
-
+The theme palette was primarily developed for terminal emulators, being composed of the following colors:
 <table align="center">
   <thead>
     <tr>
@@ -98,14 +94,12 @@ Available ports are under the `ports` directory. Access it, find one you would l
 
 ## ❡ Help
 If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
-
 ## ❡ Contributing
-This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
+This project is open to review and possibly accept contributions, specially bug reports and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
 
-In order to keep it open-source, by contributing to this project, you must agree to license your work under the same license that the project uses. For other intentions, prefer to create a fork.
-
-## ❡ Copyright
+In order to keep it open-source, all contributions made to this project will be considered to use the same license the project does. For other intentions, prefer to create a fork.
+## ❡ License
 This is free software licensed under the MIT License that comes WITH NO WARRANTY. Refer to the LICENSE file that comes in its source code for license and copyright details.
 
 &ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
+<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

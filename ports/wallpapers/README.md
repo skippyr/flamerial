@@ -1,13 +1,12 @@
 <p align="center">
-  <img alt="" src="../../assets/ornament.png" width=1020 />
+  <img alt="" src="../../assets/ornament.png" width=900 />
 </p>
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
-<p align="center">Wallpapers</p>
+<p align="center">—&ensp;Wallpapers&ensp;—</p>
 
 ## ❡ Install
-
+### Procedures
 Here are some wallpapers that match well with the Flamerial theme. Access the link from one you would like to use, download it from its source and then apply it using your system settings.
-
 <table align="center">
   <thead>
     <tr>
@@ -46,6 +45,7 @@ Here are some wallpapers that match well with the Flamerial theme. Access the li
     </tr>
   </tbody>
 </table>
+<p align="center"><strong>Caption:</strong> a list of wallpapers that match the theme colors.</p>
 
 &ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
+<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>
