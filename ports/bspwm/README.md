@@ -16,6 +16,3 @@ cp flamerial.sh ~/.config/bspwm;
 ~/.config/bspwm/flamerial.sh&
 ```
 - Reopen bspwm.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

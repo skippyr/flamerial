@@ -12,6 +12,3 @@
 - Go back to the Settings window, click on `Defaults` > `Appearance`.
 - Select the "Flamerial" color scheme in the `Color scheme` dropdown menu.
 - Click on `Save` on the bottom right corner to apply it.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

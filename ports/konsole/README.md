@@ -16,6 +16,3 @@ cp flamerial.colorscheme ~/.local/share/konsole;
 - Select the `Appeareance` section in the side menu.
 - Select the "Flamerial" theme.
 - Click the `Apply` button at the bottom right corner of the window and then on `OK`.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

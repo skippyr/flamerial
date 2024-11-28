@@ -4,10 +4,10 @@
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
 
 ## ❡ About
-A fiery and spice dark theme made up of vibrant warm colors to ignite your creativity while soothing your eyes.
+A fiery and spice dark theme made up of vibrant warm colors to ignite your creativity.
 <p align="center">
   <img alt="" src="assets/preview.png" width="700" />
-  <p align="center"><strong>Caption:</strong> the Flamerial theme applied on a terminal. Font is Iosevka (patched by the <a href="https://www.nerdfonts.com/font-downloads">Nerd Fonts</a> project)</p>
+  <p align="center"><strong>Caption:</strong> a preview of Flamerial theme.</p>
 </p>
 
 ## ❡ Installation
@@ -100,6 +100,3 @@ This project is open to review and possibly accept contributions, specially bug 
 In order to keep it open-source, all contributions made to this project will be considered to use the same license the project does. For other intentions, prefer to create a fork.
 ## ❡ License
 This is free software licensed under the MIT License that comes WITH NO WARRANTY. Refer to the LICENSE file that comes in its source code for license and copyright details.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

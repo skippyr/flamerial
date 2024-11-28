@@ -15,6 +15,3 @@ cp flamerial.theme ~/.local/share/xfce4/terminal/colorschemes;
 - Select the `Colors` tab.
 - On `Presets`, select the "Flamerial" theme from the dropdown menu.
 - Click on the `Close` button at the bottom right corner of the window.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

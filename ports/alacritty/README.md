@@ -16,6 +16,3 @@ cp flamerial.toml ~/.config/alacritty/themes;
 import = ["~/.config/alacritty/themes/flamerial.toml"]
 ```
 - Reopen Alacritty.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

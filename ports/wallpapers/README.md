@@ -46,6 +46,3 @@ Here are some wallpapers that match well with the Flamerial theme. Access the li
   </tbody>
 </table>
 <p align="center"><strong>Caption:</strong> a list of wallpapers that match the theme colors.</p>
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

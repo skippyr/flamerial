@@ -15,6 +15,3 @@ cp config.def.h config.h;
 ```zsh
 sudo make install clean;
 ```
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

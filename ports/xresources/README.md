@@ -17,6 +17,3 @@ xrdb -merge ~/.config/x11/themes/flamerial.xrdb;
 ```
 - Add the previous command to your `~/.xinitrc` file to always apply the theme at X11 startup.
 - Reopen your X11 apps.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

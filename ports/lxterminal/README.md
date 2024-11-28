@@ -8,6 +8,3 @@
 ### Procedures
 - Replace the colors in the `general` section of your `~/.config/lxterminal/lxterminal.conf` configuration file by the ones present in the theme file `flamerial.conf`.
 - Reopen LXTerminal.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

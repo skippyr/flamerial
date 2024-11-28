@@ -13,6 +13,3 @@
 - Click on the `Color Presets` button again and select Flamerial in the dropdown menu.
 - If request about `About Which Modes?`, select `Update Both Modes`.
 - Close settings.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>

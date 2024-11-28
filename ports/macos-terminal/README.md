@@ -12,6 +12,3 @@
 - Select the `Flamerial.terminal` file.
 - Select the "Flamerial" theme in the side bar and set the theme as your default by clicking on the `Default` button at the bottom left corner of the window.
 - Open a new terminal window by clicking on `Shell` > `New Window` at the menu bar.
-
-&ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love <3</sup></p>
