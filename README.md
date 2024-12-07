@@ -7,7 +7,7 @@
 A fiery and spice dark theme made up of vibrant warm colors to ignite your creativity.
 <p align="center">
   <img alt="" src="assets/preview.png" width="700" />
-  <p align="center"><strong>Caption:</strong> a preview of Flamerial theme.</p>
+  <p align="center"><strong>Caption:</strong> a preview of the Flamerial theme.</p>
 </p>
 
 ## ❡ Installation
@@ -96,7 +96,5 @@ The theme palette was primarily developed for terminal emulators, being composed
 If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
 ## ❡ Contributing
 This project is open to review and possibly accept contributions, specially bug reports and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
-
-In order to keep it open-source, all contributions made to this project will be considered to use the same license the project does. For other intentions, prefer to create a fork.
 ## ❡ License
-This is free software licensed under the MIT License that comes WITH NO WARRANTY. Refer to the LICENSE file that comes in its source code for license and copyright details.
+This is free software licensed under the BSD-3-Clause License that comes WITH NO WARRANTY. Refer to the LICENSE file that comes in its source code for license and copyright details.

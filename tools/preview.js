@@ -1,41 +1,42 @@
-function writeTrbDecor(len) {
-  for (let i = 0; i < len; ++i) {
-    process.stdout.write(i % 2 ? '\x1b[31mv' : '\x1b[33m≥');
+function writeTribalDecoration(length) {
+  for (let offset = 0; offset < length; ++offset) {
+    process.stdout.write(offset % 2 ? '\x1b[31mv' : '\x1b[33m≥');
   }
   process.stdout.write('\x1b[39m');
 }
 
-function writeColDecor(isOpen, isTop) {
+function writeColumnDecoration(isOpen, isTop) {
   process.stdout.write(isOpen ? isTop ? '\x1b[35m¦/:\x1b[39m '
-                                      : '\x1b[35m¦\\:\x1b[39m ' :
+                                      : '\x1b[35m¦\\:\x1b[39m '
+                                      :
                                 isTop ? ' \x1b[35m:\\¦\x1b[39m'
                                       : ' \x1b[35m:/¦\x1b[39m')
 }
 
-function writeClrs(isBg) {
-  for (let i = 1; i < 9; ++i) {
-    process.stdout.write(isBg ? `\x1b[48;5;${i}m   \x1b[49m`
-                              : `\x1b[38;5;${i}mFla\x1b[39m`);
+function writePalette(isBackground) {
+  for (let ansiColor = 1; ansiColor < 9; ++ansiColor) {
+    process.stdout.write(isBackground ? `\x1b[48;5;${ansiColor}m   \x1b[49m`
+                                      : `\x1b[38;5;${ansiColor}mFla\x1b[39m`);
   }
 }
 
 console.log();
 process.stdout.write('   ');
-writeTrbDecor(10);
+writeTribalDecoration(10);
 process.stdout.write(' Flamerial ');
-writeTrbDecor(11);
+writeTribalDecoration(11);
 console.log();
 process.stdout.write('   ');
-writeColDecor(true, true);
-writeClrs(true);
-writeColDecor(false, true);
+writeColumnDecoration(true, true);
+writePalette(true);
+writeColumnDecoration(false, true);
 console.log();
 process.stdout.write('   ');
-writeColDecor(true, false);
-writeClrs(false);
-writeColDecor(false, false);
+writeColumnDecoration(true, false);
+writePalette(false);
+writeColumnDecoration(false, false);
 console.log();
 process.stdout.write('   ');
-writeTrbDecor(32);
+writeTribalDecoration(32);
 console.log();
 console.log();
