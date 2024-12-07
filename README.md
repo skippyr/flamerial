@@ -95,6 +95,6 @@ The theme palette was primarily developed for terminal emulators, being composed
 ## ❡ Help
 If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
 ## ❡ Contributing
-This project is open to review and possibly accept contributions, specially bug reports and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
+This project is open to review and possibly accept contributions in the form of bug reports and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
 ## ❡ License
 This is free software licensed under the BSD-3-Clause License that comes WITH NO WARRANTY. Refer to the LICENSE file that comes in its source code for license and copyright details.
