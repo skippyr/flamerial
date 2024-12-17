@@ -1,9 +1,9 @@
 #!/bin/bash
 
-uuid=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \');
+uuid_g=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \');
 
 setAttribute() {
-	gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${uuid}/ ${1} ${2};
+	gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${uuid_g}/ ${1} ${2};
 }
 
 setAttribute use-theme-colors false;
