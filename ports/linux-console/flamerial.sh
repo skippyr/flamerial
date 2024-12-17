@@ -1,12 +1,11 @@
 #!/bin/bash
 
 function setColor {
-  echo -ne "\\e]P${1}${2}";
+	echo -ne "\\e]P${1}${2}";
 }
 
-if [[ ${TERM} != "linux" ]];
-then
-  exit 0;
+if [[ ${TERM} != "linux" ]]; then
+	exit 0;
 fi
 
 setColor 0 150d06;
