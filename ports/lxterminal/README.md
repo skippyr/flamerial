@@ -2,6 +2,8 @@
 <p align="center">—&ensp;LXTerminal&ensp;—</p>
 
 ## ❡ Install
+
 ### Procedures
+
 - Replace the colors in the `general` section of your `~/.config/lxterminal/lxterminal.conf` configuration file by the ones present in the theme file `flamerial.conf`.
 - Reopen LXTerminal.

@@ -2,7 +2,9 @@
 <p align="center">—&ensp;Windows Terminal&ensp;—</p>
 
 ## ❡ Install
+
 ### Procedures
+
 - Click on the dropdown arrow button that is right beside of your tabs, then on `Settings`.
 - On the Settings window, click on the `Open JSON File` button at the bottom left corner.
 - Copy the colors from the `flamerial.json` file to the `schemes` array that is inside of that JSON file.

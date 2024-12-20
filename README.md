@@ -1,16 +1,22 @@
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
 
 ## ❡ About
+
 A fiery and spice dark theme made up of vibrant warm colors to ignite your creativity.
+
 <p align="center">
 	<img alt="" src="assets/preview.png" width="700" />
 	<p align="center"><strong>Caption:</strong> a preview of the Flamerial theme.</p>
 </p>
 
-## ❡ Installation
+## ❡ Install
+
 Available ports are under the `ports` directory. Find one you would like to install, then read the `README.md` inside of it for instructions.
+
 ## ❡ Pallete
+
 The theme palette was primarily developed for terminal emulators, being composed of the following colors:
+
 <table align="center">
 	<thead>
 		<tr>
@@ -90,8 +96,13 @@ The theme palette was primarily developed for terminal emulators, being composed
 <p align="center"><strong>Caption:</strong> the colors of the Flamerial theme with their respective ANSI codes.</p>
 
 ## ❡ Help
+
 If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/flamerial/issues) or send me an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
+
 ## ❡ Contributing
+
 This project is open to review and possibly accept contributions in the form of bug reports and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or to my [e-mail](mailto:skippyr.developer@icloud.com).
+
 ## ❡ License
+
 This is free software licensed under the BSD-3-Clause License that comes WITH NO WARRANTY. Refer to the LICENSE file that comes in its source code for license and copyright details.

@@ -2,12 +2,16 @@
 <p align="center">—&ensp;Konsole&ensp;—</p>
 
 ## ❡ Install
+
 ### Procedures
+
 - Copy the file `flamerial.colorscheme` to `~/.local/share/konsole`:
+
 ```zsh
 mkdir -p ~/.local/share/konsole;
 cp flamerial.colorscheme ~/.local/share/konsole;
 ```
+
 - Right click on the terminal and then on `Create New Profile`/`Edit current profile`.
 - Mark the `Default Profile` checkbox at the top of the `General` tab.
 - Select the `Appeareance` section in the side menu.

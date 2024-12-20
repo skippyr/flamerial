@@ -2,8 +2,11 @@
 <p align="center">—&ensp;Wallpapers&ensp;—</p>
 
 ## ❡ Install
+
 ### Procedures
+
 Here are some wallpapers that match well with the Flamerial theme. Access the link from one you would like to use, download it from its source and then apply it using your system settings.
+
 <table align="center">
 	<thead>
 		<tr>
