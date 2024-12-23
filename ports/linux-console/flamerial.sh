@@ -1,11 +1,11 @@
 #!/bin/bash
 
 set_color() {
-	echo -ne "\\e]P${1}${2}";
+  echo -ne "\\e]P${1}${2}";
 }
 
 if [[ ${TERM} != "linux" ]]; then
-	exit 0;
+  exit 0;
 fi
 
 set_color 0 150d06;

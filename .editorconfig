@@ -2,7 +2,15 @@ root = true
 
 [*]
 charset = utf-8
-indent_size = 3
-indent_style = tab
+indent_size = 2
+indent_style = space
 insert_final_newline = true
 trim_trailing_whitespaces = true
+
+[ports/{bspwm,dmenu,dwm,st}/*.{c,h}]
+indent_size = 8
+indent_style = tab
+
+[ports/windows-terminal/*.json]
+indent_size = 4
+indent_style = space
