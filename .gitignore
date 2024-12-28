@@ -1,5 +1,5 @@
-.DS_Store
-.idea
-.vs
-.vscode
 *.swp
+.DS_Store
+/.idea
+/.vs
+/.vscode
