@@ -48,7 +48,7 @@ The theme palette was primarily developed for terminal emulators, being composed
       <td><code>21</code> <code>13</code> <code>6</code></td>
     </tr>
     <tr>
-      <td><img alt="" src="assets/colors/rsed.png" /></td>
+      <td><img alt="" src="assets/colors/red.png" /></td>
       <td>1</td>
       <td>Red</td>
       <td><code>#b31c13</code></td>
