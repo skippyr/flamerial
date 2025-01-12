@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set_color() {
 	echo -ne \\e]P${1}${2};

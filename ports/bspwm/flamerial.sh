@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 bspc config active_border_color \#b31c13;
 bspc config focused_border_color \#b31c13;

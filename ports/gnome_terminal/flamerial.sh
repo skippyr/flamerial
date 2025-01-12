@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 uuid=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \');
 
