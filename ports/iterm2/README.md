@@ -5,9 +5,7 @@
 <p align="center">—&ensp;iTerm2&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - Open the settings by clicking on `Terminal` > `Settings`.
 - Select `Profiles` > `Colors`.
 - Click on `Color Presets` > `Import`.

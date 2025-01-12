@@ -5,9 +5,7 @@
 <p align="center">—&ensp;Kitty&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - Copy the file `flamerial.conf` to `~/.config/kitty/themes`:
 
 ```zsh

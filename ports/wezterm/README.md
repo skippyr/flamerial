@@ -5,9 +5,7 @@
 <p align="center">—&ensp;WezTerm&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - Copy the file `flamerial.toml` to `~/.config/wezterm/colors`:
 
 ```zsh

@@ -5,7 +5,6 @@
 <p align="center">—&ensp;dmenu&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
 
 - In your dmenu copy, create a copy of the `config.def.h` backup configuration file named as `config.h`:

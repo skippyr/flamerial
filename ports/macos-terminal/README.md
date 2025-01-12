@@ -5,9 +5,7 @@
 <p align="center">—&ensp;macOS Terminal&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - Open the settings by clicking on `Terminal` > `Settings`.
 - Select `Profiles` in the tab bar.
 - Click the `...` button at the bottom left corner of the window, then click on `Import`.

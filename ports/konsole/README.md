@@ -5,9 +5,7 @@
 <p align="center">—&ensp;Konsole&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - Copy the file `flamerial.colorscheme` to `~/.local/share/konsole`:
 
 ```zsh

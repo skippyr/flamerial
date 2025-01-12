@@ -5,9 +5,7 @@
 <p align="center">—&ensp;Gnome Terminal&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - While running the Gnome Terminal, run the script `flamerial.sh`.
 
 ```zsh

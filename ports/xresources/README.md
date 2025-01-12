@@ -5,9 +5,7 @@
 <p align="center">—&ensp;XResources&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - Copy the file `flamerial.xrdb` to `~/.config/x11/themes`:
 
 ```zsh

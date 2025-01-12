@@ -1,13 +1,13 @@
 #!/bin/bash
 
 set_color() {
-  echo -ne "\\e]P${1}${2}";
+	echo -ne \\e]P${1}${2};
 }
 
-if [[ ${TERM} != "linux" ]]; then
-  exit 0;
+if [[ ${TERM} != linux ]];
+then
+	exit 0;
 fi
-
 set_color 0 150d06;
 set_color 1 b31c13;
 set_color 2 855814;

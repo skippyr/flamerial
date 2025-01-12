@@ -5,9 +5,7 @@
 <p align="center">—&ensp;Alacritty&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - Copy the file `flamerial.toml` to `~/.config/alacritty/themes`:
 
 ```zsh

@@ -5,9 +5,7 @@
 <p align="center">—&ensp;XFCE4 Terminal&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - Copy the file `flamerial.theme` to `~/.local/share/xfce4/terminal/colorschemes`:
 
 ```zsh

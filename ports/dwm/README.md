@@ -5,9 +5,7 @@
 <p align="center">—&ensp;dwm&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
-
 - In your dwm copy, create a copy of the `config.def.h` backup configuration file named as `config.h`:
 
 ```zsh

@@ -5,7 +5,6 @@
 <p align="center">—&ensp;bspwm&ensp;—</p>
 
 ## ❡ Install
-
 ### Procedures
 
 - Copy the file `flamerial.sh` to `~/.config/bspwm`:
