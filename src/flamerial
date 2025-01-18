@@ -1,0 +1,594 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'colorize'
+require 'launchy'
+require 'fileutils'
+
+class Dev
+  attr_reader :name, :email
+
+  def initialize(name, email)
+    @name = name
+    @email = email
+  end
+end
+
+class Url
+  attr_reader :path
+
+  def initialize(path)
+    @path = path
+  end
+
+  def open_in_browser
+    Launchy.open(path)
+  end
+end
+
+class Rgb
+  attr_reader :r, :g, :b
+
+  def initialize(r, g, b)
+    @r = r
+    @g = g
+    @b = b
+  end
+
+  def self.from_hex(hex)
+    new(hex >> 16 & 0xff, hex >> 8 & 0xff, hex & 0xff)
+  end
+
+  def hex_str
+    "#%06x" % [hex]
+  end
+
+private
+  def hex
+    r << 16 | g << 8 | b
+  end
+end
+
+class Palette
+  attr_reader :file_name, :pretty_name, :version, :license, :author, :repo, :clrs
+
+  def initialize(file_name, pretty_name, version, license, author, repo, clrs)
+    @file_name = file_name
+    @pretty_name = pretty_name
+    @version = version
+    @license = license
+    @author = author
+    @repo = repo
+    @clrs = clrs
+  end
+
+  def dark
+    @clrs.map do |key, clr|
+      [key, clr] if key != :grey
+    end.compact
+  end
+
+  def light
+    @clrs.map do |key, clr|
+      [key, key == :black ? $palette.clrs[:grey] : clr] if key != :grey
+    end.compact
+  end
+end
+
+class CodeBlockWriter
+  def puts(text)
+    Kernel.puts("    #{text}")
+  end
+end
+
+class CodeBlock
+  def initialize(write_fn, lang = nil)
+    print("    #{'```'.colorize(:light_black)}")
+    print(lang.colorize(:cyan)) if lang
+    puts
+    write_fn.call(CodeBlockWriter.new)
+    print("    #{'```'.colorize(:light_black)}")
+    puts
+  end
+end
+
+class Cmd
+  attr_reader :name, :desc, :perf_fn
+
+  def initialize(name, desc, perf_fn, help_fn_body = nil, args = nil)
+    @name = name
+    @desc = desc
+    @perf_fn = perf_fn
+    @help_fn_body = help_fn_body
+    @args = args
+  end
+
+  def help_fn
+    write_usage(@desc.capitalize, @name, @args)
+    puts
+    if @help_fn_body
+      @help_fn_body.call
+      puts
+    end
+    write_opts([Opt.new('shows the command help instructions.', 'h', 'help')])
+  end
+end
+
+class Opt
+  attr_reader :desc, :short, :long
+
+  def initialize(desc, short = nil, long = nil)
+    @desc = desc
+    @short = short
+    @long = long
+  end
+end
+
+class Target
+  attr_reader :name, :install_path
+
+  def initialize(name, install_path, write_fn, apply_fn)
+    @name = name
+    @install_path = install_path
+    @write_fn = write_fn
+    @apply_fn = apply_fn
+  end
+
+  def write
+    write_port do |file|
+      @write_fn.call(file)
+    end
+  end
+
+  def install
+    write_port(@install_path) do |file|
+      @write_fn.call(file)
+    end
+    puts(%(Installed port of #{@name.colorize(:yellow)} target at #{@install_path.colorize(:cyan)}.))
+    puts
+    @apply_fn.call
+  end
+
+  def uninstall
+    if !File.exist?(@install_path)
+      throw_err(%(A port for the #{@name.colorize(:yellow)} target is not installed.)) 
+    end
+    FileUtils.rm_rf(@install_path)
+    puts(%(Uninstalled port of #{@name.colorize(:yellow)} target from #{@install_path.colorize(:cyan)}.))
+  end
+
+  def apply
+    if !File.exist?(@install_path)
+      puts("Install the port of the theme by using:")
+      CodeBlock.new(->(writer) {
+        writer.puts("#{$palette.file_name} install #{@name};")
+      }, Shell.name)
+    end
+    @apply_fn.call
+  end
+end
+
+class System
+  def self.os_name
+    RbConfig::CONFIG['host_os'].include?('darwin') ? 'macOS' : 'Linux'
+  end
+
+  def self.cpu_arch
+    RbConfig::CONFIG['host_cpu']
+  end
+end
+
+class Shell
+  @@name = nil
+
+  def self.name
+    @@name = File.basename(ENV['SHELL']) if !@@name
+    @@name
+  end
+end
+
+class Term
+  def self.set_clr(clr, layer)
+    print("\x1b[#{layer == :fg ? 3 : 4}8;2;#{clr.r};#{clr.g};#{clr.b}m")
+  end
+
+  def self.reset_clr(layer)
+    print("\x1b[#{layer == :fg ? 3 : 4}9m")
+  end
+end
+
+$palette = Palette.new('flamerial', 'Flamerial', '12.0.0', 'BSD-3-Clause',
+                       Dev.new('Sherman Rofeman', 'skippyr.developer@icloud.com'),
+                       Url.new('https://github.com/skippyr/flamerial'), {
+    :black => Rgb.from_hex(0x030101),
+    :red => Rgb.from_hex(0x991f06),
+    :green => Rgb.from_hex(0x7d0800),
+    :yellow => Rgb.from_hex(0xc76800),
+    :blue => Rgb.from_hex(0xb08548),
+    :magenta => Rgb.from_hex(0x8a3820),
+    :cyan => Rgb.from_hex(0xa83e00),
+    :white => Rgb.from_hex(0xe8cc7d),
+    :grey => Rgb.from_hex(0x695f44)
+})
+$cmds = [
+  Cmd.new('preview', 'previews the theme.', -> {
+    Term.set_clr($palette.clrs[:black], :bg)
+    2.times do
+      41.times do
+        print(' ')
+      end
+      puts
+    end
+    print('    ')
+    write_tribal_decor(10)
+    print(' Flamerial ')
+    write_tribal_decor(11)
+    puts('     ')
+    Term.set_clr($palette.clrs[:white], :fg)
+    print('    ¦/: ')
+    write_palette(:bg)
+    Term.set_clr($palette.clrs[:black], :bg)
+    puts(' :\\¦     ')
+    print('    ¦\\: ')
+    write_palette(:fg)
+    Term.set_clr($palette.clrs[:white], :fg)
+    puts(' :/¦     ')
+    print('    ')
+    write_tribal_decor(32)
+    puts('     ')
+    2.times do
+      41.times do
+        print(' ')
+      end
+      puts
+    end
+    Term.reset_clr(:fg)
+    Term.reset_clr(:bg)
+  }),
+  Cmd.new('palette', 'describes the theme palette.', -> {
+    puts('Ansi  Name     Preview  Hex      RGB')
+    puts('----  -------  -------  -------  -----------')
+    $palette.clrs.each_with_index do |(key, clr), i|
+      print("%4d  %-7s  " % [i, key.to_s.capitalize])
+      Term.set_clr(clr, :bg)
+      print('   ')
+      Term.reset_clr(:bg)
+      puts("      #{clr.hex_str}  %3d %3d %3d" % [clr.r, clr.g, clr.b])
+    end
+  }),
+  Cmd.new('port', 'ports the theme for a given target.', -> {
+    on_target do |target|
+      target.write
+    end
+  }, -> { write_targets }, ['TARGET']),
+  Cmd.new('install', 'installs a port of the theme for a given target.', -> {
+    on_target do |target|
+      target.install
+    end
+  }, -> { write_targets }, ['TARGET']),
+  Cmd.new('uninstall', 'uninstalls a port of the theme for a given target.', -> {
+    on_target do |target|
+      target.uninstall
+    end
+  }, -> { write_targets }, ['TARGET']),
+  Cmd.new('apply', 'instructs how to apply the theme for a given target.', -> {
+    on_target do |target|
+      target.apply
+    end
+  }, -> { write_targets }, ['TARGET'])
+]
+$targets = [
+  Target.new('kitty', File.join(Dir.home, '.config', 'kitty', 'themes',
+             "#{$palette.file_name}.conf"), ->(file) {
+    file.puts("## name: #{$palette.pretty_name}")
+    file.puts("## author: #{$palette.author.name} <#{$palette.author.email}>")
+    file.puts("## license: #{$palette.license}")
+    for key, val in {
+      'background' => $palette.clrs[:black],
+      'foreground' => $palette.clrs[:white],
+      'active_tab_background' => $palette.clrs[:white],
+      'active_tab_foreground' => $palette.clrs[:black],
+      'inactive_tab_background' => $palette.clrs[:black],
+      'inactive_tab_foreground' => $palette.clrs[:white],
+      'cursor' => $palette.clrs[:white],
+      'cursor_text_color' => $palette.clrs[:black],
+      'selection_background' => $palette.clrs[:white],
+      'selection_foreground' => $palette.clrs[:black],
+      'url_color' => $palette.clrs[:cyan]
+    } do
+      file.puts(kitty_key(key, val))
+    end
+    ($palette.dark + $palette.light).each_with_index do |(_, clr), i|
+      file.puts(kitty_key("color#{i}", clr))
+    end
+  }, -> {
+    puts(%(Apply the theme by selecting the #{'Flamerial'.colorize(:yellow)} theme under User section of the command:))
+    CodeBlock.new(->(writer) {
+      writer.puts('kitty kitten themes;')
+    }, Shell.name)
+    puts("or by adding the following to #{'~/.config/kitty/kitty.conf'.colorize(:cyan)}:")
+    CodeBlock.new(->(writer) {
+      writer.puts("include themes/#{$palette.file_name}.conf")
+    })
+  }),
+  Target.new('alacritty', File.join(Dir.home, '.config', 'alacritty', 'themes',
+             "#{$palette.file_name}.toml"), ->(file) {
+    for sec, val in {
+      'colors.primary' => {
+        'background' => $palette.clrs[:black],
+        'foreground' => $palette.clrs[:white]
+      },
+      'colors.cursor' => {
+        'cursor' => $palette.clrs[:white],
+        'text' => $palette.clrs[:black]
+      },
+      'colors.selection' => {
+        'background' => $palette.clrs[:white],
+        'text' => $palette.clrs[:black]
+      },
+      'colors.normal' => $palette.dark,
+      'colors.bright' => $palette.light
+    } do
+      file.puts("[#{sec}]")
+      for key, val in val do
+        file.puts(toml_clr_key(key, val))
+      end
+    end
+  }, -> {
+    puts("Apply the theme by adding the following to #{'~/.config/alacritty/alacritty.toml'.colorize(:cyan)}")
+    CodeBlock.new(->(writer) {
+      writer.puts(%(import = ["~/.config/alacritty/themes/#{$palette.file_name}.toml"]))
+    })
+  }),
+  Target.new('wezterm', File.join(Dir.home, '.config', 'wezterm', 'colors',
+             "#{$palette.file_name}.toml"), ->(file) {
+    file.puts('[metadata]')
+    for key, val in {
+      'author' => "#{$palette.author.name} <#{$palette.author.email}>",
+      'name' => $palette.pretty_name,
+      'origin_url' => $palette.repo.path
+    } do
+      file.puts(toml_str_key(key, val))
+    end
+    file.puts('[colors]')
+    for key, val in {
+      'background' => $palette.clrs[:black],
+      'foreground' => $palette.clrs[:white],
+      'cursor_bg' => $palette.clrs[:white],
+      'cursor_fg' => $palette.clrs[:black],
+      'selection_bg' => $palette.clrs[:white],
+      'selection_fg' => $palette.clrs[:black]
+    } do
+      file.puts(toml_clr_key(key, val))
+    end
+    file.puts(toml_clr_arr_key('ansi', $palette.dark))
+    file.puts(toml_clr_arr_key('brights', $palette.light))
+  }, -> {
+    puts("Apply the theme by adding the following to #{'~/.config/wezterm/wezterm.lua'.colorize(:cyan)}:")
+    CodeBlock.new(->(writer) {
+      writer.puts('return {')
+      writer.puts(%(  color_scheme = "#{$palette.pretty_name}"))
+      writer.puts('}')
+    }, 'lua')
+  })
+]
+
+def write_usage(desc, cmd = nil, args = nil)
+  print("#{':'.colorize(color: :yellow, mode: :bold)}#{'<>'.colorize(color: :red, mode: :bold)}#{'::'.colorize(color: :yellow, mode: :bold)} #{'Usage:'.colorize(color: :magenta, mode: :bold)} #{$palette.file_name}")
+  if cmd
+    print(" #{cmd}")
+    for arg in args
+      print(" <#{arg.colorize(color: :yellow, mode: :underline)}>")
+    end if args
+  end
+  puts(" [#{'OPTIONS'.colorize(color: :yellow, mode: :underline)}]...")
+  puts(desc)
+end
+
+def write_title(title)
+  puts("#{'❡ '.colorize(color: :cyan, mode: :bold)}#{title.colorize(color: :magenta, mode: :bold)}")
+end
+
+def write_info(msg, file = $stdout)
+  file.puts("#{'  info:'.colorize(color: :cyan, mode: :bold)} #{msg}")
+end
+
+def write_opts(opts)
+  puts("#{'❡ '.colorize(color: :cyan, mode: :bold)}#{'Available Options'.colorize(color: :magenta, mode: :bold)}")
+  lpad = opts.map do |opt|
+    len = 0
+    len += opt.short.size + 1 if opt.short
+    len += opt.long.size + 2 if opt.long
+    len += 2 if opt.short && opt.long
+    len
+  end.max
+  for opt in opts
+    print('    ')
+    print("#{"-#{opt.short.ljust(opt.long ? 0 : lpad - 1)}".colorize(:cyan)}") if opt.short
+    print(', ') if opt.short && opt.long
+    print("#{"--#{opt.long.ljust(opt.short ? lpad - opt.short.size - 5 : lpad - 2)}".colorize(:cyan)}") if opt.long
+    puts("  #{opt.desc}")
+  end
+end
+
+def on_target
+  throw_err("no target provided.") if !ARGV[1]
+  for target in $targets do
+    if ARGV[1] == target.name
+      yield(target)
+      return
+    end
+  end
+  throw_err(%(invalid target "#{ARGV[1]}" provided.))
+end
+
+def create_file_dir(file)
+  dir = File.dirname(file)
+  if !File.exist?(dir)
+    begin
+      FileUtils.mkdir_p(dir)
+    rescue
+      throw_err(%(can not create the directory "#{dir}".))
+    end
+  end
+end
+
+def write_port(path = nil)
+  if !path
+    file = $stdout
+  else
+    create_file_dir(path)
+    begin
+      file = File.open(path, 'w')
+    rescue
+      throw_err(%(can not write the file "#{path}".))
+    end
+  end
+  yield(file)
+  if file != $stdout
+    file.close
+  end
+end
+
+def kitty_key(key, clr)
+  "#{key} #{clr.hex_str}"
+end
+
+def toml_clr_key(key, clr)
+  %(#{key} = "#{clr.hex_str}")
+end
+
+def toml_clr_arr_key(key, clrs)
+  %(#{key} = [#{clrs.map do |_, clr|
+    %("#{clr.hex_str}")
+  end.join(', ')}])
+end
+
+def toml_str_key(key, val)
+  %(#{key} = "#{val}")
+end
+
+def is_lower?(char)
+  char >= 'a' && char <= 'z'
+end
+
+def is_opt?(arg)
+  (arg.size == 2 && arg[0] == '-' && is_lower?(arg[1])) ||
+      (arg.size > 2 && arg[0] == '-' && arg[1] == '-' && is_lower?(arg[2]))
+end
+
+def is_ill_opt?(arg)
+   (arg[0] == '-' && !arg[1]) || (arg[0] == '-' && arg[1] == '-' && !arg[2])
+end
+
+def write_err(err)
+  $stderr.puts("#{':'.colorize(color: :yellow, mode: :bold)}#{'<>'.colorize(color: :red, mode: :bold)}#{'::'.colorize(color: :yellow, mode: :bold)} #{"#{$palette.file_name}".colorize(color: :magenta, mode: :bold)} #{'(code 1)'.colorize(:yellow)}#{':'.colorize(color: :magenta, mode: :bold)} #{err}")
+  write_info("use #{'-h'.colorize(:cyan)} or #{'--help'.colorize(:cyan)} for help instructions.", $stderr)
+end
+
+def throw_err(err)
+  write_err(err)
+  exit(1)
+end
+
+def write_help
+  write_usage('Performs tasks related to the Flamerial theme.')
+  puts
+  write_title('Available Commands')
+  lpad = $cmds.map do |cmd|
+    cmd.name.size
+  end.max
+  for cmd in $cmds
+    puts("    #{cmd.name.ljust(lpad).colorize(:yellow)}  #{cmd.desc}")
+  end
+  puts
+  write_info("use #{'h'.colorize(:cyan)} or #{'--help'.colorize(:cyan)} with each for help instructions.")
+  puts
+  write_opts([
+    Opt.new('shows the software help instructions.', 'h', 'help'),
+    Opt.new('shows the software version.', 'v', 'version'),
+    Opt.new('opens the software repository.', 'g', 'repo')
+  ])
+end
+
+def write_version
+  puts("#{$palette.file_name.colorize(color: :magenta, mode: :bold)} v#{$palette.version} #{"(#{System.os_name} #{System.cpu_arch})".colorize(:light_black)}")
+  puts("Repo at: #{$palette.repo.path.colorize(color: :cyan, mode: :underline)}.")
+  puts
+  puts("#{$palette.license} License")
+  puts("Copyright (c) 2023 #{$palette.author.name} <#{$palette.author.email.colorize(color: :cyan, mode: :underline)}>")
+end
+
+def write_targets
+  puts("#{'❡ '.colorize(color: :cyan, mode: :bold)}#{'Available Targets'.colorize(color: :magenta, mode: :bold)}")
+  lpad = $targets.map do |cmd|
+    cmd.name.size
+  end.max
+  for target in $targets do
+    puts("    #{target.name.ljust(lpad).colorize(:yellow)}  refers to the #{target.name} terminal.")
+  end
+end
+
+def write_tribal_decor(len)
+  i = false
+  j = false
+  for col in 0..len - 1
+    if col % 2 == 0
+      Term.set_clr(i ? $palette.clrs[:yellow] : $palette.clrs[:cyan], :fg)
+      print('≥')
+      Term.reset_clr(:fg)
+      i = !i
+    else
+      Term.set_clr(i ? $palette.clrs[:red] : $palette.clrs[:blue], :fg)
+      print('v')
+      Term.reset_clr(:fg)
+      j = !j
+    end
+  end
+end
+
+def write_palette(layer)
+  for key, clr in $palette.clrs
+    next if key == :black
+    Term.set_clr(clr, layer)
+    print(layer == :fg ? 'Fla' : '   ')
+    Term.reset_clr(layer)
+  end
+end
+
+cmd_i = nil
+if ARGV[0]
+  $cmds.each_with_index do |cmd, i|
+    cmd_i = i if ARGV[0] == cmd.name
+  end
+  cmd_i = :invalid if !cmd_i
+end
+for arg in ARGV do
+  if arg == '-h' || arg == '--help'
+    if !cmd_i || cmd_i == :invalid
+      write_help
+      return
+    else
+      $cmds[cmd_i].help_fn
+      return
+    end
+  elsif arg == '-v' || arg == '--version'
+    write_version
+    return
+  elsif arg == '-g' || arg == '--repo'
+    $palette.repo.open_in_browser
+    return
+  elsif is_opt?(arg)
+    throw_err(%(unrecognized option "#{arg}" provided.))
+  elsif is_ill_opt?(arg)
+    throw_err(%(malformed option "#{arg}" provided.))
+  end
+end
+case cmd_i
+when nil
+  throw_err('no command provided.')
+when :invalid
+  throw_err(%(invalid command "#{ARGV[0]}" provided.))
+else
+  $cmds[cmd_i].perf_fn.call
+end
