@@ -579,7 +579,7 @@ for arg in ARGV do
     $palette.repo.open_in_browser
     return
   elsif is_opt?(arg)
-    throw_err(%(unrecognized option "#{arg}" provided.))
+    throw_err(%(invalid option "#{arg}" provided.))
   elsif is_ill_opt?(arg)
     throw_err(%(malformed option "#{arg}" provided.))
   end
