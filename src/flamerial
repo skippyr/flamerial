@@ -478,7 +478,7 @@ def is_opt?(arg)
 end
 
 def is_ill_opt?(arg)
-   (arg[0] == '-' && !arg[1]) || (arg[0] == '-' && arg[1] == '-' && !arg[2])
+  arg == '-' || arg == '--'
 end
 
 def write_err(err)
