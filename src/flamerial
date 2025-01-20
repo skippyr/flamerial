@@ -50,13 +50,14 @@ private
 end
 
 class Palette
-  attr_reader :file_name, :pretty_name, :version, :license, :author, :repo, :clrs
+  attr_reader :file_name, :pretty_name, :version, :license, :year, :author, :repo, :clrs
 
-  def initialize(file_name, pretty_name, version, license, author, repo, clrs)
+  def initialize(file_name, pretty_name, version, license, year, author, repo, clrs)
     @file_name = file_name
     @pretty_name = pretty_name
     @version = version
     @license = license
+    @year = year
     @author = author
     @repo = repo
     @clrs = clrs
@@ -151,7 +152,7 @@ class Target
 
   def uninstall
     if !File.exist?(@install_path)
-      throw_err(%(A port for the #{@name.colorize(:yellow)} target is not installed.)) 
+      throw_err(%(A port for the #{@name.colorize(:yellow)} target is not installed.))
     end
     FileUtils.rm_rf(@install_path)
     puts(%(Uninstalled port of #{@name.colorize(:yellow)} target from #{@install_path.colorize(:cyan)}.))
@@ -197,7 +198,7 @@ class Term
   end
 end
 
-$palette = Palette.new('flamerial', 'Flamerial', '12.0.0', 'BSD-3-Clause',
+$palette = Palette.new('flamerial', 'Flamerial', '12.0.0', 'BSD-3-Clause', 2023,
                        Dev.new('Sherman Rofeman', 'skippyr.developer@icloud.com'),
                        Url.new('https://github.com/skippyr/flamerial'), {
     :black => Rgb.from_hex(0x030101),
@@ -516,7 +517,7 @@ def write_version
   puts("Repo at: #{$palette.repo.path.colorize(color: :cyan, mode: :underline)}.")
   puts
   puts("#{$palette.license} License")
-  puts("Copyright (c) 2023 #{$palette.author.name} <#{$palette.author.email.colorize(color: :cyan, mode: :underline)}>")
+  puts("Copyright (c) #{$palette.year} #{$palette.author.name} <#{$palette.author.email.colorize(color: :cyan, mode: :underline)}>")
 end
 
 def write_targets
@@ -581,7 +582,7 @@ for arg in ARGV do
   elsif is_opt?(arg)
     throw_err(%(invalid option "#{arg}" provided.))
   elsif is_ill_opt?(arg)
-    throw_err(%(malformed option "#{arg}" provided.))
+    throw_err(%(ill option "#{arg}" provided.))
   end
 end
 case cmd_i
