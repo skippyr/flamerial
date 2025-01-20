@@ -26,6 +26,8 @@ The following dependencies must be installed before it:
 - **Git:** it will be used to clone this repository.
 - **Ruby:** it will be used to port and install the palette.
 
+Use your OS package manager or [HomeBrew](https://brew.sh) to install these packages.
+
 ### Procedures
 - Clone this repository using `git`:
 
