@@ -1,0 +1,14 @@
+[metadata]
+author = "Sherman Rofeman <skippyr.developer@icloud.com>"
+name = "Flamerial"
+origin_url = "https://github.com/skippyr/flamerial"
+
+[colors]
+background = "#030101"
+foreground = "#e8cc7d"
+cursor_bg = "#e8cc7d"
+cursor_fg = "#030101"
+selection_bg = "#e8cc7d"
+selection_fg = "#030101"
+ansi = ["#030101", "#991f06", "#7d0800", "#c76800", "#b08548", "#8a3820", "#a83e00", "#e8cc7d"]
+brights = ["#695f44", "#991f06", "#7d0800", "#c76800", "#b08548", "#8a3820", "#a83e00", "#e8cc7d"]

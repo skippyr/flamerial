@@ -13,7 +13,7 @@
 </p>
 
 ## ❡ About
-A fiery-spice theme to ignite your creativity. It is available for macOS and Linux.
+A fiery-spice terminal theme to ignite your creativity. It is available for macOS and Linux.
 
 <p align="center">
   <img alt="" src="assets/images/preview.png" width=1020 />
@@ -21,51 +21,9 @@ A fiery-spice theme to ignite your creativity. It is available for macOS and Lin
 <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette.</p>
 
 ## ❡ Install
-### Dependencies
-The following dependencies must be installed before it:
-- **Git:** it will be used to clone this repository.
-- **Ruby:** it will be used to port and install the palette.
-
-Use your OS package manager or [HomeBrew](https://brew.sh) to install these packages.
-
-### Procedures
-- Clone this repository using `git`:
-
-```zsh
-git clone --depth 1 https://github.com/skippyr/flamerial;
-```
-
-- Access the directory downloaded using `cd`:
-
-```zsh
-cd flamerial;
-```
-
-- Use `bundle` to install the required gems.
-
-```zsh
-bundle install;
-```
-
-- Execute the `src/flamerial` script and look for a target you want to install it for in its help page:
-
-```zsh
-flamerial install -h;
-```
-
-- Once you have chosen, you can install for it using the `install` command. Alternatively, you can also create ports separately using the `port` command and redirect its output to files. As an example, you can install the theme for Kitty:
-
-```zsh
-flamerial install kitty;
-```
+All terminal ports are available at the `ports` directory. Access one you would like to apply the theme on, then read the `README.md` inside it for installation instructions.
 
 ## ❡ Help
-For help instruction, use `-h` or `--help`:
-
-```zsh
-flamerial -h;
-```
-
 If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/flamerial/issues) or send an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
 
 ## ❡ Contributing
