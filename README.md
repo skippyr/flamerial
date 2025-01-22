@@ -13,7 +13,7 @@
 </p>
 
 ## ❡ About
-A fiery-spice terminal theme to ignite your creativity. It is available for macOS and Linux.
+A fiery-spice terminal theme to ignite your creativity. It is available for macOS, Linux and Windows.
 
 <p align="center">
   <img alt="" src="assets/images/preview.png" width=1020 />
