@@ -13,7 +13,7 @@
 </p>
 
 ## ❡ About
-A fiery-spice terminal theme to ignite your creativity. It is available for macOS, Linux and Windows.
+A fiery-spice theme to ignite your creativity. It is available for macOS, Linux and Windows.
 
 <p align="center">
   <img alt="" src="assets/images/preview.png" width=1020 />
@@ -21,7 +21,7 @@ A fiery-spice terminal theme to ignite your creativity. It is available for macO
 <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette.</p>
 
 ## ❡ Install
-All terminal ports are available at the `ports` directory. Access one you would like to apply the theme on, then read the `README.md` inside it for installation instructions.
+All available ports are at the `ports` directory. Access one you would like to apply the theme on, then read the `README.md` inside it for installation instructions.
 
 ## ❡ Help
 If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/flamerial/issues) or send an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
