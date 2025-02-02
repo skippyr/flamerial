@@ -21,6 +21,7 @@ A fiery-spice theme to ignite your creativity. It is available for macOS, Linux 
 <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette.</p>
 
 ## ❡ Install
+### Procedures
 All available ports are at the `ports` directory. Access one you would like to apply the theme on, then read the `README.md` inside it for installation instructions.
 
 ## ❡ Palette

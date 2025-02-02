@@ -2,9 +2,10 @@
   <img alt="" src="../../assets/images/ornament.png" width=1020 />
 </p>
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
-<p align="center">— Kitty —</p>
+<p align="center">—&ensp;Kitty&ensp;—</p>
 
 ## ❡ Install
+### Procedures
 - Copy `flamerial.conf` to `~/.config/kitty/themes`:
 
 ```zsh

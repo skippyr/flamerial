@@ -2,9 +2,10 @@
   <img alt="" src="../../assets/images/ornament.png" width=1020 />
 </p>
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
-<p align="center">— Alacritty —</p>
+<p align="center">—&ensp;Alacritty&ensp;—</p>
 
 ## ❡ Install
+### Procedures
 - Copy `flamerial.toml` to `~/.config/alacritty/themes`:
 
 ```zsh
