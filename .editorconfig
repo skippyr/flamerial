@@ -11,6 +11,6 @@ end_of_line = lf
 [ports/windows_terminal/*.json]
 indent_size = 4
 
-[ports/{dwm,st}/*.{c,h}]
+[ports/{dmenu,dwm,st}/*.{c,h}]
 indent_size = 8
 indent_style = tab
