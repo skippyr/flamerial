@@ -30,6 +30,8 @@
 	<string>0.588235 0.517647 0.317647 1</string>
 	<key>DVTFontAndColorVersion</key>
 	<integer>1</integer>
+	<key>DVTLineSpacing</key>
+	<real>1.1000000238418579</real>
 	<key>DVTMarkupTextBackgroundColor</key>
 	<string>0.18856 0.195 0.22444 1</string>
 	<key>DVTMarkupTextBorderColor</key>
@@ -99,7 +101,7 @@
 		<key>xcode.syntax.character</key>
 		<string>0.6 0.121569 0.0235294 1</string>
 		<key>xcode.syntax.comment</key>
-		<string>0.690196 0.521569 0.282353 1</string>
+		<string>0.411765 0.372549 0.266667 1</string>
 		<key>xcode.syntax.comment.doc</key>
 		<string>0.690196 0.521569 0.282353 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
