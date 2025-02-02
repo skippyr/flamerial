@@ -1,48 +1,48 @@
 def to_rgb(hex)
   {
-    :r => hex >> 16 & 0xff,
-    :g => hex >> 8 & 0xff,
-    :b => hex & 0xff
+    :red => hex >> 16 & 0xff,
+    :green => hex >> 8 & 0xff,
+    :blue => hex & 0xff
   }
 end
 
-def set_clr(clr, lyr)
-  clr = $clrs[clr]
-  print("\e[#{$lyrs[lyr]}8;2;#{clr[:r]};#{clr[:g]};#{clr[:b]}m")
+def set_color(color, layer)
+  color = $colors[color]
+  print("\e[#{$layers[layer]}8;2;#{color[:red]};#{color[:green]};#{color[:blue]}m")
 end
 
-def reset_clr(lyr)
-  print("\e[#{$lyrs[lyr]}9m")
+def reset_color(layer)
+  print("\e[#{$layers[layer]}9m")
 end
 
 def write_blank
   2.times {
-    set_clr(:black, :bg)
+    set_color(:black, :background)
     42.times {
       print(' ')
     }
-    reset_clr(:bg)
+    reset_color(:background)
     puts
   }
 end
 
-def write_tribal_decor(len)
-  for col in 1..len
-    is_even = col % 2 == 0
-    set_clr(is_even ? :red : :yellow, :fg)
+def write_tribal_decoration(length)
+  for column in 1..length
+    is_even = column % 2 == 0
+    set_color(is_even ? :red : :yellow, :foreground)
     print(is_even ? 'v' : '≥')
   end
 end
 
-def write_pal(lyr)
-  for clr, _ in $clrs
-    next if clr == :black
-    set_clr(clr, lyr)
-    print(lyr == :fg ? 'Fla' : '   ')
+def write_palette(layer)
+  for color, _ in $colors
+    next if color == :black
+    set_color(color, layer)
+    print(layer == :foreground ? 'Fla' : '   ')
   end
 end
 
-$clrs = {
+$colors = {
   :black => to_rgb(0x030101),
   :red => to_rgb(0x991f06),
   :green => to_rgb(0x7d0800),
@@ -53,41 +53,41 @@ $clrs = {
   :white => to_rgb(0xe8cc7d),
   :grey => to_rgb(0x695f44)
 }
-$lyrs = {
-  :fg => 3,
-  :bg => 4
+$layers = {
+  :foreground => 3,
+  :background => 4
 }
 
 write_blank
-set_clr(:black, :bg)
+set_color(:black, :background)
 print('     ')
-write_tribal_decor(10)
-set_clr(:white, :fg)
+write_tribal_decoration(10)
+set_color(:white, :foreground)
 print(' Flamerial ')
-write_tribal_decor(11)
-set_clr(:white, :fg)
+write_tribal_decoration(11)
+set_color(:white, :foreground)
 print('     ')
-reset_clr(:bg)
+reset_color(:background)
 puts
-set_clr(:black, :bg)
+set_color(:black, :background)
 print('     ¦/: ')
-write_pal(:bg)
-set_clr(:black, :bg)
+write_palette(:background)
+set_color(:black, :background)
 print(' :\\¦     ')
-reset_clr(:bg)
+reset_color(:background)
 puts
-set_clr(:black, :bg)
+set_color(:black, :background)
 print('     ¦\\: ')
-write_pal(:fg)
-set_clr(:white, :fg)
+write_palette(:foreground)
+set_color(:white, :foreground)
 print(' :/¦     ')
-reset_clr(:bg)
+reset_color(:background)
 puts
-set_clr(:black, :bg)
+set_color(:black, :background)
 print('     ')
-write_tribal_decor(32)
+write_tribal_decoration(32)
 print('     ')
-reset_clr(:bg)
+reset_color(:background)
 puts
 write_blank
-reset_clr(:fg)
+reset_color(:foreground)
