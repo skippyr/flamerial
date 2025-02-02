@@ -8,5 +8,9 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 end_of_line = lf
 
-[*.json]
+[ports/windows_terminal/*.json]
 indent_size = 4
+
+[ports/st/*.{c,h}]
+indent_size = 8
+indent_style = tab
