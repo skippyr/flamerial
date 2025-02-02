@@ -3,7 +3,7 @@
 uuid=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \');
 
 set_attribute() {
-	gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${uuid}/ ${1} ${2};
+  gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${uuid}/ ${1} ${2};
 }
 
 set_attribute use-theme-colors false;
