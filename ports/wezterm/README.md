@@ -21,4 +21,4 @@ return {
 }
 ```
 
-- Reload Wezterm.
+- Restart Wezterm.

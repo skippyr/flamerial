@@ -20,4 +20,4 @@ cp flamerial.toml ~/.config/alacritty/themes;
 import = ["~/.config/alacritty/themes/flamerial.toml"]
 ```
 
-- Reload Alacritty.
+- Restart Alacritty.

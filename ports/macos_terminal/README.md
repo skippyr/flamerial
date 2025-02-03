@@ -9,5 +9,5 @@
 - Open the macOS Terminal settings.
 - Select `Profile > Text > ... > Import...`.
 - Open `Flamerial.terminal`.
-- Select the `Flamerial` theme and hit `Default`.
-- Reload the macOS Terminal.
+- Select the `Flamerial` theme and click on `Default`.
+- Restart the macOS Terminal.

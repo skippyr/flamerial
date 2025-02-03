@@ -10,5 +10,5 @@
 - Select `Profiles` > `Colors`.
 - Click on `Color Presets` > `Import`.
 - Select the `Flamerial.itermcolors` file.
-- Click on the `Color Presets` button again and select Flamerial in the dropdown menu.
+- Click on the `Color Presets` button again and select `Flamerial` in the dropdown menu.
 - If it requests about `About Which Modes?`, select `Update Both Modes`.

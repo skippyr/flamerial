@@ -6,7 +6,7 @@
 
 ## ❡ Install
 ### Procedures
-- Using the Gnome Terminal, run the script `flamerial.sh`.
+- Using Gnome Terminal, execute the script `flamerial.sh`.
 
 ```zsh
 ./flamerial.sh;

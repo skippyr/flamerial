@@ -6,7 +6,7 @@
 
 ## ❡ Install
 ### Procedures
-- Using the Linux Console, run the script `flamerial.sh`:
+- Using Linux Console, execute the script `flamerial.sh`:
 
 ```zsh
 ./flamerial.sh;

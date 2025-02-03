@@ -10,4 +10,4 @@
 - Select `Open JSON file`.
 - Add the object defined in `flamerial.json` to the `schemes` array.
 - Select `Profiles > Defaults`, then, under `Appearance`, change the color scheme to `Flamerial`.
-- Select `Save`.
+- Click on `Save`.

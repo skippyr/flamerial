@@ -6,7 +6,7 @@
 
 ## ❡ Install
 ### Procedures
-- Copy the file `flamerial.sh` to `~/.config/bspwm`:
+- Copy `flamerial.sh` to `~/.config/bspwm`:
 
 ```zsh
 mkdir -p ~/.config/bspwm;
@@ -19,4 +19,4 @@ cp flamerial.sh ~/.config/bspwm;
 ~/.config/bspwm/flamerial.sh &
 ```
 
-- Reopen bspwm.
+- Restart bspwm.
