@@ -6,7 +6,7 @@
 
 ## ❡ Install
 ### Procedures
-- Copy the file `flamerial.xrdb` to `~/.config/x11/themes`:
+- Copy `flamerial.xrdb` to `~/.config/x11/themes`:
 
 ```zsh
 mkdir -p ~/.config/x11/themes;

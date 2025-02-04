@@ -86,6 +86,26 @@ The theme is composed by the following colors:
       <td>Selection</td>
       <td><code>#968451</code></td>
     </tr>
+    <tr>
+      <td><img alt="" src="assets/images/colors/alternate_background.png" /></td>
+      <td>Alternate Background</td>
+      <td><code>#140707</code></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="assets/images/colors/selection_background.png" />
+      <td>Selection Background</td>
+      <td><code>#571d1d</code></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="assets/images/colors/current_line.png" /></td>
+      <td>Current Line</td>
+      <td><code>#1f0a0a</code></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="assets/images/colors/matching_group.png" /></td>
+      <td>Matching Group</td>
+      <td><code>#ffff00</code></td>
+    </tr>
   </tbody>
 </table>
 <p align="center"><strong>Caption:</strong> the colors that compose the theme palette.</p>
