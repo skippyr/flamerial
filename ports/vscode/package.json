@@ -1,0 +1,21 @@
+{
+  "name": "flamerial",
+  "displayName": "Flamerial",
+  "description": "A fiery-spice theme to ignite your creativity.",
+  "version": "0.0.0",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flamerial",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Flamerial-color-theme.json"
+      }
+    ]
+  }
+}
