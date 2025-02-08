@@ -13,7 +13,7 @@
 </p>
 
 ## ❡ About
-A fiery-spice theme to ignite your creativity. It is available for macOS, Linux and Windows.
+A fiery and spice theme crafted to ignite your creativity. It is available for macOS, Linux and Windows.
 
 <p align="center">
     <img alt="" src="assets/images/preview.png" width=1020 />
@@ -32,7 +32,8 @@ The theme is composed by the following colors:
         <tr>
             <th>Preview</th>
             <th>Name</th>
-            <th>Hex</th>
+            <th>HEX</th>
+            <th>RGB</th>
         </tr>
     </thead>
     <tbody>
@@ -40,71 +41,85 @@ The theme is composed by the following colors:
             <td><img alt="" src="assets/images/colors/black.png" /></td>
             <td>Black</td>
             <td><code>#030101</code></td>
+            <td><code>(r: 3, g: 1, b: 1)</code></td>
         </tr>
         <tr>
             <td><img alt="" src="assets/images/colors/red.png" /></td>
             <td>Red</td>
             <td><code>#991f06</code></td>
+            <td><code>(r: 153, g: 31, b: 6)</code></td>
         </tr>
         <tr>
             <td><img alt="" src="assets/images/colors/green.png" /></td>
             <td>Green</td>
             <td><code>#7d0800</code></td>
+            <td><code>(r: 125, g: 8, b: 0)</code></td>
         </tr>
         <tr>
             <td><img alt="" src="assets/images/colors/yellow.png" /></td>
             <td>Yellow</td>
             <td><code>#c76800</code></td>
+            <td><code>(r: 199, g: 104, b: 0)</code></td>
         </tr>
         <tr>
             <td><img alt="" src="assets/images/colors/blue.png" /></td>
             <td>Blue</td>
             <td><code>#b08548</code></td>
+            <td><code>(r: 176, g: 133, b: 72)</code></td>
         </tr>
         <tr>
             <td><img alt="" src="assets/images/colors/magenta.png" /></td>
             <td>Magenta</td>
             <td><code>#8a3820</code></td>
+            <td><code>(r: 138, g: 56, b: 32)</code></td>
         </tr>
         <tr>
             <td><img alt="" src="assets/images/colors/cyan.png" /></td>
             <td>Cyan</td>
             <td><code>#a83e00</code></td>
+            <td><code>(r: 168, g: 62, b: 0)</code></td>
         </tr>
         <tr>
             <td><img alt="" src="assets/images/colors/white.png" /></td>
             <td>White</td>
             <td><code>#e8cc7d</code></td>
+            <td><code>(r: 232, g: 204, b: 125)</code></td>
         </tr>
         <tr>
-            <td><img alt="" src="assets/images/colors/light_black.png" /></td>
-            <td>Light Black</td>
+            <td><img alt="" src="assets/images/colors/gray.png" /></td>
+            <td>Gray</td>
             <td><code>#695f44</code></td>
+            <td><code>(r: 105, g: 95, b: 68)</code></td>
         </tr>
         <tr>
-            <td><img alt="" src="assets/images/colors/selection.png" /></td>
-            <td>Selection</td>
-            <td><code>#968451</code></td>
-        </tr>
-        <tr>
-            <td><img alt="" src="assets/images/colors/alternate_background.png" /></td>
-            <td>Alternate Background</td>
+            <td><img alt="" src="assets/images/colors/alternate_background_0.png" /></td>
+            <td>Alternate Background 0</td>
             <td><code>#140707</code></td>
+            <td><code>(r: 20, g: 7, b: 7)</code></td>
         </tr>
         <tr>
-            <td><img alt="" src="assets/images/colors/selection_background.png" />
+            <td><img alt="" src="assets/images/colors/alternate_background_1.png" /></td>
+            <td>Alternate Background 1</td>
+            <td><code>#1f0a0a</code></td>
+            <td><code>(r: 31, g: 10, b: 10)</code></td>
+        </tr>
+        <tr>
+            <td><img alt="" src="assets/images/colors/selection_background.png" /></td>
             <td>Selection Background</td>
             <td><code>#571d1d</code></td>
+            <td><code>(r: 87, g: 29, b: 29)</code></td>
         </tr>
         <tr>
-            <td><img alt="" src="assets/images/colors/current_line.png" /></td>
-            <td>Current Line</td>
-            <td><code>#1f0a0a</code></td>
+            <td><img alt="" src="assets/images/colors/cursor_selection.png" /></td>
+            <td>Cursor Selection</td>
+            <td><code>#968451</code></td>
+            <td><code>(r: 150, g: 132, b: 81)</code></td>
         </tr>
         <tr>
-            <td><img alt="" src="assets/images/colors/matching_group.png" /></td>
-            <td>Matching Group</td>
+            <td><img alt="" src="assets/images/colors/matching_items.png" /></td>
+            <td>Matching Items</td>
             <td><code>#ffff00</code></td>
+            <td><code>(r: 255, g: 255, b: 0)</code></td>
         </tr>
     </tbody>
 </table>
