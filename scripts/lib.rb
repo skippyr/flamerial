@@ -91,7 +91,7 @@ $layers = {
     :foreground => 3,
     :background => 4
 }
-$relative_colors_directory = File.join("assets", "images", "colors")
+$relative_colors_directory = File.join("assets", "colors")
 $absolute_colors_directory = File.join(
     File.dirname(File.dirname(File.absolute_path(__FILE__))),
     $relative_colors_directory
