@@ -69,22 +69,18 @@ class Palette
     end
 end
 
-class Terminal
-    def self.set_color(color, layer)
-        print("\x1b[#{$layers[layer]}8;2;#{color.red};#{color.green};#{color.blue}m")
-    end
-
-    def self.reset_color(layer)
-        print("\x1b[#{$layers[layer]}9m")
-    end
+def set_color(color, layer)
+    print("\x1b[#{$layers[layer]}8;2;#{color.red};#{color.green};#{color.blue}m")
 end
 
-class ImageMagick
-    def self.create_color_image_file(color)
-        size = 20
-        `magick -size #{size}x#{size} xc:#{color.hex_string} #{File.join($absolute_colors_directory, color.image_file_name)}`
-        puts("Created image for color \"#{color.name}\".")
-    end
+def reset_color(layer)
+    print("\x1b[#{$layers[layer]}9m")
+end
+
+def create_color_image_file(color)
+    size = 20
+    `magick -size #{size}x#{size} xc:#{color.hex_string} #{File.join($absolute_colors_directory, color.image_file_name)}`
+    puts("Created image for color \"#{color.name}\".")
 end
 
 $layers = {
