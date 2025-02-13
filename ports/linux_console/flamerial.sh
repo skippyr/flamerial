@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set_color() {
-    echo -ne \\e]P${1}${2};
+  echo -ne \\e]P${1}${2};
 }
 
 set_color 0 030101;
