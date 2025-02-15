@@ -6,10 +6,12 @@ hi FlamerialYellowForeground guifg=#c76800
 hi FlamerialBlueForeground guifg=#b08548
 hi FlamerialMagentaForeground guifg=#8a3820
 hi FlamerialLightBlackForeground guifg=#695f44
-hi FlamerialCurrentLineBackground guibg=#1f0a0a cterm=NONE
 hi FlamerialCyanForeground guifg=#a83e00
 hi FlamerialWhiteForeground guifg=#e8cc7d
-hi FlamerialSelectionBackground guibg=#968451
+hi FlamerialCursorSelectionBackground guibg=#968451
+hi FlamerialSelectionBackground guifg=#e8cc7d guibg=#571d1d
+hi FlamerialAlternateBackground0 guifg=#e8cc7d guibg=#140707
+hi FlamerialAlternateBackground1 guibg=#1f0a0a
 hi XcodeMatchingGroup guibg=#ffff00 guifg=#000000
 hi! link LineNr FlamerialBlueForeground
 hi! link LineNrAbove FlamerialLightBlackForeground
@@ -18,9 +20,9 @@ hi! link NonText FlamerialLightBlackForeground
 hi! link SpecialKey FlamerialLightBlackForeground
 hi! link MatchParen XcodeMatchingGroup
 hi Normal guifg=#e8cc7d guibg=#030101
-hi! link ColorColumn FlamerialCurrentLineBackground
-hi! link CursorLine FlamerialCurrentLineBackground
-hi! link CursorColumn FlamerialCurrentLineBackground
+hi! link ColorColumn FlamerialAlternateBackground1
+hi! link CursorLine FlamerialAlternateBackground1
+hi! link CursorColumn FlamerialAlternateBackground1
 hi CursorLineNr guifg=#b08548 guibg=#1f0a0a cterm=NONE
 hi! link Comment FlamerialLightBlackForeground
 hi! link Type FlamerialGreenForeground
@@ -31,7 +33,7 @@ hi! link PreProc FlamerialMagentaForeground
 hi! link Title FlamerialMagentaForeground
 hi! link Identifier FlamerialCyanForeground
 hi! link Statement FlamerialGreenForeground
-hi! link Visual FlamerialSelectionBackground
+hi! link Visual FlamerialCursorSelectionBackground
 hi ErrorMsg guifg=#e8cc7d guibg=#991f06
 hi Error guifg=#e8cc7d guibg=#991f06
 hi! link htmlTag FlamerialWhiteForeground
@@ -43,7 +45,7 @@ hi SpellCap guifg=#030101 guibg=#b08548
 hi SpellRare guifg=#e8cc7d guibg=#8a3820
 hi SpellLocal guifg=#e8cc7d guibg=#a83e00
 hi Pmenu guifg=#e8cc7d guibg=#140707
-hi PmenuSel guifg=#e8cc7d guibg=#571d1d
+hi! link PmenuSel FlamerialSelectionBackground
 hi! link WarningMsg FlamerialRedForeground
 hi! link Question FlamerialYellowForeground
 hi! link MoreMsg FlamerialYellowForeground
@@ -57,3 +59,7 @@ hi! link Constant FlamerialGreenForeground
 hi! link Operator FlamerialWhiteForeground
 hi! link rustFuncName FlamerialWhiteForeground
 hi! link rustFuncCall FlamerialWhiteForeground
+hi! link TabLineSel FlamerialSelectionBackground
+hi! link TabLine FlamerialAlternateBackground0
+hi! link TabLineFill FlamerialAlternateBackground0
+hi! link Folded FlamerialAlternateBackground0
