@@ -63,3 +63,8 @@ hi! link TabLineSel FlamerialSelectionBackground
 hi! link TabLine FlamerialAlternateBackground0
 hi! link TabLineFill FlamerialAlternateBackground0
 hi! link Folded FlamerialAlternateBackground0
+hi! link SignColumn FlamerialAlternateBackground0
+hi DiffAdd guifg=#7d0800 guibg=#140707
+hi DiffChange guifg=#a83e00 guibg=#140707
+hi DiffDelete guifg=#695f44 guibg=#140707
+hi DiffText guibg=#7d0800 guifg=#140707
