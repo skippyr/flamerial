@@ -9,6 +9,8 @@ hi FlamerialLightBlackForeground guifg=#695f44
 hi FlamerialCyanForeground guifg=#a83e00
 hi FlamerialWhiteForeground guifg=#e8cc7d
 hi FlamerialCursorSelectionBackground guibg=#968451
+hi FlamerialBlackBackground guibg=#030101
+hi FlamerialRedBackground guibg=#991f06
 hi FlamerialSelectionBackground guifg=#e8cc7d guibg=#571d1d
 hi FlamerialAlternateBackground0 guifg=#e8cc7d guibg=#140707
 hi FlamerialAlternateBackground1 guibg=#1f0a0a
@@ -70,3 +72,14 @@ hi DiffDelete guifg=#695f44 guibg=#140707
 hi DiffText guibg=#7d0800 guifg=#140707
 hi Underlined guifg=#a83e00
 hi! link SpecialKey FlamerialLightBlackForeground
+hi! link Directory FlamerialRedForeground
+hi! link CocSearch FlamerialRedForeground
+hi! link CocHintSign FlamerialCyanForeground
+hi! link CocInfoSign FlamerialYellowForeground
+hi! link CocWarningSign FlamerialYellowForeground
+hi! link CocErrorSign FlamerialRedForeground
+hi! link CocMarkdownLink FlamerialCyanForeground
+hi! link Todo FlamerialCyanForeground
+hi CocUnderline cterm=underline guisp=#e8cc7d
+hi! link PmenuThumb FlamerialRedBackground
+hi! link PmenuSbar FlamerialBlackBackground
