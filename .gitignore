@@ -1,6 +1,2 @@
-*.swp
 .DS_Store
-/.idea
 /.vs
-/.vscode
-/.ruby-lsp
