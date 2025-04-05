@@ -15,6 +15,7 @@ call plug#end()
 
 syntax on
 colorscheme flamerial
+set termguicolors
 ```
 
 - Restart Vim/Neovim.
@@ -31,6 +32,7 @@ end)
 
 vim.cmd('syntax on')
 vim.cmd('colorscheme flamerial')
+vim.cmd('set termguicolors')
 ```
 
 - Restart Vim/Neovim.
