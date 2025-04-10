@@ -20,7 +20,7 @@ fn write_blank_spacing(stdout: &mut Stdout) -> Result<()> {
     Ok(())
 }
 
-fn write_tribal_decoration(stdout: &mut Stdout, length: usize) -> anyhow::Result<()> {
+fn write_tribal_decoration(stdout: &mut Stdout, length: usize) -> Result<()> {
     for column in 0..length {
         let is_even = column % 2 == 0;
         execute!(
@@ -39,7 +39,7 @@ fn write_tribal_decoration(stdout: &mut Stdout, length: usize) -> anyhow::Result
     Ok(())
 }
 
-fn write_header(stdout: &mut Stdout) -> anyhow::Result<()> {
+fn write_header(stdout: &mut Stdout) -> Result<()> {
     execute!(
         stdout,
         SetBackgroundColor(FLAMERIAL_PALETTE.black().as_crossterm_color()),
@@ -56,7 +56,7 @@ fn write_header(stdout: &mut Stdout) -> anyhow::Result<()> {
     Ok(())
 }
 
-fn write_palette(stdout: &mut Stdout, layer: Layer) -> anyhow::Result<()> {
+fn write_palette(stdout: &mut Stdout, layer: Layer) -> Result<()> {
     execute!(
         stdout,
         SetBackgroundColor(FLAMERIAL_PALETTE.black().as_crossterm_color()),
@@ -103,7 +103,7 @@ fn write_palette(stdout: &mut Stdout, layer: Layer) -> anyhow::Result<()> {
     Ok(())
 }
 
-fn write_footer(stdout: &mut Stdout) -> anyhow::Result<()> {
+fn write_footer(stdout: &mut Stdout) -> Result<()> {
     execute!(
         stdout,
         SetBackgroundColor(FLAMERIAL_PALETTE.black().as_crossterm_color()),
@@ -114,7 +114,7 @@ fn write_footer(stdout: &mut Stdout) -> anyhow::Result<()> {
     Ok(())
 }
 
-fn main() -> anyhow::Result<()> {
+fn main() -> Result<()> {
     let mut stdout = stdout();
     write_blank_spacing(&mut stdout)?;
     write_header(&mut stdout)?;
