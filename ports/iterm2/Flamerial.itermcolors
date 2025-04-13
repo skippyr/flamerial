@@ -81,9 +81,9 @@
 		<key>Color Space</key>
 		<string>P3</string>
 		<key>Green Component</key>
-		<real>0.031372550874948502</real>
+		<real>0.40784314274787903</real>
 		<key>Red Component</key>
-		<real>0.49019607901573181</real>
+		<real>0.17254902422428131</real>
 	</dict>
 	<key>Ansi 10 Color (Dark)</key>
 	<dict>
@@ -94,9 +94,9 @@
 		<key>Color Space</key>
 		<string>P3</string>
 		<key>Green Component</key>
-		<real>0.031372549019607843</real>
+		<real>0.40784313725490196</real>
 		<key>Red Component</key>
-		<real>0.49019607843137253</real>
+		<real>0.17254901960784313</real>
 	</dict>
 	<key>Ansi 10 Color (Light)</key>
 	<dict>
@@ -291,9 +291,9 @@
 		<key>Color Space</key>
 		<string>P3</string>
 		<key>Green Component</key>
-		<real>0.031372550874948502</real>
+		<real>0.40784314274787903</real>
 		<key>Red Component</key>
-		<real>0.49019607901573181</real>
+		<real>0.17254902422428131</real>
 	</dict>
 	<key>Ansi 2 Color (Dark)</key>
 	<dict>
@@ -304,9 +304,9 @@
 		<key>Color Space</key>
 		<string>P3</string>
 		<key>Green Component</key>
-		<real>0.031372549019607843</real>
+		<real>0.40784313725490196</real>
 		<key>Red Component</key>
-		<real>0.49019607843137253</real>
+		<real>0.17254901960784313</real>
 	</dict>
 	<key>Ansi 2 Color (Light)</key>
 	<dict>

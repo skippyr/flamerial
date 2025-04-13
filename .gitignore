@@ -1,5 +1,5 @@
-*.swp
+__pycache__/
 .DS_Store
+*.swp
 /.idea/
 /.vscode/
-/scripts/target/
