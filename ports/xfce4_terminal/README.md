@@ -18,4 +18,4 @@ cp flamerial.theme ~/.local/share/xfce4/terminal/colorschemes;
 - On `Presets`, select the `Flamerial` theme from the dropdown menu.
 
 &ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by skippyr <3</sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

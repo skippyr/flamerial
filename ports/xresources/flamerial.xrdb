@@ -2,7 +2,7 @@
 *.foreground: #e8cc7d
 *.color0: #030101
 *.color1: #991f06
-*.color2: #2c6800
+*.color2: #705c06
 *.color3: #c76800
 *.color4: #b08548
 *.color5: #8a3820
@@ -10,7 +10,7 @@
 *.color7: #e8cc7d
 *.color8: #695f44
 *.color9: #991f06
-*.color10: #2c6800
+*.color10: #705c06
 *.color11: #c76800
 *.color12: #b08548
 *.color13: #8a3820

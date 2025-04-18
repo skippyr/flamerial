@@ -37,9 +37,10 @@ def reset_colors():
     print('\x1b[39;49m', end='')
 
 colors = {
+    'special': Color(0xffff00),
     'black': Color(0x030101),
     'red': Color(0x991f06),
-    'green': Color(0x2c6800),
+    'green': Color(0x705c06),
     'yellow': Color(0xc76800),
     'blue': Color(0xb08548),
     'magenta': Color(0x8a3820),

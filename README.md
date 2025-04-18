@@ -15,9 +15,9 @@
 ## ❡ About
 A fiery and spice tribal terminal theme crafted to ignite your creativity. It is available for apps on macOS, Linux and Windows.
 
-<figure align="center">
+<p align="center">
   <img alt="" src="assets/preview.png" width="1020" />
-</figure>
+</p>
 <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette.</p>
 
 ## ❡ Install
@@ -52,7 +52,7 @@ The theme is composed by the following colors:
     <tr>
       <td><img alt="" src="assets/green.png" /></td>
       <td>Green</td>
-      <td><code>#2c6800</code></td>
+      <td><code>#705c06</code></td>
       <td><code>(r: 44, g: 104, b: 0)</code></td>
     </tr>
     <tr>
@@ -90,6 +90,12 @@ The theme is composed by the following colors:
       <td>Gray</td>
       <td><code>#695f44</code></td>
       <td><code>(r: 105, g: 95, b: 68)</code></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="assets/special.png" /></td>
+      <td>Special</td>
+      <td><code>#ffff00</code></td>
+      <td><code>(r: 255, g: 255, b: 0)</code></td>
     </tr>
   </tbody>
 </table>

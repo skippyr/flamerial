@@ -30,7 +30,7 @@ def write_palette(layer):
     set_color(Layer.BACKGROUND, colors['black'])
     set_color(Layer.FOREGROUND, colors['white'])
     print(f'     {'¦/:' if layer == Layer.BACKGROUND else '¦\\:'} ', end='')
-    for color in list(colors)[1:]:
+    for color in list(colors)[2:]:
         set_color(layer, colors[color])
         print('   ' if layer == Layer.BACKGROUND else 'Fla', end='')
     set_color(Layer.BACKGROUND, colors['black'])
