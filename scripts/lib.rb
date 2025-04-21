@@ -1,7 +1,7 @@
 class Color
   attr_reader :red, :green, :blue
 
-  def initialize(hex)
+  def initialize hex
     @red = hex >> 16 & 0xff
     @green = hex >> 8 & 0xff
     @blue = hex & 0xff
@@ -16,7 +16,7 @@ class Color
   end
 end
 
-def set_color(layer, key)
+def set_color layer, key
   color = $colors[key]
   print "\x1b[#{layer == :foreground ? 3 : 4}8;2;#{color.red};#{color.green};#{color.blue}m"
 end

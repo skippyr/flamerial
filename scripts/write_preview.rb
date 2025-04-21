@@ -11,7 +11,7 @@ def write_vertical_spacing
   end
 end
 
-def write_tribal_decoration(length)
+def write_tribal_decoration length
   for column in 0..length - 1
     is_even = column % 2 == 0
     set_color :foreground, is_even ? :yellow : :red
@@ -31,7 +31,7 @@ def write_header
   puts
 end
 
-def write_palette(layer)
+def write_palette layer
   set_color :background, :black
   set_color :foreground, :white
   print "     #{layer == :foreground ? '¦\\:' : '¦/:'} "
@@ -46,7 +46,7 @@ def write_palette(layer)
   puts
 end
 
-def write_footer()
+def write_footer
   set_color :background, :black
   print '     '
   write_tribal_decoration 32
