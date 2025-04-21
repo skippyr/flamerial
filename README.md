@@ -13,7 +13,7 @@
 </p>
 
 ## ❡ About
-A fiery and spice tribal terminal theme crafted to ignite your creativity. It is available for apps on macOS, Linux and Windows.
+A fiery and spice tribal terminal theme crafted to ignite your creativity. It is available for apps on macOS and Linux.
 
 <p align="center">
   <img alt="" src="assets/preview.png" width="1020" />
