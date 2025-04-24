@@ -6,6 +6,8 @@
 //! magick_rust = "1.0.0"
 //! ```
 
+#![allow(dead_code)]
+
 use anyhow::Result;
 use magick_rust::{magick_wand_genesis, magick_wand_terminus, MagickWand, PixelWand};
 use std::path::PathBuf;
@@ -21,23 +23,15 @@ fn main() -> Result<()> {
         .unwrap()
         .join("assets");
     magick_wand_genesis();
-    println!(
-        "{} directory {}.",
-        if assets_directory.exists() {
-            "Recreated"
-        } else {
-            "Created"
-        },
-        assets_directory.display()
-    );
     for color in PALETTE.all_colors() {
+        let hex_string = color.hex_string();
         let magick_wand = MagickWand::new();
         let mut pixel_wand = PixelWand::new();
         let image_file = assets_directory.join(format!("{}.png", color.snake_case_name()));
-        pixel_wand.set_color(&color.hex_string())?;
+        pixel_wand.set_color(&hex_string)?;
         magick_wand.new_image(SIZE, SIZE, &pixel_wand)?;
         magick_wand.write_image(image_file.to_str().unwrap())?;
-        println!("Created image {}.", image_file.display());
+        println!("Created image {} ({}).", image_file.display(), hex_string);
     }
     magick_wand_terminus();
     Ok(())

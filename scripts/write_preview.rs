@@ -5,6 +5,8 @@
 //! heck = "0.5.0"
 //! ```
 
+#![allow(dead_code)]
+
 use anyhow::Result;
 use crossterm::{
     execute,

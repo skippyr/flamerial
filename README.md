@@ -52,8 +52,8 @@ The theme is composed by the following colors:
     <tr>
       <td><img alt="" src="assets/green.png" /></td>
       <td>Green</td>
-      <td><code>#705c06</code></td>
-      <td><code>(r: 44, g: 104, b: 0)</code></td>
+      <td><code>#7d0800</code></td>
+      <td><code>(r: 125, g: 8, b: 0)</code></td>
     </tr>
     <tr>
       <td><img alt="" src="assets/yellow.png" /></td>
@@ -92,8 +92,32 @@ The theme is composed by the following colors:
       <td><code>(r: 105, g: 95, b: 68)</code></td>
     </tr>
     <tr>
-      <td><img alt="" src="assets/special.png" /></td>
-      <td>Special</td>
+      <td><img alt="" src="assets/alternate_background_0.png" /></td>
+      <td>Alternate Background 0</td>
+      <td><code>#140707</code></td>
+      <td><code>(r: 20, g: 7, b: 7)</code></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="assets/alternate_background_1.png" /></td>
+      <td>Alternate Background 1</td>
+      <td><code>#1f0a0a</code></td>
+      <td><code>(r: 31, g: 10, b: 10)</code></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="assets/selection_background.png" /></td>
+      <td>Selection Background</td>
+      <td><code>#571d1d</code></td>
+      <td><code>(r: 87, g: 29, b: 29)</code></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="assets/cursor_selection.png" /></td>
+      <td>Cursor Selection</td>
+      <td><code>#968451</code></td>
+      <td><code>(r: 150, g: 132, b: 81)</code></td>
+    </tr>
+    <tr>
+      <td><img alt="" src="assets/matching_items.png" /></td>
+      <td>Matching Items</td>
       <td><code>#ffff00</code></td>
       <td><code>(r: 255, g: 255, b: 0)</code></td>
     </tr>

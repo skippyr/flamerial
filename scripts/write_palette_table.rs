@@ -4,10 +4,12 @@
 //! heck = "0.5.0"
 //! ```
 
+#![allow(dead_code)]
+
 include!("lib.rs");
 
 fn main() {
-    println!("<table>");
+    println!(r#"<table align="center">"#);
     println!("  <thead>");
     println!("    <tr>");
     println!("      <th>Preview</th>");
@@ -24,8 +26,8 @@ fn main() {
             color.snake_case_name()
         );
         println!("      <td>{}</td>", color.title_case_name());
-        println!("      <td>{}</td>", color.hex_string());
-        println!("      <td>{}</td>", color.rgb_string());
+        println!("      <td><code>{}</code></td>", color.hex_string());
+        println!("      <td><code>{}</code></td>", color.rgb_string());
         println!("    </tr>");
     }
     println!("  </tbody>");

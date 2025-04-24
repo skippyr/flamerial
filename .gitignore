@@ -1,5 +1,2 @@
-__pycache__/
-.DS_Store
 *.swp
-/.idea/
-/.vscode/
+.DS_Store
