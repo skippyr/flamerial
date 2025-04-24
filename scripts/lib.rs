@@ -18,12 +18,13 @@ const PALETTE: Palette = Palette::new(&[
     Color::from_hex("matching_items", 0xffff00),
 ]);
 
-#[derive(PartialEq)]
+#[derive(Debug, Clone, Copy, PartialEq)]
 enum Layer {
     Foreground,
     Background,
 }
 
+#[derive(Debug, Clone, PartialEq)]
 struct Color {
     snake_case_name: &'static str,
     red: u8,
@@ -41,7 +42,7 @@ impl Color {
         }
     }
 
-    fn snake_case_name(&self) -> &'static str {
+    const fn snake_case_name(&self) -> &'static str {
         self.snake_case_name
     }
 
@@ -57,7 +58,7 @@ impl Color {
         format!("(r: {}, g: {}, b: {})", self.red, self.green, self.blue)
     }
 
-    fn as_crossterm_color(&self) -> CrosstermColor {
+    const fn as_crossterm_color(&self) -> CrosstermColor {
         CrosstermColor::Rgb {
             r: self.red,
             g: self.green,
@@ -66,6 +67,7 @@ impl Color {
     }
 }
 
+#[derive(Debug, Clone, Copy, PartialEq)]
 struct Palette {
     colors: &'static [Color],
 }
@@ -96,6 +98,6 @@ impl Palette {
     }
 
     fn preview_colors(&self) -> &'static [Color] {
-        &self.colors[1..self.colors.len() - 1]
+        &self.colors[1..9]
     }
 }

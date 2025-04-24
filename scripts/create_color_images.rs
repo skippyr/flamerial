@@ -14,9 +14,8 @@ use std::path::PathBuf;
 
 include!("lib.rs");
 
-const SIZE: usize = 20;
-
 fn main() -> Result<()> {
+    const SIZE: usize = 20;
     let assets_directory = PathBuf::from(file!())
         .ancestors()
         .nth(2)
