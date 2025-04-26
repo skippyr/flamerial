@@ -24,7 +24,7 @@ enum Layer {
     Background,
 }
 
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone, Copy, PartialEq)]
 struct Color {
     snake_case_name: &'static str,
     red: u8,
