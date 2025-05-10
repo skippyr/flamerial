@@ -10,6 +10,7 @@
 
 use anyhow::Result;
 use magick_rust::{magick_wand_genesis, magick_wand_terminus, MagickWand, PixelWand};
+use std::io::{self, Write as _};
 use std::path::PathBuf;
 
 include!("lib.rs");
@@ -21,6 +22,7 @@ fn main() -> Result<()> {
         .nth(2)
         .unwrap()
         .join("assets");
+    let mut stdout = io::stdout().lock();
     magick_wand_genesis();
     for color in PALETTE.all_colors() {
         let hex_string = color.hex_string();
@@ -30,7 +32,12 @@ fn main() -> Result<()> {
         pixel_wand.set_color(&hex_string)?;
         magick_wand.new_image(SIZE, SIZE, &pixel_wand)?;
         magick_wand.write_image(image_file.to_str().unwrap())?;
-        println!("Created image {} ({}).", image_file.display(), hex_string);
+        writeln!(
+            stdout,
+            "Created image {} ({hex_string}).",
+            image_file.display()
+        )
+        .unwrap();
     }
     magick_wand_terminus();
     Ok(())

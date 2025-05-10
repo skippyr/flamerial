@@ -1,5 +1,4 @@
-use crossterm::style::Color as CrosstermColor;
-use heck::ToTitleCase;
+use heck::ToTitleCase as _;
 
 const PALETTE: Palette = Palette::new(&[
     Color::from_hex("black", 0x030101),
@@ -18,13 +17,13 @@ const PALETTE: Palette = Palette::new(&[
     Color::from_hex("matching_items", 0xffff00),
 ]);
 
-#[derive(Debug, Clone, Copy, PartialEq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 enum Layer {
     Foreground,
     Background,
 }
 
-#[derive(Debug, Clone, Copy, PartialEq)]
+#[derive(Debug, Clone, Copy)]
 struct Color {
     snake_case_name: &'static str,
     red: u8,
@@ -58,8 +57,8 @@ impl Color {
         format!("(r: {}, g: {}, b: {})", self.red, self.green, self.blue)
     }
 
-    const fn as_crossterm_color(&self) -> CrosstermColor {
-        CrosstermColor::Rgb {
+    const fn as_crossterm_color(&self) -> crossterm::style::Color {
+        crossterm::style::Color::Rgb {
             r: self.red,
             g: self.green,
             b: self.blue,
@@ -67,37 +66,35 @@ impl Color {
     }
 }
 
-#[derive(Debug, Clone, Copy, PartialEq)]
-struct Palette {
-    colors: &'static [Color],
-}
+#[derive(Debug, Clone)]
+struct Palette(&'static [Color]);
 
 impl Palette {
     const fn new(colors: &'static [Color]) -> Self {
-        Self { colors }
+        Self(colors)
     }
 
     fn black(&self) -> &Color {
-        &self.colors[0]
+        &self.0[0]
     }
 
     fn red(&self) -> &Color {
-        &self.colors[1]
+        &self.0[1]
     }
 
     fn yellow(&self) -> &Color {
-        &self.colors[3]
+        &self.0[3]
     }
 
     fn white(&self) -> &Color {
-        &self.colors[7]
+        &self.0[7]
     }
 
     fn all_colors(&self) -> &'static [Color] {
-        self.colors
+        self.0
     }
 
     fn preview_colors(&self) -> &'static [Color] {
-        &self.colors[1..9]
+        &self.0[1..9]
     }
 }

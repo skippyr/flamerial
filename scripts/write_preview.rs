@@ -8,15 +8,13 @@
 #![allow(dead_code)]
 
 use anyhow::Result;
-use crossterm::{
-    execute,
-    style::{Print, ResetColor, SetBackgroundColor, SetForegroundColor},
-};
-use std::io::{stdout, Stdout};
+use crossterm::execute;
+use crossterm::style::{Print, ResetColor, SetBackgroundColor, SetForegroundColor};
+use std::io::{self, StdoutLock};
 
 include!("lib.rs");
 
-fn write_blank_spacing(stdout: &mut Stdout) -> Result<()> {
+fn write_blank_spacing(stdout: &mut StdoutLock) -> Result<()> {
     for _ in 0..2 {
         execute!(
             stdout,
@@ -30,7 +28,7 @@ fn write_blank_spacing(stdout: &mut Stdout) -> Result<()> {
     Ok(())
 }
 
-fn write_tribal_decoration(stdout: &mut Stdout, length: usize) -> Result<()> {
+fn write_tribal_decoration(stdout: &mut StdoutLock, length: usize) -> Result<()> {
     for column in 0..length {
         let is_even = column % 2 == 0;
         execute!(
@@ -49,7 +47,7 @@ fn write_tribal_decoration(stdout: &mut Stdout, length: usize) -> Result<()> {
     Ok(())
 }
 
-fn write_header(stdout: &mut Stdout) -> Result<()> {
+fn write_header(stdout: &mut StdoutLock) -> Result<()> {
     execute!(
         stdout,
         SetBackgroundColor(PALETTE.black().as_crossterm_color()),
@@ -66,7 +64,7 @@ fn write_header(stdout: &mut Stdout) -> Result<()> {
     Ok(())
 }
 
-fn write_palette(stdout: &mut Stdout, layer: Layer) -> Result<()> {
+fn write_palette(stdout: &mut StdoutLock, layer: Layer) -> Result<()> {
     execute!(
         stdout,
         SetBackgroundColor(PALETTE.black().as_crossterm_color()),
@@ -113,7 +111,7 @@ fn write_palette(stdout: &mut Stdout, layer: Layer) -> Result<()> {
     Ok(())
 }
 
-fn write_footer(stdout: &mut Stdout) -> Result<()> {
+fn write_footer(stdout: &mut StdoutLock) -> Result<()> {
     execute!(
         stdout,
         SetBackgroundColor(PALETTE.black().as_crossterm_color()),
@@ -125,7 +123,7 @@ fn write_footer(stdout: &mut Stdout) -> Result<()> {
 }
 
 fn main() -> Result<()> {
-    let mut stdout = stdout();
+    let mut stdout = io::stdout().lock();
     write_blank_spacing(&mut stdout)?;
     write_header(&mut stdout)?;
     write_palette(&mut stdout, Layer::Background)?;
