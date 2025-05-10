@@ -4,6 +4,10 @@
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
 <p align="center">—&ensp;Wallpapers&ensp;—</p>
 
+<p align="center">
+  <img alt="" src="flamerial_dragon.png" />
+</p>
+
 ## ❡ Install
 ### Procedures
 Here are some wallpapers that match well with the Flamerial theme. Access the link from one you would like to use, download it from its source and then apply it using your system settings.
@@ -12,10 +16,14 @@ Here are some wallpapers that match well with the Flamerial theme. Access the li
   <thead>
     <tr>
       <th>Author</th>
-      <th>Name</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><em>[AI Art: <a href="https://openai.com/index/dall-e-3">DALL·E 3 by OpenAI</a>]</em></td>
+      <td><a href="https://github.com/skippyr/flamerial/blob/master/assets/flamerial_dragon.png">Flamerial Dragon</a> <em>(used in screenshots)</em></td>
+    </tr>
     <tr>
       <td>Benson Low</td>
       <td><a href="https://unsplash.com/photos/a-building-with-a-dragon-roof-jh6V4Y2s6OU">A Building With A Dragon Roof</a></td>
