@@ -37,11 +37,11 @@ Check out how the palette looks like applied in a variety of situations:
     <p align="center">
       <img alt="" src="assets/preview_neofetch.png" width="1020" />
     </p>
-    <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette being used while running <a href="https://github.com/dylanaraps/neofetch">neofetch</a> in Kitty on macOS. Shell theme is <a href="https://github.com/skippyr/river_dreams">River Dreams</a> and font is <a href="https://www.monolisa.dev">Monolisa</a> (with fallback to <a href="https://github.com/ryanoasis/nerd-fonts">Symbols Nerd Font</a>). Background is AI art and provided as an wallpaper port.</p>
+    <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette being used while running <a href="https://github.com/dylanaraps/neofetch">neofetch</a> in <a href="https://github.com/kovidgoyal/kitty">Kitty</a> on macOS. Shell theme is <a href="https://github.com/skippyr/river_dreams">River Dreams</a> and font is <a href="https://www.monolisa.dev">Monolisa</a> (with fallback to <a href="https://github.com/ryanoasis/nerd-fonts">Symbols Nerd Font</a>). Background is AI art and provided as an wallpaper port.</p>
     <p align="center">
       <img alt="" src="assets/preview_ghosts_figlet.png" width="1020" />
     </p>
-    <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette being used while running the <a href="https://github.com/stark/Color-Scripts/blob/master/color-scripts/ghosts">ghosts</a> color script and <a href="http://www.figlet.org">figlet</a> in Kitty on macOS. Shell theme is <a href="https://github.com/skippyr/river_dreams">River Dreams</a> and font is <a href="https://www.monolisa.dev">Monolisa</a> (with fallback to <a href="https://github.com/ryanoasis/nerd-fonts">Symbols Nerd Font</a>). Background is AI art and provided as an wallpaper port.</p>
+    <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette being used while running the <a href="https://github.com/stark/Color-Scripts/blob/master/color-scripts/ghosts">ghosts</a> color script and <a href="http://www.figlet.org">figlet</a> in <a href="https://github.com/kovidgoyal/kitty">Kitty</a> on macOS. Shell theme is <a href="https://github.com/skippyr/river_dreams">River Dreams</a> and font is <a href="https://www.monolisa.dev">Monolisa</a> (with fallback to <a href="https://github.com/ryanoasis/nerd-fonts">Symbols Nerd Font</a>). Background is AI art and provided as an wallpaper port.</p>
   </details>
 </p>
 
