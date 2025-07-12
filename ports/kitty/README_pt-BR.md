@@ -9,22 +9,22 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/kitty/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- Copy `flamerial.conf` to `~/.config/kitty/themes`:
+## ❡ Instalação
+### Procedimentos
+- Copie `flamerial.conf` para `~/.config/kitty/themes`:
 
 ```zsh
 mkdir -p ~/.config/kitty/themes;
 cp flamerial.conf ~/.config/kitty/themes;
 ```
 
-- Include it in `~/.config/kitty/kitty.conf`:
+- Inclua ele em `~/.config/kitty/kitty.conf`:
 
 ```zsh
 include themes/flamerial.conf
 ```
 
-- Restart Kitty.
+- Reinicie o Kitty.
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

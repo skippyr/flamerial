@@ -9,11 +9,11 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/clone_hero/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- Copy `Flamerial.ini` to the `Colors` directory inside your Clone Hero `Custom` directory:
-- Restart Clone Hero.
-- Set the `Flamerial` color profile in your profile settings.
+## ❡ Instalação
+### Procedimentos
+- Copie `Flamerial.ini` para o diretório `Colors` dentro da sua pasta `Custom` do Clone Hero.
+- Reinicie o Clone Hero.
+- Use o perfil de cor `Flamerial` na configurações de seu perfil.
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

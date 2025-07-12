@@ -9,18 +9,18 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/xfce4_terminal/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- Copy the file `flamerial.theme` to `~/.local/share/xfce4/terminal/colorschemes`:
+## ❡ Instalação
+### Procedimentos
+- Copie o arquivo `flamerial.theme` para `~/.local/share/xfce4/terminal/colorschemes`:
 
 ```zsh
 mkdir -p ~/.local/share/xfce4/terminal/colorschemes;
 cp flamerial.theme ~/.local/share/xfce4/terminal/colorschemes;
 ```
 
-- Click on `Edit` > `Preferences`.
-- Select the `Colors` tab.
-- On `Presets`, select the `Flamerial` theme from the dropdown menu.
+- Clique em `Edit` > `Preferences`.
+- Selecione a aba `Colors`.
+- Em `Presets`, selecione o tema `Flamerial` do menu suspenso.
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

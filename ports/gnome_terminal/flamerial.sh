@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
 
+# Applies the Flamerial theme in bspwm.
+#
+# This file must be executed while running Gnome Terminal.
+
+# The current profile UUID.
 uuid=$(gsettings get org.gnome.Terminal.ProfilesList default | tr -d \');
 
+# Sets the value of a Gnome Terminal attribute in the current profile.
+#
+# Parameters
+#  ${1}: the name of the attribute to be modified.
+#  ${2}: the value to be set.
 set_attribute() {
   gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${uuid}/ ${1} ${2};
 }

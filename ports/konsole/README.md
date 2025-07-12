@@ -3,6 +3,11 @@
 </p>
 <h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
 <p align="center">—&ensp;Konsole&ensp;—</p>
+<p align="center">
+  <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/konsole/README.md">🇺🇸 English-US</a></span>
+  &ensp;
+  <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/konsole/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
+</p>
 
 ## ❡ Install
 ### Procedures

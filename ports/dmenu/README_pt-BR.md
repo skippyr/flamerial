@@ -9,20 +9,20 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/dmenu/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- In your dmenu copy, create a copy of `config.def.h` named as `config.h`:
+## ❡ Instalação
+### Procedimentos
+- Na sua cópia do dmenu, crie uma cópia de `config.def.h` nomeada como `config.h`:
 
 ```zsh
 cp config.def.h config.h;
 ```
 
-- Replace the colors in `config.h` by the ones present in `flamerial.h`.
-- Recompile dmenu (use `sudo` if necessary):
+- Substitua as cores em `config.h` pelas que estão presentes em `flamerial.h`.
+- Recompile o dmenu (use `sudo` se necessário):
 
 ```zsh
 sudo make clean install;
 ```
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

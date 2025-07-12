@@ -9,13 +9,13 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/linux_console/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- Using Linux Console, execute the script `flamerial.sh`:
+## ❡ Instalação
+### Procedimentos
+- Usando o Linux Console, execute o script `flamerial.sh`:
 
 ```zsh
 ./flamerial.sh;
 ```
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

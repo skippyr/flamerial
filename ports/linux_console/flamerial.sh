@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+# Applies the Flamerial theme in bspwm.
+#
+# This file must be executed while running Linux Console.
+
+# Sets the value of a terminal theme color.
+#
+# Parameters:
+#   ${1}: the ANSI value of the color in hexadecimal format.
+#   ${2}: the hex value of the color not prefixed with "#" or "0x".
 set_color() {
   echo -ne \\e]P${1}${2};
 }

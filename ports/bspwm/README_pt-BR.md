@@ -9,22 +9,22 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/bspwm/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- Copy `flamerial.sh` to `~/.config/bspwm`:
+## ❡ Instalação
+### Procedimentos
+- Copie `flamerial.sh` para `~/.config/bspwm`:
 
 ```zsh
 mkdir -p ~/.config/bspwm;
 cp flamerial.sh ~/.config/bspwm;
 ```
 
-- Add the following line to `~/.config/bspwm/bspwmrc`:
+- Adicione a seguinte linha em `~/.config/bspwm/bspwmrc`:
 
 ```zsh
 ~/.config/bspwm/flamerial.sh &
 ```
 
-- Restart bspwm.
+- Reinicie o bspwm.
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

@@ -9,23 +9,23 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/alacritty/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- Copy `flamerial.toml` to `~/.config/alacritty/themes`:
+## ❡ Instalação
+### Procedimentos
+- Copie `flamerial.toml` para `~/.config/alacritty/themes`:
 
 ```zsh
 mkdir -p ~/.config/alacritty/themes;
 cp flamerial.toml ~/.config/alacritty/themes;
 ```
 
-- Import it in `~/.config/alacritty/alacritty.toml`:
+- Importe ele em `~/.config/alacritty/alacritty.toml`:
 
 ```zsh
 [general]
 import = ["~/.config/alacritty/themes/flamerial.toml"]
 ```
 
-- Restart Alacritty.
+- Reinicie o Alacritty.
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

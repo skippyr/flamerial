@@ -9,13 +9,13 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/macos_terminal/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- Open the macOS Terminal settings.
-- Select `Profile > Text > ... > Import...`.
-- Open `Flamerial.terminal`.
-- Select the `Flamerial` theme and click on `Default`.
-- Restart the macOS Terminal.
+## ❡ Instalação
+### Procedimentos
+- Abra as configurações do macOS Terminal.
+- Selecione `Profile > Text > ... > Import...`.
+- Abra `Flamerial.terminal`.
+- Selecione o tema `Flamerial` e clique em `Default`.
+- Reinicie o macOS Terminal.
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>

@@ -11,6 +11,11 @@
   &nbsp;
   <img alt="" src="https://img.shields.io/github/stars/skippyr/flamerial?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
 </p>
+<p align="center">
+  <span><a href="https://github.com/skippyr/flamerial/blob/master/README.md">🇺🇸 English-US</a></span>
+  &ensp;
+  <span><a href="https://github.com/skippyr/flamerial/blob/master/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
+</p>
 
 ## ❡ About
 A fiery and spice tribal terminal theme crafted to ignite your creativity. It is available for apps on Windows, macOS and Linux.

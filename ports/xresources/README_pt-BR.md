@@ -9,22 +9,22 @@
   <span><a href="https://github.com/skippyr/flamerial/blob/master/ports/xresources/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
 
-## ❡ Install
-### Procedures
-- Copy `flamerial.xrdb` to `~/.config/x11/themes`:
+## ❡ Instalação
+### Procedimentos
+- Copie `flamerial.xrdb` para `~/.config/x11/themes`:
 
 ```zsh
 mkdir -p ~/.config/x11/themes;
 cp flamerial.xrdb ~/.config/x11/themes;
 ```
 
-- Use the X11 utility `xrdb` in `~/.xinitrc` to apply the theme:
+- Use o utilitário `xrdb` do X11 em `~/.xinitrc` para aplicar o tema:
 
 ```zsh
 xrdb -merge ~/.config/x11/themes/flamerial.xrdb;
 ```
 
-- Restart X11.
+- Reinicie o X11.
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Aqui Vivem Os Dragões!&ensp;≥v≥</strong><br/>Feito com amor por 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
