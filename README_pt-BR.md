@@ -12,6 +12,11 @@
   <img alt="" src="https://img.shields.io/github/stars/skippyr/flamerial?style=plastic&label=%E2%89%A5%20estrelas&labelColor=%2324130e&color=%23b8150d" />
 </p>
 <p align="center">
+  <img alt="" src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white" />
+  <img alt="" src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0" />
+  <img alt="" src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" />
+</p>
+<p align="center">
   <span><a href="https://github.com/skippyr/flamerial/blob/master/README.md">🇺🇸 English-US</a></span>
   &ensp;
   <span><a href="https://github.com/skippyr/flamerial/blob/master/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
