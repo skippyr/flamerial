@@ -123,7 +123,7 @@ def write_vertical_spacing() -> None:
         reset_colors()
         print()
 
-def write_tribal_decoration(length) -> None:
+def write_tribal_decoration(length: int) -> None:
     """
     Writes a horizontal line containing tribal symbols until the specified
     length.
@@ -151,12 +151,13 @@ def write_header() -> None:
     reset_colors()
     print()
 
-def write_palette(layer) -> None:
+def write_palette(layer: int) -> None:
     """
     Writes the preview of the palette targetting a terminal layer.
 
     Parameters:
-        layer: the layer being targetted.
+        layer: the layer being targetted. It must be an enumerator from the
+        TerminalLayer enum.
     """
     set_color(TerminalLayer.BACKGROUND, colors['black'])
     set_color(TerminalLayer.FOREGROUND, colors['white'])
