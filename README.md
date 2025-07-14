@@ -24,7 +24,7 @@
 <p align="center"><sup>Since April 2023</sup></p>
 
 ## ❡ About
-A fiery and spice tribal terminal theme crafted to ignite your creativity. It is available for apps on Windows, macOS and Linux.
+A fiery and spice tribal terminal theme crafted to ignite your creativity and make you embrace the shadows of your dragon cave. It is available for apps on Windows, macOS and Linux.
 
 <p align="center">
   <img alt="" src="assets/preview_palette.png" width="1020" />
