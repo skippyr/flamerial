@@ -21,9 +21,10 @@
   &ensp;
   <span><a href="https://github.com/skippyr/flamerial/blob/master/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
+<p align="center"><sup>Desde Abril de 2023</sup></p>
 
 ## ❡ About
-Um tema tribal fogoso e bem temperado para acender a chama de sua criatividade. Está disponível para aplicativos no Windows, macOS e Linux.
+Um tema tribal quente e bem temperado para acender a chama de sua criatividade. Está disponível para aplicativos no Windows, macOS e Linux.
 
 <p align="center">
   <img alt="" src="assets/preview_palette.png" width="1020" />

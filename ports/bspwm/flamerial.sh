@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Applies the Flamerial theme in bspwm.
-
+# Applies the Flamerial theme to bspwm.
+#
 # This file must be executed in ~/.config/bspwm/bspwmrc:
 #     ~/.config/bspwm/flamerial.sh &
 

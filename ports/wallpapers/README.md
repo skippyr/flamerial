@@ -23,7 +23,11 @@ Here are some wallpapers that match well with the Flamerial theme. Access the li
   <tbody>
     <tr>
       <td><em>[AI Art: <a href="https://openai.com/index/dall-e-3">DALL·E 3 by OpenAI</a>]</em></td>
-      <td><a href="https://github.com/skippyr/flamerial/blob/master/assets/flamerial_dragon.png">Flamerial Dragon</a> <em>(used in screenshots)</em></td>
+      <td><a href="https://github.com/skippyr/flamerial/blob/master/assets/flamerial_dragon_0.png">Flamerial Dragon 0</a> <em>(used in screenshots)</em></td>
+    </tr>
+    <tr>
+      <td><em>[AI Art: <a href="https://openai.com/index/dall-e-3">DALL·E 3 by OpenAI</a>]</em></td>
+      <td><a href="https://github.com/skippyr/flamerial/blob/master/assets/flamerial_dragon_1.png">Flamerial Dragon 1</a></td>
     </tr>
     <tr>
       <td>Benson Low</td>

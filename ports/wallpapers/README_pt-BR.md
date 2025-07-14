@@ -23,7 +23,11 @@ Aqui estão alguns wallpapers que combinam bem com o tema Flamerial. Acesse o li
   <tbody>
     <tr>
       <td><em>[AI Art: <a href="https://openai.com/index/dall-e-3">DALL·E 3 by OpenAI</a>]</em></td>
-      <td><a href="https://github.com/skippyr/flamerial/blob/master/assets/flamerial_dragon.png">Dragão Flamerial</a> <em>(utilizado em captura de telas)</em></td>
+      <td><a href="https://github.com/skippyr/flamerial/blob/master/assets/flamerial_dragon_0.png">Dragão Flamerial 0</a> <em>(utilizado em captura de telas)</em></td>
+    </tr>
+    <tr>
+      <td><em>[AI Art: <a href="https://openai.com/index/dall-e-3">DALL·E 3 by OpenAI</a>]</em></td>
+      <td><a href="https://github.com/skippyr/flamerial/blob/master/assets/flamerial_dragon_1.png">Dragão Flamerial 1</a></td>
     </tr>
     <tr>
       <td>Benson Low</td>

@@ -21,6 +21,7 @@
   &ensp;
   <span><a href="https://github.com/skippyr/flamerial/blob/master/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
 </p>
+<p align="center"><sup>Since April 2023</sup></p>
 
 ## ❡ About
 A fiery and spice tribal terminal theme crafted to ignite your creativity. It is available for apps on Windows, macOS and Linux.
