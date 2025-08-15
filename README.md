@@ -16,12 +16,12 @@
   <img alt="" src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0" />
   <img alt="" src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" />
 </p>
-<p align="center">
-  <span><a href="https://github.com/skippyr/flamerial/blob/master/README.md">🇺🇸 English-US</a></span>
-  &ensp;
-  <span><a href="https://github.com/skippyr/flamerial/blob/master/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
-</p>
 <p align="center"><sup>Since April 2023</sup></p>
+
+> [!IMPORTANT]
+> This project will no longer be maintained because it does not align with my current career goals of becoming a macOS developer. New open-source projects will also be made available on [GitLab](https://gitlab.com/skippyr) instead of this account.
+>
+> If you want to continue its legacy, feel free to create your own fork.
 
 ## ❡ About
 A fiery and spice tribal terminal theme crafted to ignite your creativity and make you embrace the shadows of your dragon cave. It is available for apps on Windows, macOS and Linux.
