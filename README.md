@@ -1,174 +1,154 @@
+<div align="center">
+  <img alt="A tribal ornament made out of a triangle pattern" src="Resources/Images/TribalOrnament.png" width="1020" />
+</div>
 <p align="center">
-  <img alt="" src="assets/ornament.png" width="1020" />
+  <img alt="The Flamerial icon" src="Resources/Images/AppIcon.png" width="60" />
 </p>
-<h1 align="center">≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
-<p align="center">
-  <img alt="" src="https://img.shields.io/github/license/skippyr/flamerial?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" />
-  &nbsp;
-  <img alt="" src="https://img.shields.io/github/v/tag/skippyr/flamerial?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" />
-  &nbsp;
-  <img alt="" src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" />
-  &nbsp;
-  <img alt="" src="https://img.shields.io/github/stars/skippyr/flamerial?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" />
-</p>
-<p align="center">
-  <img alt="" src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white" />
-  <img alt="" src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0" />
-  <img alt="" src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" />
-</p>
-<p align="center">
-  <span><a href="https://github.com/skippyr/flamerial/blob/master/README.md">🇺🇸 English-US</a></span>
-  &ensp;
-  <span><a href="https://github.com/skippyr/flamerial/blob/master/README_pt-BR.md">🇧🇷 Portuguese-BR</a></span>
-</p>
-<p align="center"><sup>Since April 2023</sup></p>
+<div align="center">
+  <h1>≥v≥v&ensp;Flamerial&ensp;≥v≥v</h1>
+  <p>⠋⠇⠁⠍⠑⠗⠊⠁⠇</p>
+</div>
+<p align="center"><sup><strong>Developer Tools</strong>&ensp;·&ensp;<em>Available for macOS</em></br>Since November 2022</sup></p>
 
 ## ❡ About
-A fiery and spice tribal terminal theme crafted to ignite your creativity and make you embrace the shadows of your dragon cave. It is available for apps on Windows, macOS and Linux.
+A fiery color palette for the sleek pony developers who are creating the foundation of their software empire through hard work and determination. Designed to work gracefully with Liquid Glass, it is available for Xcode and Terminal on the new macOS 26 Tahoe.
 
 <p align="center">
-  <img alt="" src="assets/preview_palette.png" width="1020" />
+  <img alt="" src="Resources/Images/Previews/Dark.png" width="1020" />
+  <img alt="" src="Resources/Images/Previews/Light.png" width="1020" />
 </p>
-<p align="center"><strong>Caption:</strong> a preview of the Flamerial palette. Font is <a href="https://www.monolisa.dev">Monolisa</a>.</p>
+<p align="center"><strong>Caption:</strong> the Flamerial palette applied on macOS Tahoe.</p>
 
-## ❡ Screenshots
-Check out how the palette looks like applied in a variety of situations:
+### Palette
+The colors that compose each variant are:
 
-<p>
-  <details>
-    <summary>Click to expand (...)</summary>
-    <p align="center">
-      <img alt="" src="assets/preview_eza.png" width="1020" />
-    </p>
-    <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette being used while running <a href="https://github.com/eza-community/eza">eza</a> in <a href="https://github.com/kovidgoyal/kitty">Kitty</a> on macOS. Shell theme is <a href="https://github.com/skippyr/river_dreams">River Dreams</a> and font is <a href="https://www.monolisa.dev">Monolisa</a> (with fallback to <a href="https://github.com/ryanoasis/nerd-fonts">Symbols Nerd Font</a>). Background is AI art and provided as an wallpaper port.</p>
-    <p align="center">
-      <img alt="" src="assets/preview_helix.png" width="1020" />
-    </p>
-    <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette being used while running <a href="https://github.com/helix-editor/helix">helix</a> (using the <code>base16_default</code> theme) in <a href="https://github.com/kovidgoyal/kitty">Kitty</a> on macOS. Font is <a href="https://www.monolisa.dev">Monolisa</a> (with fallback to <a href="https://github.com/ryanoasis/nerd-fonts">Symbols Nerd Font</a>). Background is AI art and provided as an wallpaper port.</p>
-    <p align="center">
-      <img alt="" src="assets/preview_neofetch.png" width="1020" />
-    </p>
-    <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette being used while running <a href="https://github.com/dylanaraps/neofetch">neofetch</a> in <a href="https://github.com/kovidgoyal/kitty">Kitty</a> on macOS. Shell theme is <a href="https://github.com/skippyr/river_dreams">River Dreams</a> and font is <a href="https://www.monolisa.dev">Monolisa</a> (with fallback to <a href="https://github.com/ryanoasis/nerd-fonts">Symbols Nerd Font</a>). Background is AI art and provided as an wallpaper port.</p>
-    <p align="center">
-      <img alt="" src="assets/preview_ghosts_figlet.png" width="1020" />
-    </p>
-    <p align="center"><strong>Caption:</strong> a preview of the Flamerial palette being used while running the <a href="https://github.com/stark/Color-Scripts/blob/master/color-scripts/ghosts">ghosts</a> color script and <a href="http://www.figlet.org">figlet</a> in <a href="https://github.com/kovidgoyal/kitty">Kitty</a> on macOS. Shell theme is <a href="https://github.com/skippyr/river_dreams">River Dreams</a> and font is <a href="https://www.monolisa.dev">Monolisa</a> (with fallback to <a href="https://github.com/ryanoasis/nerd-fonts">Symbols Nerd Font</a>). Background is AI art and provided as an wallpaper port.</p>
-  </details>
-</p>
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Dark</th>
+        <th>Light</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Void</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Void.png" />&ensp;000000 (0, 0, 0)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Void.png" />&ensp;4F2926 (79, 41, 38)</td>
+      </tr>
+      <tr>
+        <td>Cherry</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Cherry.png" />&ensp;C41917 (196, 25, 23)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Cherry.png" />&ensp;D14106 (209, 65, 6)</td>
+      </tr>
+      <tr>
+        <td>Garnet</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Garnet.png" />&ensp;870F00 (135, 15, 0)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Garnet.png" />&ensp;A32C00 (163, 44, 0)</td>
+      </tr>
+      <tr>
+        <td>Amber</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Amber.png" />&ensp;F26725 (242, 103, 37)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Amber.png" />&ensp;F27F1B (242, 127, 27)</td>
+      </tr>
+      <tr>
+        <td>Cider</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Cider.png" />&ensp;AD7E4E (173, 126, 78)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Cider.png" />&ensp;BB780E (187, 120, 78)</td>
+      </tr>
+      <tr>
+        <td>Caramel</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Caramel.png" />&ensp;AA4118 (170, 65, 24)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Caramel.png" />&ensp;B8582D (184, 88, 45)</td>
+      </tr>
+      <tr>
+        <td>Coffee</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Coffee.png" />&ensp;78423B (120, 66, 59)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Coffee.png" />&ensp;955F5C (149, 85, 92)</td>
+      </tr>
+      <tr>
+        <td>Cream</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Cream.png" />&ensp;E4C260 (228, 194, 96)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Cream.png" />&ensp;FFFDD1 (255, 253, 209)</td>
+      </tr>
+      <tr>
+        <td>Almond</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Almond.png" />&ensp;6F5840 (111, 88, 64)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Almond.png" />&ensp;AB8961 (171, 137, 97)</td>
+      </tr>
+      <tr>
+        <td>Butter</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Butter.png" />&ensp;FFFF00 (255, 255, 0)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Butter.png" />&ensp;FFFF00 (255, 255, 0)</td>
+      </tr>
+      <tr>
+        <td>Trail</td>
+        <td><img alt="" src="Resources/Images/Palettes/Dark/Trail.png" />&ensp;19110A (25, 17, 10)</td>
+        <td><img alt="" src="Resources/Images/Palettes/Light/Trail.png" />&ensp;F8F8C8 (248, 248, 200)</td>
+      </tr>
+    </tbody>
+  </table>
+  <p><strong>Caption:</strong> the colors that compose the Flamerial palette.</p>
+</div>
 
 ## ❡ Install
+### Dependencies
+The software requires:
+- macOS 26 Tahoe.
+- Xcode 26.
+- Terminal 2.15.
+
 ### Procedures
-All available ports are at the `ports` directory. Access one you would like to apply the theme on, then read the `README.md` inside it for installation instructions.
+Follow this step-by-step to install the software:
+- [Download the `Flamerial.zip` archive](https://github.com/skippyr/Flamerial/releases/latest/download/Flamerial.zip) from the latest release.
+- In Finder:
+  - Navigate to your Downloads folder.
+  - Extract the archive by double left clicking it.
+  - Access the extracted folder.
+  - Copy the fonts from `Resources/Fonts` to `~/Library/Fonts`.
+  - Copy the Xcode themes from `Themes/Xcode` to `~/Library/Developer/Xcode/UserData/FontAndColorThemes`.
+> [!TIP]
+>
+> Use <kbd>⇧ Shift</kbd> <kbd>⌘ Cmd</kbd> <kbd>.</kbd> to show hidden entries in Finder such as your `Library` folder.
+- In Terminal:
+  - Open its settings using <kbd>⌘ Cmd</kbd> <kbd>,</kbd>.
+  - Navigate to the `Profiles > Text` tab.
+  - Left click on the `(...)` button below the sidebar.
+  - Left click on the `Import...` option in the floating menu.
+  - For each theme under `Themes/Terminal`, import it.
+  - Select the preferred variant from the sidebar.
+  - Left click on the `Default` button below the sidebar.
+  - Reopen Terminal.
+- In Xcode:
+  - Restart Xcode if already open.
+  - Open its settings using <kbd>⌘ Cmd</kbd> <kbd>,</kbd>.
+  - Navigate to the `Themes` section.
+  - Select the preferred variant from the `Theme` dropdown on top.
+  - Switch its appearance under the `General` section and select the other variant from the same dropdown to set both a dark and light theme.
+- In Photos:
+  - Import the wallpapers from `Resources/Images/Wallpapers` to your library.
+- In System Settings:
+  - Navigate to the `Appearance` section.
+  - Select the `Orange` accent color under `Color` section and `Tinted Auto` icons under `Icon & widget style`.
+  - Navigate to the `Wallpaper` section.
+  - Left click on the `Add Photo...` button.
+  - Left click on the `Choose from Photos...` option in the floating menu.
+  - For each wallpaper previously imported, select it.
+  - Select the preferred wallpaper variant.
+  - Toggle on the `Show on all Spaces` toggler on top.
+> [!TIP]
+>
+> Add the `Dark Mode` widget to your menu bar or Control Center to easily switch between dark and light modes.
 
-## ❡ Palette
-The theme is composed by the following colors:
+## ❡ Support
+If you need help related to this software — whether to report an issue or suggest an improvement — please [send me an e-mail](mailto:skippyr.developer@icloud.com).
 
-<table align="center">
-  <thead>
-    <tr>
-      <th>Preview</th>
-      <th>Name</th>
-      <th>HEX</th>
-      <th>RGB</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img alt="" src="assets/black.png" /></td>
-      <td>Black</td>
-      <td><code>#030101</code></td>
-      <td><code>(r: 3, g: 1, b: 1)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/red.png" /></td>
-      <td>Red</td>
-      <td><code>#991f06</code></td>
-      <td><code>(r: 153, g: 31, b: 6)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/green.png" /></td>
-      <td>Green</td>
-      <td><code>#7d0800</code></td>
-      <td><code>(r: 125, g: 8, b: 0)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/yellow.png" /></td>
-      <td>Yellow</td>
-      <td><code>#c76800</code></td>
-      <td><code>(r: 199, g: 104, b: 0)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/blue.png" /></td>
-      <td>Blue</td>
-      <td><code>#b08548</code></td>
-      <td><code>(r: 176, g: 133, b: 72)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/magenta.png" /></td>
-      <td>Magenta</td>
-      <td><code>#8a3820</code></td>
-      <td><code>(r: 138, g: 56, b: 32)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/cyan.png" /></td>
-      <td>Cyan</td>
-      <td><code>#a83e00</code></td>
-      <td><code>(r: 168, g: 62, b: 0)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/white.png" /></td>
-      <td>White</td>
-      <td><code>#e8cc7d</code></td>
-      <td><code>(r: 232, g: 204, b: 125)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/gray.png" /></td>
-      <td>Gray</td>
-      <td><code>#695f44</code></td>
-      <td><code>(r: 105, g: 95, b: 68)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/alternate_background_0.png" /></td>
-      <td>Alternate Background 0</td>
-      <td><code>#140707</code></td>
-      <td><code>(r: 20, g: 7, b: 7)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/alternate_background_1.png" /></td>
-      <td>Alternate Background 1</td>
-      <td><code>#1f0a0a</code></td>
-      <td><code>(r: 31, g: 10, b: 10)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/selection_background.png" /></td>
-      <td>Selection Background</td>
-      <td><code>#571d1d</code></td>
-      <td><code>(r: 87, g: 29, b: 29)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/cursor_selection.png" /></td>
-      <td>Cursor Selection</td>
-      <td><code>#968451</code></td>
-      <td><code>(r: 150, g: 132, b: 81)</code></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="assets/matching_items.png" /></td>
-      <td>Matching Items</td>
-      <td><code>#ffff00</code></td>
-      <td><code>(r: 255, g: 255, b: 0)</code></td>
-    </tr>
-  </tbody>
-</table>
-<p align="center"><strong>Caption:</strong> the colors that compose the theme palette.</p>
-
-## ❡ Help
-If you need help related to this project, open a new issue in its [issues pages](https://github.com/skippyr/flamerial/issues) or send an [e-mail](mailto:skippyr.developer@icloud.com) describing what is going on.
-
-## ❡ Contributing
-This project is open to review and possibly accept contributions in the form of bug reports and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial/pulls) or via [e-mail](mailto:skippyr.developer@icloud.com).
-
-## ❡ License
-This is free software licensed under the BSD-3-Clause License that comes WITH NO WARRANTY. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
+## ❡ Copyright
+This software is under the Apache 2.0-License. See the `LICENSE` file within its source code for license details.
 
 &ensp;
-<p align="center"><sup>– 🐉❤️‍🔥 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+<div align="center">
+  <p><em>In the memory of all fellow dragons,</br>as the dreams that keep our flames alive.</em></p>
+  <p><sup>– ❤️‍🔥🐉 –</br><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br/>Made with love by 🍒 <a href="https://github.com/skippyr">skippyr</a></sup></p>
+</div>

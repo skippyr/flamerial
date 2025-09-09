@@ -1,6 +1,5 @@
+# macOS Files
 .DS_Store
+
+# Vim Files
 *.sw?
-/.idea/
-/.vs/
-/.vscode/
-/.zed/
