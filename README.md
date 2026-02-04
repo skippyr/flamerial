@@ -10,6 +10,15 @@
 </div>
 <p align="center"><sup><strong>Developer Tools</strong>&ensp;·&ensp;<em>Available for macOS</em></br>Since November 2022</sup></p>
 
+> [!IMPORTANT]
+> **Deprecation Notice**
+>
+> This was one of the first project that showed me I had the potential to build something meaningful—something other people could genuinely use—and taught me a lot through the mistakes I made along the way.
+>
+> Over time, though, I realized I couldn't continue maintaining it as my focus shifted toward becoming a macOS engineer.
+>
+> To carry its ideas forward, I've built a new theme called [Amber](https://gitlab.com/skippyr/Amber). If you're able, I encourage you to migrate to it.
+
 ## ❡ About
 A fiery color palette for the sleek pony developers who are creating the foundation of their software empire through hard work and determination. Designed to work gracefully with Liquid Glass, it is available for Xcode and Terminal on the new macOS 26 Tahoe.
 
